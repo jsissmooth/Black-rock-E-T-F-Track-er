@@ -37,16 +37,15 @@ def is_nyse_trading_day(d):
 
 
 def fetch_csv(portfolio_id, target_site, user_type, as_of_date):
-    """Fetch holdings CSV from BlackRock API for a given date."""
     params = {
-        "appType":    "PRODUCT_PAGE",
-        "appSubType": "ONE",
-        "targetSite": target_site,
-        "locale":     "en_US",
+        "appType":     "PRODUCT_PAGE",
+        "appSubType":  "ONE",
+        "targetSite":  target_site,
+        "locale":      "en_US",
         "portfolioId": portfolio_id,
-        "userType":   user_type,
-        "asOfDate":   as_of_date,
-        "component":  "holdings",
+        "userType":    user_type,
+        "asOfDate":    as_of_date,
+        "component":   "holdings",
     }
     resp = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
     resp.raise_for_status()
@@ -54,13 +53,11 @@ def fetch_csv(portfolio_id, target_site, user_type, as_of_date):
 
 
 def find_latest_csv(portfolio_id, target_site, user_type):
-    """Try recent dates until we find available holdings data."""
     d = date.today()
     for _ in range(10):
         date_str = d.strftime("%Y%m%d")
         try:
             text = fetch_csv(portfolio_id, target_site, user_type, date_str)
-            # Make sure it has actual holding rows not just headers
             if "Ticker" in text and len(text) > 500:
                 print("  Data found for {}".format(d.isoformat()), file=sys.stderr)
                 return text, d.isoformat()
@@ -71,25 +68,49 @@ def find_latest_csv(portfolio_id, target_site, user_type):
 
 
 def parse_holdings(csv_text):
-    """Parse BlackRock CSV — skip metadata rows, find header row, parse data."""
+    """Parse BlackRock CSV — skip metadata, parse FIRST data section only."""
     lines = csv_text.splitlines()
 
-    # Find the header row (contains "Ticker")
-    header_idx = None
+    # Find ALL Ticker header row positions
+    header_indices = []
     for i, line in enumerate(lines):
-        if line.startswith("Ticker,") or ",Ticker," in line or line.strip().startswith('"Ticker"'):
-            header_idx = i
-            break
+        stripped = line.strip().strip('"')
+        if stripped.startswith("Ticker,") or line.startswith("Ticker,"):
+            header_indices.append(i)
+        elif stripped == "Ticker":
+            # quoted header
+            header_indices.append(i)
 
-    if header_idx is None:
+    if not header_indices:
         print("  Could not find header row.", file=sys.stderr)
         return []
 
-    # Rebuild CSV from header row onwards
-    csv_subset = "\n".join(lines[header_idx:])
+    # Use FIRST section only (direct fund holdings)
+    # Stop at second header row if one exists
+    start_idx = header_indices[0]
+    end_idx   = header_indices[1] if len(header_indices) > 1 else len(lines)
+
+    # Build first section, stopping at any metadata-looking line
+    section_lines = []
+    for line in lines[start_idx:end_idx]:
+        stripped = line.strip()
+        if stripped == "":
+            continue
+        # If line has no quotes and no commas it is a metadata line — stop
+        if '"' not in stripped and stripped.count(",") == 0:
+            break
+        section_lines.append(line)
+
+    if not section_lines:
+        print("  No data lines found.", file=sys.stderr)
+        return []
+
+    csv_subset = "\n".join(section_lines)
+
     try:
         df = pd.read_csv(StringIO(csv_subset))
         df.columns = [c.strip() for c in df.columns]
+        print("  Rows in section: {}".format(len(df)), file=sys.stderr)
     except Exception as e:
         print("  CSV parse error: {}".format(e), file=sys.stderr)
         return []
@@ -103,7 +124,6 @@ def parse_holdings(csv_text):
         except (ValueError, TypeError):
             return None
 
-    # Find columns
     def find_col(keywords):
         for kw in keywords:
             for col in df.columns:
