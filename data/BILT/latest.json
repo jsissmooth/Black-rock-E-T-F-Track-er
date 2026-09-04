@@ -1,0 +1,2036 @@
+{
+  "date": "2026-09-04",
+  "ticker": "BILT",
+  "holdings": [
+    {
+      "ticker": "UNP",
+      "name": "UNION PACIFIC",
+      "identifier": "UNP",
+      "sector": "Industrials",
+      "pct_of_fund": 5.84,
+      "quantity": 23797.0,
+      "market_value": 6880902.55,
+      "price": 289.15
+    },
+    {
+      "ticker": "AENA",
+      "name": "AENA SME SA",
+      "identifier": "AENA",
+      "sector": "Industrials",
+      "pct_of_fund": 5.67,
+      "quantity": 222769.0,
+      "market_value": 6678238.14,
+      "price": 29.98
+    },
+    {
+      "ticker": "AEP",
+      "name": "AMERICAN ELECTRIC POWER INC",
+      "identifier": "AEP",
+      "sector": "Utilities",
+      "pct_of_fund": 4.71,
+      "quantity": 44531.0,
+      "market_value": 5553461.01,
+      "price": 124.71
+    },
+    {
+      "ticker": "TRP",
+      "name": "TC ENERGY",
+      "identifier": "TRP",
+      "sector": "Energy",
+      "pct_of_fund": 4.54,
+      "quantity": 85141.0,
+      "market_value": 5351684.72,
+      "price": 62.86
+    },
+    {
+      "ticker": "XEL",
+      "name": "XCEL ENERGY INC",
+      "identifier": "XEL",
+      "sector": "Utilities",
+      "pct_of_fund": 3.87,
+      "quantity": 59716.0,
+      "market_value": 4558719.44,
+      "price": 76.34
+    },
+    {
+      "ticker": "TCL",
+      "name": "TRANSURBAN GROUP STAPLED UNITS",
+      "identifier": "TCL",
+      "sector": "Industrials",
+      "pct_of_fund": 3.62,
+      "quantity": 430617.0,
+      "market_value": 4262357.3,
+      "price": 9.9
+    },
+    {
+      "ticker": "CP",
+      "name": "CANADIAN PACIFIC KANSAS CITY",
+      "identifier": "CP",
+      "sector": "Industrials",
+      "pct_of_fund": 3.5,
+      "quantity": 45225.0,
+      "market_value": 4129075.14,
+      "price": 91.3
+    },
+    {
+      "ticker": "WMB",
+      "name": "WILLIAMS",
+      "identifier": "WMB",
+      "sector": "Energy",
+      "pct_of_fund": 3.13,
+      "quantity": 49817.0,
+      "market_value": 3688948.85,
+      "price": 74.05
+    },
+    {
+      "ticker": "LNG",
+      "name": "CHENIERE ENERGY",
+      "identifier": "LNG",
+      "sector": "Energy",
+      "pct_of_fund": 2.99,
+      "quantity": 12121.0,
+      "market_value": 3525392.85,
+      "price": 290.85
+    },
+    {
+      "ticker": "PPL",
+      "name": "PPL CORP",
+      "identifier": "PPL",
+      "sector": "Utilities",
+      "pct_of_fund": 2.87,
+      "quantity": 96238.0,
+      "market_value": 3378916.18,
+      "price": 35.11
+    },
+    {
+      "ticker": "ETR",
+      "name": "ENTERGY CORP",
+      "identifier": "ETR",
+      "sector": "Utilities",
+      "pct_of_fund": 2.78,
+      "quantity": 30362.0,
+      "market_value": 3272416.36,
+      "price": 107.78
+    },
+    {
+      "ticker": "CCI",
+      "name": "CROWN CASTLE INC",
+      "identifier": "CCI",
+      "sector": "Real Estate",
+      "pct_of_fund": 2.58,
+      "quantity": 39429.0,
+      "market_value": 3046284.54,
+      "price": 77.26
+    },
+    {
+      "ticker": "EVRG",
+      "name": "EVERGY",
+      "identifier": "EVRG",
+      "sector": "Utilities",
+      "pct_of_fund": 2.58,
+      "quantity": 37156.0,
+      "market_value": 3044191.08,
+      "price": 81.93
+    },
+    {
+      "ticker": "OGE",
+      "name": "OGE ENERGY",
+      "identifier": "OGE",
+      "sector": "Utilities",
+      "pct_of_fund": 2.42,
+      "quantity": 60918.0,
+      "market_value": 2856445.02,
+      "price": 46.89
+    },
+    {
+      "ticker": "NEE",
+      "name": "NEXTERA ENERGY",
+      "identifier": "NEE",
+      "sector": "Utilities",
+      "pct_of_fund": 2.4,
+      "quantity": 33628.0,
+      "market_value": 2826769.68,
+      "price": 84.06
+    },
+    {
+      "ticker": "SRE",
+      "name": "SEMPRA",
+      "identifier": "SRE",
+      "sector": "Utilities",
+      "pct_of_fund": 2.25,
+      "quantity": 31321.0,
+      "market_value": 2648816.97,
+      "price": 84.57
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E CORP",
+      "identifier": "PCG",
+      "sector": "Utilities",
+      "pct_of_fund": 2.01,
+      "quantity": 169529.0,
+      "market_value": 2366624.84,
+      "price": 13.96
+    },
+    {
+      "ticker": "DUK",
+      "name": "DUKE ENERGY CORP",
+      "identifier": "DUK",
+      "sector": "Utilities",
+      "pct_of_fund": 1.9,
+      "quantity": 18430.0,
+      "market_value": 2237402.0,
+      "price": 121.4
+    },
+    {
+      "ticker": "NG.",
+      "name": "NATIONAL GRID PLC",
+      "identifier": "NG.",
+      "sector": "Utilities",
+      "pct_of_fund": 1.69,
+      "quantity": 128870.0,
+      "market_value": 1996627.63,
+      "price": 15.49
+    },
+    {
+      "ticker": "LNT",
+      "name": "ALLIANT ENERGY CORP",
+      "identifier": "LNT",
+      "sector": "Utilities",
+      "pct_of_fund": 1.63,
+      "quantity": 28329.0,
+      "market_value": 1926372.0,
+      "price": 68.0
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "identifier": "CSX",
+      "sector": "Industrials",
+      "pct_of_fund": 1.6,
+      "quantity": 38535.0,
+      "market_value": 1887829.65,
+      "price": 48.99
+    },
+    {
+      "ticker": "D",
+      "name": "DOMINION ENERGY",
+      "identifier": "D",
+      "sector": "Utilities",
+      "pct_of_fund": 1.5,
+      "quantity": 26433.0,
+      "market_value": 1765460.07,
+      "price": 66.79
+    },
+    {
+      "ticker": "PPC",
+      "name": "PUBLIC POWER CORPORATION SA",
+      "identifier": "PPC",
+      "sector": "Utilities",
+      "pct_of_fund": 1.48,
+      "quantity": 61974.0,
+      "market_value": 1742658.68,
+      "price": 28.12
+    },
+    {
+      "ticker": "9020",
+      "name": "EAST JAPAN RAILWAY",
+      "identifier": "9020",
+      "sector": "Industrials",
+      "pct_of_fund": 1.4,
+      "quantity": 72100.0,
+      "market_value": 1649232.7,
+      "price": 22.87
+    },
+    {
+      "ticker": "KNTK",
+      "name": "KINETIK HOLDINGS CLASS A",
+      "identifier": "KNTK",
+      "sector": "Energy",
+      "pct_of_fund": 1.37,
+      "quantity": 29794.0,
+      "market_value": 1618708.02,
+      "price": 54.33
+    },
+    {
+      "ticker": "PNW",
+      "name": "PINNACLE WEST",
+      "identifier": "PNW",
+      "sector": "Utilities",
+      "pct_of_fund": 1.31,
+      "quantity": 15786.0,
+      "market_value": 1547028.0,
+      "price": 98.0
+    },
+    {
+      "ticker": "FE",
+      "name": "FIRSTENERGY CORP",
+      "identifier": "FE",
+      "sector": "Utilities",
+      "pct_of_fund": 1.31,
+      "quantity": 32776.0,
+      "market_value": 1541783.04,
+      "price": 47.04
+    },
+    {
+      "ticker": "SR",
+      "name": "SPIRE INC",
+      "identifier": "SR",
+      "sector": "Utilities",
+      "pct_of_fund": 1.29,
+      "quantity": 18294.0,
+      "market_value": 1524439.02,
+      "price": 83.33
+    },
+    {
+      "ticker": "AIA",
+      "name": "AUCKLAND INTERNATIONAL AIRPORT",
+      "identifier": "AIA",
+      "sector": "Industrials",
+      "pct_of_fund": 1.26,
+      "quantity": 294725.0,
+      "market_value": 1480566.51,
+      "price": 5.02
+    },
+    {
+      "ticker": "NSC",
+      "name": "NORFOLK SOUTHERN CORP",
+      "identifier": "NSC",
+      "sector": "Industrials",
+      "pct_of_fund": 1.18,
+      "quantity": 4232.0,
+      "market_value": 1387376.56,
+      "price": 327.83
+    },
+    {
+      "ticker": "9532",
+      "name": "OSAKA GAS",
+      "identifier": "9532",
+      "sector": "Utilities",
+      "pct_of_fund": 1.17,
+      "quantity": 36400.0,
+      "market_value": 1378335.42,
+      "price": 37.87
+    },
+    {
+      "ticker": "FRA",
+      "name": "FRAPORT AG",
+      "identifier": "FRA",
+      "sector": "Industrials",
+      "pct_of_fund": 1.14,
+      "quantity": 18661.0,
+      "market_value": 1343271.08,
+      "price": 71.98
+    },
+    {
+      "ticker": "NI",
+      "name": "NISOURCE",
+      "identifier": "NI",
+      "sector": "Utilities",
+      "pct_of_fund": 1.13,
+      "quantity": 31921.0,
+      "market_value": 1329828.86,
+      "price": 41.66
+    },
+    {
+      "ticker": "AQN",
+      "name": "ALGONQUIN POWER UTILITIES",
+      "identifier": "AQN",
+      "sector": "Utilities",
+      "pct_of_fund": 1.12,
+      "quantity": 235754.0,
+      "market_value": 1316536.1,
+      "price": 5.58
+    },
+    {
+      "ticker": "SEI",
+      "name": "SOLARIS ENERGY INFRASTRUCTURE INC",
+      "identifier": "SEI",
+      "sector": "Energy",
+      "pct_of_fund": 1.02,
+      "quantity": 22527.0,
+      "market_value": 1197760.59,
+      "price": 53.17
+    },
+    {
+      "ticker": "9503",
+      "name": "KANSAI ELECTRIC POWER",
+      "identifier": "9503",
+      "sector": "Utilities",
+      "pct_of_fund": 1.01,
+      "quantity": 61000.0,
+      "market_value": 1187697.46,
+      "price": 19.47
+    },
+    {
+      "ticker": "RWE",
+      "name": "RWE AG",
+      "identifier": "RWE",
+      "sector": "Utilities",
+      "pct_of_fund": 1.0,
+      "quantity": 17576.0,
+      "market_value": 1184092.68,
+      "price": 67.37
+    },
+    {
+      "ticker": "BN4",
+      "name": "KEPPEL",
+      "identifier": "BN4",
+      "sector": "Industrials",
+      "pct_of_fund": 0.99,
+      "quantity": 129300.0,
+      "market_value": 1171604.25,
+      "price": 9.06
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA COMMUNICATIONS REIT CORP CLASS",
+      "identifier": "SBAC",
+      "sector": "Real Estate",
+      "pct_of_fund": 0.99,
+      "quantity": 6085.0,
+      "market_value": 1165399.2,
+      "price": 191.52
+    },
+    {
+      "ticker": "FGP",
+      "name": "FIRSTGROUP PLC",
+      "identifier": "FGP",
+      "sector": "Industrials",
+      "pct_of_fund": 0.92,
+      "quantity": 448871.0,
+      "market_value": 1079588.19,
+      "price": 2.41
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "identifier": "XTSLA",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.9,
+      "quantity": 1060000.0,
+      "market_value": 1060000.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "UU.",
+      "name": "UNITED UTILITIES GROUP PLC",
+      "identifier": "UU.",
+      "sector": "Utilities",
+      "pct_of_fund": 0.9,
+      "quantity": 57493.0,
+      "market_value": 1057873.47,
+      "price": 18.4
+    },
+    {
+      "ticker": "DTM",
+      "name": "DT MIDSTREAM",
+      "identifier": "DTM",
+      "sector": "Energy",
+      "pct_of_fund": 0.89,
+      "quantity": 8196.0,
+      "market_value": 1053841.68,
+      "price": 128.58
+    },
+    {
+      "ticker": "KEY",
+      "name": "KEYERA",
+      "identifier": "KEY",
+      "sector": "Energy",
+      "pct_of_fund": 0.83,
+      "quantity": 22977.0,
+      "market_value": 974337.45,
+      "price": 42.4
+    },
+    {
+      "ticker": "SO",
+      "name": "SOUTHERN",
+      "identifier": "SO",
+      "sector": "Utilities",
+      "pct_of_fund": 0.82,
+      "quantity": 10878.0,
+      "market_value": 965640.06,
+      "price": 88.77
+    },
+    {
+      "ticker": "RENE",
+      "name": "REN REDES ENERGETICAS NACIONAIS SA",
+      "identifier": "RENE",
+      "sector": "Utilities",
+      "pct_of_fund": 0.75,
+      "quantity": 217400.0,
+      "market_value": 882864.72,
+      "price": 4.06
+    },
+    {
+      "ticker": "270",
+      "name": "GUANGDONG INVESTMENT LTD",
+      "identifier": "270",
+      "sector": "Utilities",
+      "pct_of_fund": 0.75,
+      "quantity": 782000.0,
+      "market_value": 879733.17,
+      "price": 1.12
+    },
+    {
+      "ticker": "ENAV",
+      "name": "ENAV SPA",
+      "identifier": "ENAV",
+      "sector": "Industrials",
+      "pct_of_fund": 0.68,
+      "quantity": 138946.0,
+      "market_value": 800137.8,
+      "price": 5.76
+    },
+    {
+      "ticker": "6370",
+      "name": "KURITA WATER INDUSTRIES",
+      "identifier": "6370",
+      "sector": "Industrials",
+      "pct_of_fund": 0.64,
+      "quantity": 15200.0,
+      "market_value": 753178.26,
+      "price": 49.55
+    },
+    {
+      "ticker": "FHZN",
+      "name": "FLUGHAFEN ZUERICH AG",
+      "identifier": "FHZN",
+      "sector": "Industrials",
+      "pct_of_fund": 0.57,
+      "quantity": 2633.0,
+      "market_value": 673349.9,
+      "price": 255.73
+    },
+    {
+      "ticker": "HTWS",
+      "name": "HELIOS TOWERS PLC",
+      "identifier": "HTWS",
+      "sector": "Communication",
+      "pct_of_fund": 0.56,
+      "quantity": 242601.0,
+      "market_value": 664496.44,
+      "price": 2.74
+    },
+    {
+      "ticker": "VST",
+      "name": "VISTRA",
+      "identifier": "VST",
+      "sector": "Utilities",
+      "pct_of_fund": 0.53,
+      "quantity": 4315.0,
+      "market_value": 622309.3,
+      "price": 144.22
+    },
+    {
+      "ticker": "DBI",
+      "name": "DALRYMPLE BAY INFRASTRUCTURE STAPL",
+      "identifier": "DBI",
+      "sector": "Industrials",
+      "pct_of_fund": 0.52,
+      "quantity": 159229.0,
+      "market_value": 611650.98,
+      "price": 3.84
+    },
+    {
+      "ticker": "CWY",
+      "name": "CLEANAWAY WASTE MANAGEMENT",
+      "identifier": "CWY",
+      "sector": "Industrials",
+      "pct_of_fund": 0.51,
+      "quantity": 323583.0,
+      "market_value": 595889.74,
+      "price": 1.84
+    },
+    {
+      "ticker": "EOAN",
+      "name": "E.ON N",
+      "identifier": "EOAN",
+      "sector": "Utilities",
+      "pct_of_fund": 0.49,
+      "quantity": 28714.0,
+      "market_value": 582372.67,
+      "price": 20.28
+    },
+    {
+      "ticker": "ADP",
+      "name": "AEROPORTS DE PARIS SA",
+      "identifier": "ADP",
+      "sector": "Industrials",
+      "pct_of_fund": 0.49,
+      "quantity": 4615.0,
+      "market_value": 576457.92,
+      "price": 124.91
+    },
+    {
+      "ticker": "9412",
+      "name": "SKY PERFECT JSAT",
+      "identifier": "9412",
+      "sector": "Communication",
+      "pct_of_fund": 0.49,
+      "quantity": 44800.0,
+      "market_value": 574503.1,
+      "price": 12.82
+    },
+    {
+      "ticker": "VSAT",
+      "name": "VIASAT INC",
+      "identifier": "VSAT",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.48,
+      "quantity": 7966.0,
+      "market_value": 571321.52,
+      "price": 71.72
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "identifier": "USD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.32,
+      "quantity": 376880.0,
+      "market_value": 376879.97,
+      "price": 100.0
+    },
+    {
+      "ticker": "KEP",
+      "name": "KOREA ELECTRIC POWER ADR REP",
+      "identifier": "KEP",
+      "sector": "Utilities",
+      "pct_of_fund": 0.31,
+      "quantity": 30537.0,
+      "market_value": 366444.0,
+      "price": 12.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD CASH",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.19,
+      "quantity": 310439.0,
+      "market_value": 225143.53,
+      "price": 72.52
+    },
+    {
+      "ticker": "NG.",
+      "name": "NATIONAL GRID PLC",
+      "identifier": "NG.",
+      "sector": "Utilities",
+      "pct_of_fund": 0.15,
+      "quantity": 11458.0,
+      "market_value": 177522.77,
+      "price": 15.49
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY CASH",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.1,
+      "quantity": 18070157.0,
+      "market_value": 116270.35,
+      "price": 0.64
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF CASH",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.08,
+      "quantity": 77530.0,
+      "market_value": 95875.5,
+      "price": 123.66
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR CASH",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.07,
+      "quantity": 72216.0,
+      "market_value": 83911.75,
+      "price": 116.2
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.07,
+      "quantity": 3119000.0,
+      "market_value": 78972.72,
+      "price": 1.0
+    },
+    {
+      "ticker": "015760",
+      "name": "KOREA ELECTRIC POWER",
+      "identifier": "015760",
+      "sector": "Utilities",
+      "pct_of_fund": 0.06,
+      "quantity": 2931.0,
+      "market_value": 69960.24,
+      "price": 23.87
+    },
+    {
+      "ticker": "SEI",
+      "name": "SOLARIS ENERGY INFRASTRUCTURE INC",
+      "identifier": "SEI",
+      "sector": "Energy",
+      "pct_of_fund": 0.06,
+      "quantity": 1250.0,
+      "market_value": 66462.5,
+      "price": 53.17
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD CASH",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.04,
+      "quantity": 406959.0,
+      "market_value": 51907.07,
+      "price": 12.75
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD CASH",
+      "identifier": "SGD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.03,
+      "quantity": 50588.0,
+      "market_value": 39928.61,
+      "price": 78.93
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.03,
+      "quantity": 2112000.0,
+      "market_value": 36387.83,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD CASH",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.03,
+      "quantity": 57016.0,
+      "market_value": 33499.83,
+      "price": 58.76
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 713000.0,
+      "market_value": 14344.77,
+      "price": 1.0
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW/USD",
+      "identifier": "KRW",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 147954000.0,
+      "market_value": 10399.19,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 574000.0,
+      "market_value": 7393.95,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 699000.0,
+      "market_value": 7163.04,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 487000.0,
+      "market_value": 6652.73,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 476000.0,
+      "market_value": 6626.04,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.01,
+      "quantity": 54260000.0,
+      "market_value": 6581.76,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 685000.0,
+      "market_value": 5351.05,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 626000.0,
+      "market_value": 4996.39,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 728000.0,
+      "market_value": 3996.76,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 253000.0,
+      "market_value": 3579.36,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 14691000.0,
+      "market_value": 3528.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 539000.0,
+      "market_value": 3209.83,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 180000.0,
+      "market_value": 3036.92,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 452000.0,
+      "market_value": 3026.21,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 226000.0,
+      "market_value": 2911.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 1949.0,
+      "market_value": 2634.03,
+      "price": 135.2
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 141000.0,
+      "market_value": 2339.42,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 464000.0,
+      "market_value": 2248.8,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 26715000.0,
+      "market_value": 2135.71,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -372000.0,
+      "market_value": 2124.25,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 193000.0,
+      "market_value": 2063.05,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 164000.0,
+      "market_value": 2054.58,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 134000.0,
+      "market_value": 2024.3,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 94000.0,
+      "market_value": 1681.84,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 76000.0,
+      "market_value": 1368.92,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 181000.0,
+      "market_value": 1224.09,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 90000.0,
+      "market_value": 1213.02,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 82000.0,
+      "market_value": 1139.47,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -422000.0,
+      "market_value": 1059.87,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 92000.0,
+      "market_value": 1021.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 49000.0,
+      "market_value": 911.82,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 207000.0,
+      "market_value": 798.94,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 82000.0,
+      "market_value": 709.71,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 35000.0,
+      "market_value": 627.86,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 30000.0,
+      "market_value": 608.27,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 58000.0,
+      "market_value": 615.99,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 118000.0,
+      "market_value": 473.91,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -2345000.0,
+      "market_value": 449.04,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 69000.0,
+      "market_value": 428.42,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 33000.0,
+      "market_value": 290.83,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -1092000.0,
+      "market_value": 284.19,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 61000.0,
+      "market_value": 287.2,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 11000.0,
+      "market_value": 222.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 808000.0,
+      "market_value": 212.5,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 310000.0,
+      "market_value": 196.36,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 102000.0,
+      "market_value": 167.05,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -77000.0,
+      "market_value": 164.68,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 13000.0,
+      "market_value": 158.77,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -437000.0,
+      "market_value": 100.01,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 17970000.0,
+      "market_value": 85.56,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 111000.0,
+      "market_value": 67.42,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 50000.0,
+      "market_value": 62.66,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 3000.0,
+      "market_value": 45.68,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -247000.0,
+      "market_value": 50.7,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 7000.0,
+      "market_value": 51.88,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 4000.0,
+      "market_value": 31.76,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -82000.0,
+      "market_value": 40.19,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 14000.0,
+      "market_value": 17.69,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -9000.0,
+      "market_value": 22.8,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -8000.0,
+      "market_value": 23.81,
+      "price": 1.0
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "identifier": "SGD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 20000.0,
+      "market_value": 25.32,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -10000.0,
+      "market_value": 13.85,
+      "price": 1.0
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "identifier": "KRW",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 22.0,
+      "market_value": 0.02,
+      "price": 0.07
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -12000.0,
+      "market_value": -17.5,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 10000.0,
+      "market_value": -13.9,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 82000.0,
+      "market_value": -39.52,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -3000.0,
+      "market_value": -46.33,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 429000.0,
+      "market_value": -44.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -40000.0,
+      "market_value": -54.14,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -30000.0,
+      "market_value": -76.87,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -17970000.0,
+      "market_value": -83.9,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -76000.0,
+      "market_value": -98.24,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -72000.0,
+      "market_value": -105.89,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -36000.0,
+      "market_value": -154.02,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 77000.0,
+      "market_value": -164.14,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 732000.0,
+      "market_value": -181.18,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -43000.0,
+      "market_value": -170.97,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -33000.0,
+      "market_value": -183.62,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -41000.0,
+      "market_value": -196.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -310000.0,
+      "market_value": -195.49,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -808000.0,
+      "market_value": -208.37,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -32000.0,
+      "market_value": -220.69,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 1655000.0,
+      "market_value": -239.17,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 4558000.0,
+      "market_value": -288.19,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -106000.0,
+      "market_value": -351.13,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -113000.0,
+      "market_value": -388.91,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -82000.0,
+      "market_value": -408.1,
+      "price": 1.0
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 1753000.0,
+      "market_value": -418.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -93000.0,
+      "market_value": -449.11,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -85000.0,
+      "market_value": -502.16,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -84000.0,
+      "market_value": -542.66,
+      "price": 1.0
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -113000.0,
+      "market_value": -567.84,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 63000.0,
+      "market_value": -593.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 99000.0,
+      "market_value": -830.78,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -6092000.0,
+      "market_value": -877.62,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -74000.0,
+      "market_value": -873.86,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 270000.0,
+      "market_value": -872.68,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 184000.0,
+      "market_value": -900.41,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -44000.0,
+      "market_value": -897.49,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -5634000.0,
+      "market_value": -953.34,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -99000.0,
+      "market_value": -1037.83,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -154000.0,
+      "market_value": -1056.2,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -179000.0,
+      "market_value": -1071.49,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 195000.0,
+      "market_value": -1093.67,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 213000.0,
+      "market_value": -1304.25,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 173000.0,
+      "market_value": -1427.86,
+      "price": 1.0
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 174000.0,
+      "market_value": -1504.1,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -8824000.0,
+      "market_value": -1655.46,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -197000.0,
+      "market_value": -1725.16,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -110000.0,
+      "market_value": -1823.98,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -7528000.0,
+      "market_value": -1909.3,
+      "price": 1.0
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "identifier": "SGD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -288000.0,
+      "market_value": -2199.18,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -191000.0,
+      "market_value": -2466.69,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -815000.0,
+      "market_value": -2483.21,
+      "price": 1.0
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "identifier": "SGD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -223000.0,
+      "market_value": -2737.77,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -334000.0,
+      "market_value": -2887.95,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -502000.0,
+      "market_value": -3242.9,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -474000.0,
+      "market_value": -3257.68,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -11001000.0,
+      "market_value": -3260.59,
+      "price": 1.0
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD/USD",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -218000.0,
+      "market_value": -3761.12,
+      "price": 1.0
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -235000.0,
+      "market_value": -3847.44,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -222000.0,
+      "market_value": -4606.44,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -17550000.0,
+      "market_value": -5206.37,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": -285000.0,
+      "market_value": -5273.57,
+      "price": 1.0
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "identifier": "SGD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.01,
+      "quantity": -802000.0,
+      "market_value": -9659.33,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.01,
+      "quantity": -93690000.0,
+      "market_value": -12215.34,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.01,
+      "quantity": -824000.0,
+      "market_value": -15246.84,
+      "price": 1.0
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY/USD",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.03,
+      "quantity": -130676000.0,
+      "market_value": -29795.59,
+      "price": 1.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.04,
+      "quantity": -2925000.0,
+      "market_value": -50033.15,
+      "price": 1.0
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD CASH",
+      "identifier": "AUD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.45,
+      "quantity": -729105.0,
+      "market_value": -524481.97,
+      "price": 71.94
+    }
+  ]
+}
