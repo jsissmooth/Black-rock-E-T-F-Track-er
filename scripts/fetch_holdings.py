@@ -67,45 +67,54 @@ def find_latest_csv(portfolio_id, target_site, user_type):
     return None, None
 
 
-def find_header_indices(lines):
-    """Find all rows that look like the Ticker header row."""
-    indices = []
-    for i, line in enumerate(lines):
-        # strip whitespace and leading/trailing quotes
-        clean = line.strip().lstrip('"')
-        if clean.startswith("Ticker,"):
-            indices.append(i)
-    return indices
-
-
 def parse_holdings(csv_text):
-    """Parse BlackRock CSV — find first data section and parse it."""
+    """Parse BlackRock CSV robustly.
+    Strategy: find the first Ticker header row, then collect ONLY lines
+    that start with a quote character (all real data rows are quoted).
+    Stop the moment we hit an unquoted non-blank line (metadata).
+    This cleanly handles funds like CORO that have two data sections.
+    """
     lines = csv_text.splitlines()
 
-    header_indices = find_header_indices(lines)
+    # Find the first header row — handle both quoted and unquoted
+    header_idx = None
+    for i, line in enumerate(lines):
+        normalized = line.replace('"', '').strip()
+        if normalized.startswith("Ticker,") and "Name" in normalized and "Sector" in normalized:
+            header_idx = i
+            break
 
-    if not header_indices:
+    if header_idx is None:
         print("  Could not find Ticker header row.", file=sys.stderr)
-        # debug: print first 15 lines
-        for i, l in enumerate(lines[:15]):
+        for i, l in enumerate(lines[:10]):
             print("  line {}: {}".format(i, l[:80]), file=sys.stderr)
         return []
 
-    start_idx = header_indices[0]
-    # If two header sections exist (e.g. CORO has ETF basket + look-through),
-    # use only the first section
-    end_idx = header_indices[1] if len(header_indices) > 1 else len(lines)
+    print("  Header at line {}.".format(header_idx), file=sys.stderr)
 
-    print("  Header at line {}, section ends at line {}".format(
-        start_idx, end_idx), file=sys.stderr)
+    # Collect only quoted data rows — stop at first unquoted non-blank line
+    data_lines = [lines[header_idx]]
+    for line in lines[header_idx + 1:]:
+        stripped = line.strip()
+        if not stripped:
+            continue  # skip blank lines
+        if not stripped.startswith('"'):
+            # unquoted line = metadata boundary — stop
+            print("  Stopped at metadata line: {}".format(stripped[:60]), file=sys.stderr)
+            break
+        data_lines.append(line)
 
-    # Grab the section — let pandas handle blank/bad rows naturally
-    section_text = "\n".join(lines[start_idx:end_idx])
+    print("  Data rows collected: {}".format(len(data_lines) - 1), file=sys.stderr)
+
+    if len(data_lines) <= 1:
+        print("  No data rows found after header.", file=sys.stderr)
+        return []
+
+    csv_subset = "\n".join(data_lines)
 
     try:
-        df = pd.read_csv(StringIO(section_text), on_bad_lines="skip")
+        df = pd.read_csv(StringIO(csv_subset))
         df.columns = [c.strip() for c in df.columns]
-        print("  Raw rows parsed: {}".format(len(df)), file=sys.stderr)
     except Exception as e:
         print("  CSV parse error: {}".format(e), file=sys.stderr)
         return []
@@ -138,19 +147,13 @@ def parse_holdings(csv_text):
     mv_col     = find_col(["Market Value"])
     price_col  = find_col(["Price"])
 
-    print("  Columns: {}".format(list(df.columns[:6])), file=sys.stderr)
-
     records = []
     for _, row in df.iterrows():
         ticker = str(row[ticker_col]).strip() if ticker_col else ""
         name   = str(row[name_col]).strip()   if name_col   else ""
         sector = str(row[sector_col]).strip() if sector_col else ""
 
-        # Skip blank, header-repeat, or obviously bad rows
         if not ticker or ticker.lower() in ("nan", "ticker", "-"):
-            continue
-        # Skip rows where ticker looks like a fund description (very long)
-        if len(ticker) > 50:
             continue
         if name.lower()   == "nan": name = ""
         if sector.lower() == "nan": sector = ""
