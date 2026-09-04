@@ -67,50 +67,45 @@ def find_latest_csv(portfolio_id, target_site, user_type):
     return None, None
 
 
+def find_header_indices(lines):
+    """Find all rows that look like the Ticker header row."""
+    indices = []
+    for i, line in enumerate(lines):
+        # strip whitespace and leading/trailing quotes
+        clean = line.strip().lstrip('"')
+        if clean.startswith("Ticker,"):
+            indices.append(i)
+    return indices
+
+
 def parse_holdings(csv_text):
-    """Parse BlackRock CSV — skip metadata, parse FIRST data section only."""
+    """Parse BlackRock CSV — find first data section and parse it."""
     lines = csv_text.splitlines()
 
-    # Find ALL Ticker header row positions
-    header_indices = []
-    for i, line in enumerate(lines):
-        stripped = line.strip().strip('"')
-        if stripped.startswith("Ticker,") or line.startswith("Ticker,"):
-            header_indices.append(i)
-        elif stripped == "Ticker":
-            # quoted header
-            header_indices.append(i)
+    header_indices = find_header_indices(lines)
 
     if not header_indices:
-        print("  Could not find header row.", file=sys.stderr)
+        print("  Could not find Ticker header row.", file=sys.stderr)
+        # debug: print first 15 lines
+        for i, l in enumerate(lines[:15]):
+            print("  line {}: {}".format(i, l[:80]), file=sys.stderr)
         return []
 
-    # Use FIRST section only (direct fund holdings)
-    # Stop at second header row if one exists
     start_idx = header_indices[0]
-    end_idx   = header_indices[1] if len(header_indices) > 1 else len(lines)
+    # If two header sections exist (e.g. CORO has ETF basket + look-through),
+    # use only the first section
+    end_idx = header_indices[1] if len(header_indices) > 1 else len(lines)
 
-    # Build first section, stopping at any metadata-looking line
-    section_lines = []
-    for line in lines[start_idx:end_idx]:
-        stripped = line.strip()
-        if stripped == "":
-            continue
-        # If line has no quotes and no commas it is a metadata line — stop
-        if '"' not in stripped and stripped.count(",") == 0:
-            break
-        section_lines.append(line)
+    print("  Header at line {}, section ends at line {}".format(
+        start_idx, end_idx), file=sys.stderr)
 
-    if not section_lines:
-        print("  No data lines found.", file=sys.stderr)
-        return []
-
-    csv_subset = "\n".join(section_lines)
+    # Grab the section — let pandas handle blank/bad rows naturally
+    section_text = "\n".join(lines[start_idx:end_idx])
 
     try:
-        df = pd.read_csv(StringIO(csv_subset))
+        df = pd.read_csv(StringIO(section_text), on_bad_lines="skip")
         df.columns = [c.strip() for c in df.columns]
-        print("  Rows in section: {}".format(len(df)), file=sys.stderr)
+        print("  Raw rows parsed: {}".format(len(df)), file=sys.stderr)
     except Exception as e:
         print("  CSV parse error: {}".format(e), file=sys.stderr)
         return []
@@ -143,13 +138,19 @@ def parse_holdings(csv_text):
     mv_col     = find_col(["Market Value"])
     price_col  = find_col(["Price"])
 
+    print("  Columns: {}".format(list(df.columns[:6])), file=sys.stderr)
+
     records = []
     for _, row in df.iterrows():
         ticker = str(row[ticker_col]).strip() if ticker_col else ""
         name   = str(row[name_col]).strip()   if name_col   else ""
         sector = str(row[sector_col]).strip() if sector_col else ""
 
-        if ticker.lower() in ("nan", "ticker", "-", ""):
+        # Skip blank, header-repeat, or obviously bad rows
+        if not ticker or ticker.lower() in ("nan", "ticker", "-"):
+            continue
+        # Skip rows where ticker looks like a fund description (very long)
+        if len(ticker) > 50:
             continue
         if name.lower()   == "nan": name = ""
         if sector.lower() == "nan": sector = ""
