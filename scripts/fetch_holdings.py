@@ -67,16 +67,20 @@ def find_latest_csv(portfolio_id, target_site, user_type):
     return None, None
 
 
-def parse_holdings(csv_text):
-    """Parse BlackRock CSV robustly.
-    Strategy: find the first Ticker header row, then collect ONLY lines
-    that start with a quote character (all real data rows are quoted).
-    Stop the moment we hit an unquoted non-blank line (metadata).
-    This cleanly handles funds like CORO that have two data sections.
+def parse_holdings(csv_text, etf_ticker=""):
+    """Parse BlackRock CSV.
+    Strategy: find first Ticker header, parse entire remainder with pandas,
+    then filter rows to only valid security identifiers.
     """
     lines = csv_text.splitlines()
 
-    # Find the first header row — handle both quoted and unquoted
+    # Debug: print first 20 lines for CORO
+    if etf_ticker == "CORO":
+        print("  === CORO first 20 lines ===", file=sys.stderr)
+        for i, l in enumerate(lines[:20]):
+            print("  {}: {}".format(i, l[:90]), file=sys.stderr)
+
+    # Find first Ticker header row
     header_idx = None
     for i, line in enumerate(lines):
         normalized = line.replace('"', '').strip()
@@ -85,36 +89,18 @@ def parse_holdings(csv_text):
             break
 
     if header_idx is None:
-        print("  Could not find Ticker header row.", file=sys.stderr)
-        for i, l in enumerate(lines[:10]):
-            print("  line {}: {}".format(i, l[:80]), file=sys.stderr)
+        print("  Could not find Ticker header.", file=sys.stderr)
         return []
 
     print("  Header at line {}.".format(header_idx), file=sys.stderr)
 
-    # Collect only quoted data rows — stop at first unquoted non-blank line
-    data_lines = [lines[header_idx]]
-    for line in lines[header_idx + 1:]:
-        stripped = line.strip()
-        if not stripped:
-            continue  # skip blank lines
-        if not stripped.startswith('"'):
-            # unquoted line = metadata boundary — stop
-            print("  Stopped at metadata line: {}".format(stripped[:60]), file=sys.stderr)
-            break
-        data_lines.append(line)
-
-    print("  Data rows collected: {}".format(len(data_lines) - 1), file=sys.stderr)
-
-    if len(data_lines) <= 1:
-        print("  No data rows found after header.", file=sys.stderr)
-        return []
-
-    csv_subset = "\n".join(data_lines)
+    # Parse from header to end of file — pandas handles multi-section CSVs
+    csv_subset = "\n".join(lines[header_idx:])
 
     try:
-        df = pd.read_csv(StringIO(csv_subset))
+        df = pd.read_csv(StringIO(csv_subset), on_bad_lines="skip")
         df.columns = [c.strip() for c in df.columns]
+        print("  Total raw rows: {}".format(len(df)), file=sys.stderr)
     except Exception as e:
         print("  CSV parse error: {}".format(e), file=sys.stderr)
         return []
@@ -147,28 +133,48 @@ def parse_holdings(csv_text):
     mv_col     = find_col(["Market Value"])
     price_col  = find_col(["Price"])
 
+    seen = set()
     records = []
+
     for _, row in df.iterrows():
         ticker = str(row[ticker_col]).strip() if ticker_col else ""
         name   = str(row[name_col]).strip()   if name_col   else ""
         sector = str(row[sector_col]).strip() if sector_col else ""
 
+        # Skip clearly invalid tickers
         if not ticker or ticker.lower() in ("nan", "ticker", "-"):
             continue
+        # Metadata rows are long — real tickers are short
+        if len(ticker) > 20:
+            continue
+        # Skip metadata summary rows (Name is literally "-")
+        if name == "-":
+            continue
+        # Skip rows with no name that also have no weight
+        wt = safe_float(row[weight_col]) if weight_col else None
+        if (not name or name.lower() == "nan") and wt is None:
+            continue
+
         if name.lower()   == "nan": name = ""
         if sector.lower() == "nan": sector = ""
+
+        # Deduplicate — keep first occurrence
+        if ticker in seen:
+            continue
+        seen.add(ticker)
 
         records.append({
             "ticker":       ticker,
             "name":         name,
             "identifier":   ticker,
             "sector":       sector,
-            "pct_of_fund":  safe_float(row[weight_col]) if weight_col else None,
+            "pct_of_fund":  wt,
             "quantity":     safe_float(row[shares_col]) if shares_col else None,
             "market_value": safe_float(row[mv_col])     if mv_col     else None,
             "price":        safe_float(row[price_col])  if price_col  else None,
         })
 
+    print("  Valid holdings after filter: {}".format(len(records)), file=sys.stderr)
     return records
 
 
@@ -275,7 +281,7 @@ def process_etf(etf_ticker, info, today_str):
             print("  No data found.", file=sys.stderr)
             return
 
-        records = parse_holdings(csv_text)
+        records = parse_holdings(csv_text, etf_ticker)
         if not records:
             print("  No holdings parsed.", file=sys.stderr)
             return
