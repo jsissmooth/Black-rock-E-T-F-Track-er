@@ -30,6 +30,14 @@ HEADERS = {
     "Accept": "text/csv,application/json,*/*",
 }
 
+# Metadata values that appear as Ticker values in bad rows
+METADATA_TICKERS = {
+    "ticker", "-", "nan", "",
+    "stock", "bond", "cash", "other",
+    "shares outstanding", "inception date",
+    "fund holdings as of",
+}
+
 
 def is_nyse_trading_day(d):
     nyse = mcal.get_calendar("NYSE")
@@ -67,43 +75,50 @@ def find_latest_csv(portfolio_id, target_site, user_type):
     return None, None
 
 
+def is_valid_ticker(ticker):
+    """Return True if this looks like a real security ticker, not a metadata value."""
+    if not ticker:
+        return False
+    t = ticker.strip().lower()
+    if t in METADATA_TICKERS:
+        return False
+    # Real tickers are short — metadata descriptions are long
+    if len(ticker) > 25:
+        return False
+    # Must contain at least one letter
+    if not any(c.isalpha() for c in ticker):
+        return False
+    return True
+
+
 def parse_holdings(csv_text, etf_ticker=""):
-    """Parse BlackRock CSV.
-    Strategy: find first Ticker header, parse entire remainder with pandas,
-    then filter rows to only valid security identifiers.
+    """Parse BlackRock CSV robustly.
+
+    Strategy:
+    1. Find ALL Ticker header rows in the file.
+    2. For each header, parse the block until the next header (or EOF).
+    3. Collect valid holdings from ALL blocks, deduplicating by ticker.
+       This handles single-section ETFs and multi-section ETFs like CORO.
+    4. Filter rows by content — no assumption about quoting style.
     """
     lines = csv_text.splitlines()
 
-    # Debug: print first 20 lines for CORO
-    if etf_ticker == "CORO":
-        print("  === CORO first 20 lines ===", file=sys.stderr)
-        for i, l in enumerate(lines[:20]):
-            print("  {}: {}".format(i, l[:90]), file=sys.stderr)
-
-    # Find first Ticker header row
-    header_idx = None
+    # Find every header row index
+    header_indices = []
     for i, line in enumerate(lines):
-        normalized = line.replace('"', '').strip()
-        if normalized.startswith("Ticker,") and "Name" in normalized and "Sector" in normalized:
-            header_idx = i
-            break
+        cleaned = line.replace('"', '').strip()
+        if (cleaned.startswith("Ticker,") and
+                "Name" in cleaned and
+                "Sector" in cleaned):
+            header_indices.append(i)
 
-    if header_idx is None:
-        print("  Could not find Ticker header.", file=sys.stderr)
+    if not header_indices:
+        print("  No Ticker header found. First 15 lines:", file=sys.stderr)
+        for i, l in enumerate(lines[:15]):
+            print("    {}: {}".format(i, l[:80]), file=sys.stderr)
         return []
 
-    print("  Header at line {}.".format(header_idx), file=sys.stderr)
-
-    # Parse from header to end of file — pandas handles multi-section CSVs
-    csv_subset = "\n".join(lines[header_idx:])
-
-    try:
-        df = pd.read_csv(StringIO(csv_subset), on_bad_lines="skip")
-        df.columns = [c.strip() for c in df.columns]
-        print("  Total raw rows: {}".format(len(df)), file=sys.stderr)
-    except Exception as e:
-        print("  CSV parse error: {}".format(e), file=sys.stderr)
-        return []
+    print("  Header rows at lines: {}".format(header_indices), file=sys.stderr)
 
     def safe_float(val):
         try:
@@ -114,7 +129,7 @@ def parse_holdings(csv_text, etf_ticker=""):
         except (ValueError, TypeError):
             return None
 
-    def find_col(keywords):
+    def find_col(df, keywords):
         for kw in keywords:
             for col in df.columns:
                 if kw.lower() == col.lower().strip():
@@ -125,57 +140,76 @@ def parse_holdings(csv_text, etf_ticker=""):
                     return col
         return None
 
-    ticker_col = find_col(["Ticker"])
-    name_col   = find_col(["Name"])
-    sector_col = find_col(["Sector"])
-    weight_col = find_col(["Weight (%)", "Weight"])
-    shares_col = find_col(["Shares"])
-    mv_col     = find_col(["Market Value"])
-    price_col  = find_col(["Price"])
-
     seen = set()
-    records = []
+    all_records = []
 
-    for _, row in df.iterrows():
-        ticker = str(row[ticker_col]).strip() if ticker_col else ""
-        name   = str(row[name_col]).strip()   if name_col   else ""
-        sector = str(row[sector_col]).strip() if sector_col else ""
+    # Parse each section separately
+    for sec_num, h_idx in enumerate(header_indices):
+        next_h = header_indices[sec_num + 1] if sec_num + 1 < len(header_indices) else len(lines)
 
-        # Skip clearly invalid tickers
-        if not ticker or ticker.lower() in ("nan", "ticker", "-"):
-            continue
-        # Metadata rows are long — real tickers are short
-        if len(ticker) > 20:
-            continue
-        # Skip metadata summary rows (Name is literally "-")
-        if name == "-":
-            continue
-        # Skip rows with no name that also have no weight
-        wt = safe_float(row[weight_col]) if weight_col else None
-        if (not name or name.lower() == "nan") and wt is None:
+        # Slice just this section
+        section_lines = lines[h_idx:next_h]
+        section_text  = "\n".join(section_lines)
+
+        try:
+            df = pd.read_csv(StringIO(section_text), on_bad_lines="skip")
+            df.columns = [c.strip() for c in df.columns]
+        except Exception as e:
+            print("  Section {} parse error: {}".format(sec_num, e), file=sys.stderr)
             continue
 
-        if name.lower()   == "nan": name = ""
-        if sector.lower() == "nan": sector = ""
+        print("  Section {}: {} raw rows".format(sec_num, len(df)), file=sys.stderr)
 
-        # Deduplicate — keep first occurrence
-        if ticker in seen:
-            continue
-        seen.add(ticker)
+        ticker_col = find_col(df, ["Ticker"])
+        name_col   = find_col(df, ["Name"])
+        sector_col = find_col(df, ["Sector"])
+        weight_col = find_col(df, ["Weight (%)", "Weight"])
+        shares_col = find_col(df, ["Shares"])
+        mv_col     = find_col(df, ["Market Value"])
+        price_col  = find_col(df, ["Price"])
 
-        records.append({
-            "ticker":       ticker,
-            "name":         name,
-            "identifier":   ticker,
-            "sector":       sector,
-            "pct_of_fund":  wt,
-            "quantity":     safe_float(row[shares_col]) if shares_col else None,
-            "market_value": safe_float(row[mv_col])     if mv_col     else None,
-            "price":        safe_float(row[price_col])  if price_col  else None,
-        })
+        sec_records = []
+        for _, row in df.iterrows():
+            ticker = str(row[ticker_col]).strip() if ticker_col else ""
+            name   = str(row[name_col]).strip()   if name_col   else ""
+            sector = str(row[sector_col]).strip() if sector_col else ""
 
-    print("  Valid holdings after filter: {}".format(len(records)), file=sys.stderr)
-    return records
+            if not is_valid_ticker(ticker):
+                continue
+            if name.lower()   == "nan": name = ""
+            if sector.lower() == "nan": sector = ""
+
+            # Skip rows that look like metadata (name is "-")
+            if name == "-":
+                continue
+
+            # Skip rows with no useful numeric data at all
+            wt = safe_float(row[weight_col]) if weight_col else None
+            mv = safe_float(row[mv_col])     if mv_col     else None
+            if wt is None and mv is None:
+                continue
+
+            # Deduplicate across all sections — first occurrence wins
+            if ticker in seen:
+                continue
+            seen.add(ticker)
+
+            sec_records.append({
+                "ticker":       ticker,
+                "name":         name,
+                "identifier":   ticker,
+                "sector":       sector,
+                "pct_of_fund":  wt,
+                "quantity":     safe_float(row[shares_col]) if shares_col else None,
+                "market_value": mv,
+                "price":        safe_float(row[price_col])  if price_col  else None,
+            })
+
+        print("  Section {}: {} valid holdings".format(sec_num, len(sec_records)), file=sys.stderr)
+        all_records.extend(sec_records)
+
+    print("  Total holdings across all sections: {}".format(len(all_records)), file=sys.stderr)
+    return all_records
 
 
 def get_etf_data_dir(ticker):
