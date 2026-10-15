@@ -1,0 +1,486 @@
+{
+  "date": "2026-10-15",
+  "ticker": "TEK",
+  "holdings": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "identifier": "NVDA",
+      "sector": "Information Technology",
+      "pct_of_fund": 10.26,
+      "quantity": 19385.0,
+      "market_value": 4289900.5,
+      "price": 221.3
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT",
+      "identifier": "MSFT",
+      "sector": "Information Technology",
+      "pct_of_fund": 7.35,
+      "quantity": 5760.0,
+      "market_value": 3074054.4,
+      "price": 533.69
+    },
+    {
+      "ticker": "AVGO",
+      "name": "BROADCOM INC",
+      "identifier": "AVGO",
+      "sector": "Information Technology",
+      "pct_of_fund": 5.95,
+      "quantity": 7185.0,
+      "market_value": 2487806.25,
+      "price": 346.25
+    },
+    {
+      "ticker": "AAPL",
+      "name": "APPLE",
+      "identifier": "AAPL",
+      "sector": "Information Technology",
+      "pct_of_fund": 5.45,
+      "quantity": 6646.0,
+      "market_value": 2279312.16,
+      "price": 342.96
+    },
+    {
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "identifier": "AMD",
+      "sector": "Information Technology",
+      "pct_of_fund": 4.88,
+      "quantity": 3572.0,
+      "market_value": 2038969.04,
+      "price": 570.82
+    },
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
+      "identifier": "TSM",
+      "sector": "Information Technology",
+      "pct_of_fund": 4.73,
+      "quantity": 4600.0,
+      "market_value": 1978000.0,
+      "price": 430.0
+    },
+    {
+      "ticker": "LRCX",
+      "name": "LAM RESEARCH",
+      "identifier": "LRCX",
+      "sector": "Information Technology",
+      "pct_of_fund": 3.86,
+      "quantity": 5630.0,
+      "market_value": 1615359.6,
+      "price": 286.92
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "identifier": "SPCX",
+      "sector": "Communication",
+      "pct_of_fund": 3.07,
+      "quantity": 8431.0,
+      "market_value": 1282860.96,
+      "price": 152.16
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORPORATION",
+      "identifier": "INTC",
+      "sector": "Information Technology",
+      "pct_of_fund": 3.01,
+      "quantity": 12845.0,
+      "market_value": 1260351.4,
+      "price": 98.12
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "ALPHABET CLASS A",
+      "identifier": "GOOGL",
+      "sector": "Communication",
+      "pct_of_fund": 2.85,
+      "quantity": 3428.0,
+      "market_value": 1191709.92,
+      "price": 347.64
+    },
+    {
+      "ticker": "SNOW",
+      "name": "SNOWFLAKE",
+      "identifier": "SNOW",
+      "sector": "Information Technology",
+      "pct_of_fund": 2.54,
+      "quantity": 3175.0,
+      "market_value": 1063879.0,
+      "price": 335.08
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON.COM INC",
+      "identifier": "AMZN",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 2.54,
+      "quantity": 4176.0,
+      "market_value": 1061038.08,
+      "price": 254.08
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS CLASS A",
+      "identifier": "CRWD",
+      "sector": "Information Technology",
+      "pct_of_fund": 2.49,
+      "quantity": 4174.0,
+      "market_value": 1040536.46,
+      "price": 249.29
+    },
+    {
+      "ticker": "PANW",
+      "name": "PALO ALTO NETWORKS",
+      "identifier": "PANW",
+      "sector": "Information Technology",
+      "pct_of_fund": 2.26,
+      "quantity": 2521.0,
+      "market_value": 945475.84,
+      "price": 375.04
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "identifier": "XTSLA",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 2.15,
+      "quantity": 900000.0,
+      "market_value": 900000.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY",
+      "identifier": "MU",
+      "sector": "Information Technology",
+      "pct_of_fund": 2.14,
+      "quantity": 977.0,
+      "market_value": 893105.01,
+      "price": 914.13
+    },
+    {
+      "ticker": "LITE",
+      "name": "LUMENTUM HOLDINGS",
+      "identifier": "LITE",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.76,
+      "quantity": 821.0,
+      "market_value": 735886.93,
+      "price": 896.33
+    },
+    {
+      "ticker": "ANET",
+      "name": "ARISTA NETWORKS",
+      "identifier": "ANET",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.55,
+      "quantity": 3319.0,
+      "market_value": 648598.98,
+      "price": 195.42
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SANDISK",
+      "identifier": "SNDK",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.27,
+      "quantity": 377.0,
+      "market_value": 529059.18,
+      "price": 1403.34
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "identifier": "WDC",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.18,
+      "quantity": 1352.0,
+      "market_value": 492263.2,
+      "price": 364.1
+    },
+    {
+      "ticker": "FLEX",
+      "name": "FLEX LTD",
+      "identifier": "FLEX",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.1,
+      "quantity": 4594.0,
+      "market_value": 461007.9,
+      "price": 100.35
+    },
+    {
+      "ticker": "CSCO",
+      "name": "CISCO SYSTEMS INC",
+      "identifier": "CSCO",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.04,
+      "quantity": 3844.0,
+      "market_value": 436832.16,
+      "price": 113.64
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TESLA INC",
+      "identifier": "TSLA",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 0.91,
+      "quantity": 1033.0,
+      "market_value": 379276.28,
+      "price": 367.16
+    },
+    {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY",
+      "identifier": "MRVL",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.88,
+      "quantity": 1498.0,
+      "market_value": 367429.44,
+      "price": 245.28
+    },
+    {
+      "ticker": "TER",
+      "name": "TERADYNE",
+      "identifier": "TER",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.81,
+      "quantity": 941.0,
+      "market_value": 338233.04,
+      "price": 359.44
+    },
+    {
+      "ticker": "AMAT",
+      "name": "APPLIED MATERIAL INC",
+      "identifier": "AMAT",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.79,
+      "quantity": 743.0,
+      "market_value": 331846.09,
+      "price": 446.63
+    },
+    {
+      "ticker": "COHR",
+      "name": "COHERENT",
+      "identifier": "COHR",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.72,
+      "quantity": 1136.0,
+      "market_value": 299131.52,
+      "price": 263.32
+    },
+    {
+      "ticker": "OKTA",
+      "name": "OKTA CLASS A",
+      "identifier": "OKTA",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.71,
+      "quantity": 1392.0,
+      "market_value": 294985.68,
+      "price": 211.91
+    },
+    {
+      "ticker": "PLTR",
+      "name": "PALANTIR TECHNOLOGIES CLASS A",
+      "identifier": "PLTR",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.65,
+      "quantity": 1358.0,
+      "market_value": 272917.26,
+      "price": 200.97
+    },
+    {
+      "ticker": "META",
+      "name": "META PLATFORMS CLASS A",
+      "identifier": "META",
+      "sector": "Communication",
+      "pct_of_fund": 0.62,
+      "quantity": 353.0,
+      "market_value": 260351.62,
+      "price": 737.54
+    },
+    {
+      "ticker": "DDOG",
+      "name": "DATADOG INC CLASS A",
+      "identifier": "DDOG",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.62,
+      "quantity": 966.0,
+      "market_value": 260172.78,
+      "price": 269.33
+    },
+    {
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES INC CLASS C",
+      "identifier": "DELL",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.59,
+      "quantity": 487.0,
+      "market_value": 247361.91,
+      "price": 507.93
+    },
+    {
+      "ticker": "V",
+      "name": "VISA CLASS A",
+      "identifier": "V",
+      "sector": "Financials",
+      "pct_of_fund": 0.52,
+      "quantity": 555.0,
+      "market_value": 217243.65,
+      "price": 391.43
+    },
+    {
+      "ticker": "NOW",
+      "name": "SERVICENOW",
+      "identifier": "NOW",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.51,
+      "quantity": 1530.0,
+      "market_value": 214169.4,
+      "price": 139.98
+    },
+    {
+      "ticker": "AMKR",
+      "name": "AMKOR TECHNOLOGY",
+      "identifier": "AMKR",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.47,
+      "quantity": 4364.0,
+      "market_value": 195594.48,
+      "price": 44.82
+    },
+    {
+      "ticker": "DOCN",
+      "name": "DIGITALOCEAN HOLDINGS",
+      "identifier": "DOCN",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.45,
+      "quantity": 1703.0,
+      "market_value": 186120.87,
+      "price": 109.29
+    },
+    {
+      "ticker": "NBIS",
+      "name": "NEBIUS NV CLASS A",
+      "identifier": "NBIS",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.4,
+      "quantity": 910.0,
+      "market_value": 169269.1,
+      "price": 186.01
+    },
+    {
+      "ticker": "ESTC",
+      "name": "ELASTIC",
+      "identifier": "ESTC",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.38,
+      "quantity": 1738.0,
+      "market_value": 160000.28,
+      "price": 92.06
+    },
+    {
+      "ticker": "CBOE",
+      "name": "CBOE GLOBAL MARKETS",
+      "identifier": "CBOE",
+      "sector": "Financials",
+      "pct_of_fund": 0.38,
+      "quantity": 531.0,
+      "market_value": 159549.57,
+      "price": 300.47
+    },
+    {
+      "ticker": "MKSI",
+      "name": "MKS",
+      "identifier": "MKSI",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.37,
+      "quantity": 658.0,
+      "market_value": 154301.0,
+      "price": 234.5
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE",
+      "identifier": "ORCL",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.37,
+      "quantity": 1180.0,
+      "market_value": 154049.0,
+      "price": 130.55
+    },
+    {
+      "ticker": "CBRS",
+      "name": "CEREBRAS SYSTEMS INC CLASS A",
+      "identifier": "CBRS",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.26,
+      "quantity": 765.0,
+      "market_value": 108232.2,
+      "price": 141.48
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "identifier": "USD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.08,
+      "quantity": 34046.0,
+      "market_value": 34046.2,
+      "price": 100.0
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "identifier": "KRW",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.08,
+      "quantity": 42780964.0,
+      "market_value": 31965.45,
+      "price": 0.07
+    },
+    {
+      "ticker": "PAYP",
+      "name": "PAYPAY ADR CORP",
+      "identifier": "PAYP",
+      "sector": "Financials",
+      "pct_of_fund": 0.06,
+      "quantity": 1813.0,
+      "market_value": 26959.31,
+      "price": 14.87
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 389.0,
+      "market_value": 511.34,
+      "price": 131.58
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD CASH",
+      "identifier": "CAD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 138.0,
+      "market_value": 96.87,
+      "price": 70.02
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD CASH",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 165.0,
+      "market_value": 20.99,
+      "price": 12.74
+    }
+  ]
+}
