@@ -1,96 +1,96 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "ticker": "DYNF",
   "holdings": [
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "identifier": "NVDA",
-      "sector": "Information Technology",
-      "pct_of_fund": 8.06,
-      "quantity": 15804153.0,
-      "market_value": 3433136156.19,
-      "price": 217.23
-    },
     {
       "ticker": "AAPL",
       "name": "APPLE",
       "identifier": "AAPL",
       "sector": "Information Technology",
-      "pct_of_fund": 7.96,
-      "quantity": 9910696.0,
-      "market_value": 3389458032.0,
-      "price": 342.0
+      "pct_of_fund": 8.08,
+      "quantity": 9922008.0,
+      "market_value": 3407812867.68,
+      "price": 343.46
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "identifier": "NVDA",
+      "sector": "Information Technology",
+      "pct_of_fund": 8.03,
+      "quantity": 15822199.0,
+      "market_value": 3388007471.87,
+      "price": 214.13
     },
     {
       "ticker": "MSFT",
       "name": "MICROSOFT",
       "identifier": "MSFT",
       "sector": "Information Technology",
-      "pct_of_fund": 4.79,
-      "quantity": 3781752.0,
-      "market_value": 2040028298.88,
-      "price": 539.44
+      "pct_of_fund": 4.75,
+      "quantity": 3786064.0,
+      "market_value": 2003017159.2,
+      "price": 529.05
     },
     {
       "ticker": "AMZN",
       "name": "AMAZON.COM INC",
       "identifier": "AMZN",
       "sector": "Consumer Discretionary",
-      "pct_of_fund": 4.11,
-      "quantity": 6875841.0,
-      "market_value": 1751689253.16,
-      "price": 254.76
+      "pct_of_fund": 4.08,
+      "quantity": 6883695.0,
+      "market_value": 1720923750.0,
+      "price": 250.0
     },
     {
       "ticker": "JPM",
       "name": "JPMORGAN CHASE & CO",
       "identifier": "JPM",
       "sector": "Financials",
-      "pct_of_fund": 3.27,
-      "quantity": 4149857.0,
-      "market_value": 1392401519.21,
-      "price": 335.53
+      "pct_of_fund": 3.35,
+      "quantity": 4154589.0,
+      "market_value": 1411396975.08,
+      "price": 339.72
     },
     {
       "ticker": "XOM",
       "name": "EXXONMOBIL HOLDINGS CORP",
       "identifier": "XOM",
       "sector": "Energy",
-      "pct_of_fund": 2.88,
-      "quantity": 7010728.0,
-      "market_value": 1224633967.04,
-      "price": 174.68
+      "pct_of_fund": 2.98,
+      "quantity": 7018736.0,
+      "market_value": 1256213369.28,
+      "price": 178.98
     },
     {
       "ticker": "META",
       "name": "META PLATFORMS CLASS A",
       "identifier": "META",
       "sector": "Communication",
-      "pct_of_fund": 2.76,
-      "quantity": 1592613.0,
-      "market_value": 1173309849.36,
-      "price": 736.72
+      "pct_of_fund": 2.68,
+      "quantity": 1594433.0,
+      "market_value": 1130971187.73,
+      "price": 709.33
     },
     {
       "ticker": "GOOGL",
       "name": "ALPHABET CLASS A",
       "identifier": "GOOGL",
       "sector": "Communication",
-      "pct_of_fund": 2.5,
-      "quantity": 3048762.0,
-      "market_value": 1064688665.64,
-      "price": 349.22
+      "pct_of_fund": 2.47,
+      "quantity": 3052248.0,
+      "market_value": 1039565146.32,
+      "price": 340.59
     },
     {
       "ticker": "AVGO",
       "name": "BROADCOM INC",
       "identifier": "AVGO",
       "sector": "Information Technology",
-      "pct_of_fund": 2.46,
-      "quantity": 3040770.0,
-      "market_value": 1047028334.1,
-      "price": 344.33
+      "pct_of_fund": 2.37,
+      "quantity": 3044242.0,
+      "market_value": 1000794557.5,
+      "price": 328.75
     },
     {
       "ticker": "BAC",
@@ -98,99 +98,89 @@
       "identifier": "BAC",
       "sector": "Financials",
       "pct_of_fund": 2.13,
-      "quantity": 17541336.0,
-      "market_value": 906887071.2,
-      "price": 51.7
+      "quantity": 17561356.0,
+      "market_value": 899668267.88,
+      "price": 51.23
     },
     {
       "ticker": "GOOG",
       "name": "ALPHABET CLASS C",
       "identifier": "GOOG",
       "sector": "Communication",
-      "pct_of_fund": 2.06,
-      "quantity": 2538207.0,
-      "market_value": 875452976.37,
-      "price": 344.91
+      "pct_of_fund": 2.03,
+      "quantity": 2541105.0,
+      "market_value": 856123685.55,
+      "price": 336.91
     },
     {
       "ticker": "JNJ",
       "name": "JOHNSON & JOHNSON",
       "identifier": "JNJ",
       "sector": "Health Care",
-      "pct_of_fund": 1.83,
-      "quantity": 3082026.0,
-      "market_value": 780615545.28,
-      "price": 253.28
+      "pct_of_fund": 1.87,
+      "quantity": 3085540.0,
+      "market_value": 788540602.4,
+      "price": 255.56
     },
     {
       "ticker": "MU",
       "name": "MICRON TECHNOLOGY",
       "identifier": "MU",
       "sector": "Information Technology",
-      "pct_of_fund": 1.74,
-      "quantity": 793362.0,
-      "market_value": 738810428.88,
-      "price": 931.24
-    },
-    {
-      "ticker": "AMD",
-      "name": "ADVANCED MICRO DEVICES",
-      "identifier": "AMD",
-      "sector": "Information Technology",
       "pct_of_fund": 1.66,
-      "quantity": 1259009.0,
-      "market_value": 707852630.07,
-      "price": 562.23
+      "quantity": 794272.0,
+      "market_value": 698038004.48,
+      "price": 878.84
     },
     {
       "ticker": "CRM",
       "name": "SALESFORCE",
       "identifier": "CRM",
       "sector": "Information Technology",
-      "pct_of_fund": 1.64,
-      "quantity": 2833920.0,
-      "market_value": 699241420.8,
-      "price": 246.74
-    },
-    {
-      "ticker": "CSCO",
-      "name": "CISCO SYSTEMS INC",
-      "identifier": "CSCO",
-      "sector": "Information Technology",
-      "pct_of_fund": 1.57,
-      "quantity": 6087528.0,
-      "market_value": 668714950.8,
-      "price": 109.85
+      "pct_of_fund": 1.62,
+      "quantity": 2837154.0,
+      "market_value": 682902967.8,
+      "price": 240.7
     },
     {
       "ticker": "CVX",
       "name": "CHEVRON",
       "identifier": "CVX",
       "sector": "Energy",
-      "pct_of_fund": 1.55,
-      "quantity": 3001705.0,
-      "market_value": 658333940.6,
-      "price": 219.32
+      "pct_of_fund": 1.6,
+      "quantity": 3005135.0,
+      "market_value": 676125323.65,
+      "price": 224.99
     },
     {
-      "ticker": "TSLA",
-      "name": "TESLA INC",
-      "identifier": "TSLA",
-      "sector": "Consumer Discretionary",
-      "pct_of_fund": 1.51,
-      "quantity": 1774328.0,
-      "market_value": 643087440.32,
-      "price": 362.44
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "identifier": "AMD",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.58,
+      "quantity": 1260451.0,
+      "market_value": 666463466.25,
+      "price": 528.75
+    },
+    {
+      "ticker": "CSCO",
+      "name": "CISCO SYSTEMS INC",
+      "identifier": "CSCO",
+      "sector": "Information Technology",
+      "pct_of_fund": 1.55,
+      "quantity": 6094472.0,
+      "market_value": 654485348.08,
+      "price": 107.39
     },
     {
       "ticker": "TRV",
       "name": "TRAVELERS COMPANIES",
       "identifier": "TRV",
       "sector": "Financials",
-      "pct_of_fund": 1.5,
-      "quantity": 1666913.0,
-      "market_value": 639911231.57,
-      "price": 383.89
+      "pct_of_fund": 1.54,
+      "quantity": 1668817.0,
+      "market_value": 650070974.18,
+      "price": 389.54
     },
     {
       "ticker": "CAT",
@@ -198,89 +188,109 @@
       "identifier": "CAT",
       "sector": "Industrials",
       "pct_of_fund": 1.5,
-      "quantity": 867078.0,
-      "market_value": 637857259.92,
-      "price": 735.64
+      "quantity": 868072.0,
+      "market_value": 634352294.72,
+      "price": 730.76
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TESLA INC",
+      "identifier": "TSLA",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 1.49,
+      "quantity": 1776358.0,
+      "market_value": 630109709.76,
+      "price": 354.72
     },
     {
       "ticker": "LRCX",
       "name": "LAM RESEARCH",
       "identifier": "LRCX",
       "sector": "Information Technology",
-      "pct_of_fund": 1.42,
-      "quantity": 2178838.0,
-      "market_value": 604540391.48,
-      "price": 277.46
-    },
-    {
-      "ticker": "PH",
-      "name": "PARKER-HANNIFIN",
-      "identifier": "PH",
-      "sector": "Industrials",
-      "pct_of_fund": 1.33,
-      "quantity": 586834.0,
-      "market_value": 564387599.5,
-      "price": 961.75
+      "pct_of_fund": 1.37,
+      "quantity": 2181330.0,
+      "market_value": 575740240.2,
+      "price": 263.94
     },
     {
       "ticker": "C",
       "name": "CITIGROUP",
       "identifier": "C",
       "sector": "Financials",
-      "pct_of_fund": 1.32,
-      "quantity": 4551064.0,
-      "market_value": 560736595.44,
-      "price": 123.21
+      "pct_of_fund": 1.34,
+      "quantity": 4556258.0,
+      "market_value": 566160619.08,
+      "price": 124.26
+    },
+    {
+      "ticker": "PH",
+      "name": "PARKER-HANNIFIN",
+      "identifier": "PH",
+      "sector": "Industrials",
+      "pct_of_fund": 1.34,
+      "quantity": 587506.0,
+      "market_value": 565968030.04,
+      "price": 963.34
     },
     {
       "ticker": "LLY",
       "name": "ELI LILLY",
       "identifier": "LLY",
       "sector": "Health Care",
-      "pct_of_fund": 1.3,
-      "quantity": 441648.0,
-      "market_value": 552771053.28,
-      "price": 1251.61
+      "pct_of_fund": 1.32,
+      "quantity": 442152.0,
+      "market_value": 555798328.56,
+      "price": 1257.03
     },
     {
       "ticker": "AMAT",
       "name": "APPLIED MATERIAL INC",
       "identifier": "AMAT",
       "sector": "Information Technology",
-      "pct_of_fund": 1.13,
-      "quantity": 1116379.0,
-      "market_value": 480054133.79,
-      "price": 430.01
-    },
-    {
-      "ticker": "WMT",
-      "name": "WALMART",
-      "identifier": "WMT",
-      "sector": "Consumer Staples",
-      "pct_of_fund": 1.05,
-      "quantity": 3804476.0,
-      "market_value": 448433586.12,
-      "price": 117.87
+      "pct_of_fund": 1.08,
+      "quantity": 1117653.0,
+      "market_value": 457444196.37,
+      "price": 409.29
     },
     {
       "ticker": "ALL",
       "name": "ALLSTATE CORP",
       "identifier": "ALL",
       "sector": "Financials",
-      "pct_of_fund": 1.03,
+      "pct_of_fund": 1.08,
       "quantity": 1832904.0,
-      "market_value": 439163798.4,
-      "price": 239.6
+      "market_value": 454340243.52,
+      "price": 247.88
+    },
+    {
+      "ticker": "WMT",
+      "name": "WALMART",
+      "identifier": "WMT",
+      "sector": "Consumer Staples",
+      "pct_of_fund": 1.07,
+      "quantity": 3808816.0,
+      "market_value": 452525428.96,
+      "price": 118.81
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "identifier": "RTX",
       "sector": "Industrials",
-      "pct_of_fund": 1.01,
-      "quantity": 2310442.0,
-      "market_value": 431937131.9,
-      "price": 186.95
+      "pct_of_fund": 1.06,
+      "quantity": 2313074.0,
+      "market_value": 448551310.08,
+      "price": 193.92
+    },
+    {
+      "ticker": "BRK B",
+      "name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "identifier": "BRK B",
+      "sector": "Financials",
+      "pct_of_fund": 1.02,
+      "quantity": 807939.0,
+      "market_value": 429839706.78,
+      "price": 532.02
     },
     {
       "ticker": "GS",
@@ -288,89 +298,69 @@
       "identifier": "GS",
       "sector": "Financials",
       "pct_of_fund": 1.01,
-      "quantity": 484614.0,
-      "market_value": 431926765.92,
-      "price": 891.28
-    },
-    {
-      "ticker": "BRK B",
-      "name": "BERKSHIRE HATHAWAY INC CLASS B",
-      "identifier": "BRK B",
-      "sector": "Financials",
-      "pct_of_fund": 1.0,
-      "quantity": 807015.0,
-      "market_value": 424231645.2,
-      "price": 525.68
+      "quantity": 485174.0,
+      "market_value": 427564439.24,
+      "price": 881.26
     },
     {
       "ticker": "DUK",
       "name": "DUKE ENERGY CORP",
       "identifier": "DUK",
       "sector": "Utilities",
-      "pct_of_fund": 0.97,
-      "quantity": 3461897.0,
-      "market_value": 411550315.36,
-      "price": 118.88
+      "pct_of_fund": 1.0,
+      "quantity": 3465845.0,
+      "market_value": 420996192.15,
+      "price": 121.47
     },
     {
       "ticker": "WELL",
       "name": "WELLTOWER",
       "identifier": "WELL",
       "sector": "Real Estate",
-      "pct_of_fund": 0.89,
-      "quantity": 1614868.0,
-      "market_value": 378896478.84,
-      "price": 234.63
+      "pct_of_fund": 0.9,
+      "quantity": 1616716.0,
+      "market_value": 379685752.6,
+      "price": 234.85
     },
     {
       "ticker": "NFLX",
       "name": "NETFLIX",
       "identifier": "NFLX",
       "sector": "Communication",
-      "pct_of_fund": 0.81,
-      "quantity": 4732198.0,
-      "market_value": 343604896.78,
-      "price": 72.61
-    },
-    {
-      "ticker": "PLTR",
-      "name": "PALANTIR TECHNOLOGIES CLASS A",
-      "identifier": "PLTR",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.77,
-      "quantity": 1626035.0,
-      "market_value": 326020017.5,
-      "price": 200.5
+      "pct_of_fund": 0.79,
+      "quantity": 4737602.0,
+      "market_value": 334143069.06,
+      "price": 70.53
     },
     {
       "ticker": "VZ",
       "name": "VERIZON COMMUNICATIONS INC",
       "identifier": "VZ",
       "sector": "Communication",
-      "pct_of_fund": 0.72,
-      "quantity": 6903275.0,
-      "market_value": 306505410.0,
-      "price": 44.4
+      "pct_of_fund": 0.73,
+      "quantity": 6911157.0,
+      "market_value": 309550722.03,
+      "price": 44.79
     },
     {
-      "ticker": "APH",
-      "name": "AMPHENOL CORP CLASS A",
-      "identifier": "APH",
+      "ticker": "PLTR",
+      "name": "PALANTIR TECHNOLOGIES CLASS A",
+      "identifier": "PLTR",
       "sector": "Information Technology",
-      "pct_of_fund": 0.7,
-      "quantity": 3632508.0,
-      "market_value": 296013076.92,
-      "price": 81.49
+      "pct_of_fund": 0.72,
+      "quantity": 1627897.0,
+      "market_value": 302837678.91,
+      "price": 186.03
     },
     {
       "ticker": "O",
       "name": "REALTY INCOME REIT",
       "identifier": "O",
       "sector": "Real Estate",
-      "pct_of_fund": 0.69,
-      "quantity": 5317267.0,
-      "market_value": 295374181.85,
-      "price": 55.55
+      "pct_of_fund": 0.71,
+      "quantity": 5323343.0,
+      "market_value": 298533075.44,
+      "price": 56.08
     },
     {
       "ticker": "T",
@@ -378,39 +368,39 @@
       "identifier": "T",
       "sector": "Communication",
       "pct_of_fund": 0.69,
-      "quantity": 12424921.0,
-      "market_value": 291985643.5,
-      "price": 23.5
+      "quantity": 12439103.0,
+      "market_value": 291572574.32,
+      "price": 23.44
     },
     {
-      "ticker": "CME",
-      "name": "CME GROUP CLASS A",
-      "identifier": "CME",
-      "sector": "Financials",
-      "pct_of_fund": 0.66,
-      "quantity": 965669.0,
-      "market_value": 279522548.74,
-      "price": 289.46
+      "ticker": "APH",
+      "name": "AMPHENOL CORP CLASS A",
+      "identifier": "APH",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.68,
+      "quantity": 3636652.0,
+      "market_value": 288568336.2,
+      "price": 79.35
     },
     {
       "ticker": "NEM",
       "name": "NEWMONT",
       "identifier": "NEM",
       "sector": "Materials",
-      "pct_of_fund": 0.65,
-      "quantity": 2399623.0,
-      "market_value": 277852347.17,
-      "price": 115.79
+      "pct_of_fund": 0.68,
+      "quantity": 2402367.0,
+      "market_value": 284920726.2,
+      "price": 118.6
     },
     {
-      "ticker": "INTC",
-      "name": "INTEL CORPORATION",
-      "identifier": "INTC",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.65,
-      "quantity": 2903000.0,
-      "market_value": 276859110.0,
-      "price": 95.37
+      "ticker": "CME",
+      "name": "CME GROUP CLASS A",
+      "identifier": "CME",
+      "sector": "Financials",
+      "pct_of_fund": 0.67,
+      "quantity": 966775.0,
+      "market_value": 284106169.25,
+      "price": 293.87
     },
     {
       "ticker": "TMO",
@@ -418,9 +408,19 @@
       "identifier": "TMO",
       "sector": "Health Care",
       "pct_of_fund": 0.64,
-      "quantity": 391554.0,
-      "market_value": 272713445.46,
-      "price": 696.49
+      "quantity": 392002.0,
+      "market_value": 270481380.0,
+      "price": 690.0
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORPORATION",
+      "identifier": "INTC",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.62,
+      "quantity": 2906318.0,
+      "market_value": 261132672.3,
+      "price": 89.85
     },
     {
       "ticker": "SPCX",
@@ -428,39 +428,39 @@
       "identifier": "SPCX",
       "sector": "Communication",
       "pct_of_fund": 0.62,
-      "quantity": 1774399.0,
-      "market_value": 263711179.38,
-      "price": 148.62
+      "quantity": 1776429.0,
+      "market_value": 259411926.87,
+      "price": 146.03
     },
     {
       "ticker": "AIG",
       "name": "AMERICAN INTERNATIONAL GROUP",
       "identifier": "AIG",
       "sector": "Financials",
-      "pct_of_fund": 0.59,
+      "pct_of_fund": 0.61,
       "quantity": 3172371.0,
-      "market_value": 250997993.52,
-      "price": 79.12
+      "market_value": 256137234.54,
+      "price": 80.74
     },
     {
       "ticker": "HIG",
       "name": "HARTFORD INSURANCE GROUP",
       "identifier": "HIG",
       "sector": "Financials",
-      "pct_of_fund": 0.55,
-      "quantity": 1773734.0,
-      "market_value": 235569612.54,
-      "price": 132.81
+      "pct_of_fund": 0.57,
+      "quantity": 1775764.0,
+      "market_value": 239941231.68,
+      "price": 135.12
     },
     {
       "ticker": "TT",
       "name": "TRANE TECHNOLOGIES PLC",
       "identifier": "TT",
       "sector": "Industrials",
-      "pct_of_fund": 0.55,
-      "quantity": 512384.0,
-      "market_value": 234343946.24,
-      "price": 457.36
+      "pct_of_fund": 0.56,
+      "quantity": 512972.0,
+      "market_value": 235397721.08,
+      "price": 458.89
     },
     {
       "ticker": "GEV",
@@ -468,9 +468,9 @@
       "identifier": "GEV",
       "sector": "Industrials",
       "pct_of_fund": 0.53,
-      "quantity": 243283.0,
-      "market_value": 225387102.52,
-      "price": 926.44
+      "quantity": 243563.0,
+      "market_value": 224370235.6,
+      "price": 921.2
     },
     {
       "ticker": "DE",
@@ -478,9 +478,9 @@
       "identifier": "DE",
       "sector": "Industrials",
       "pct_of_fund": 0.52,
-      "quantity": 338801.0,
-      "market_value": 220447646.67,
-      "price": 650.67
+      "quantity": 339193.0,
+      "market_value": 217714418.98,
+      "price": 641.86
     },
     {
       "ticker": "VLO",
@@ -488,9 +488,19 @@
       "identifier": "VLO",
       "sector": "Energy",
       "pct_of_fund": 0.51,
-      "quantity": 485837.0,
-      "market_value": 215740778.22,
-      "price": 444.06
+      "quantity": 486397.0,
+      "market_value": 216305609.87,
+      "price": 444.71
+    },
+    {
+      "ticker": "GE",
+      "name": "GE AEROSPACE",
+      "identifier": "GE",
+      "sector": "Industrials",
+      "pct_of_fund": 0.49,
+      "quantity": 656377.0,
+      "market_value": 205990793.91,
+      "price": 313.83
     },
     {
       "ticker": "GILD",
@@ -498,69 +508,59 @@
       "identifier": "GILD",
       "sector": "Health Care",
       "pct_of_fund": 0.48,
-      "quantity": 1303502.0,
-      "market_value": 205132109.74,
-      "price": 157.37
-    },
-    {
-      "ticker": "GE",
-      "name": "GE AEROSPACE",
-      "identifier": "GE",
-      "sector": "Industrials",
-      "pct_of_fund": 0.48,
-      "quantity": 655635.0,
-      "market_value": 204558120.0,
-      "price": 312.0
-    },
-    {
-      "ticker": "NOW",
-      "name": "SERVICENOW",
-      "identifier": "NOW",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.48,
-      "quantity": 1366221.0,
-      "market_value": 202979453.97,
-      "price": 148.57
+      "quantity": 1304986.0,
+      "market_value": 203825763.34,
+      "price": 156.19
     },
     {
       "ticker": "NEE",
       "name": "NEXTERA ENERGY",
       "identifier": "NEE",
       "sector": "Utilities",
-      "pct_of_fund": 0.46,
-      "quantity": 2490761.0,
-      "market_value": 196670488.56,
-      "price": 78.96
+      "pct_of_fund": 0.47,
+      "quantity": 2493603.0,
+      "market_value": 198989519.4,
+      "price": 79.8
     },
     {
-      "ticker": "UNH",
-      "name": "UNITEDHEALTH GROUP",
-      "identifier": "UNH",
-      "sector": "Health Care",
+      "ticker": "NOW",
+      "name": "SERVICENOW",
+      "identifier": "NOW",
+      "sector": "Information Technology",
       "pct_of_fund": 0.46,
-      "quantity": 477378.0,
-      "market_value": 194135311.26,
-      "price": 406.67
+      "quantity": 1367775.0,
+      "market_value": 194183016.75,
+      "price": 141.97
     },
     {
       "ticker": "ABBV",
       "name": "ABBVIE",
       "identifier": "ABBV",
       "sector": "Health Care",
+      "pct_of_fund": 0.46,
+      "quantity": 680105.0,
+      "market_value": 194115569.1,
+      "price": 285.42
+    },
+    {
+      "ticker": "UNH",
+      "name": "UNITEDHEALTH GROUP",
+      "identifier": "UNH",
+      "sector": "Health Care",
       "pct_of_fund": 0.45,
-      "quantity": 679335.0,
-      "market_value": 192523539.0,
-      "price": 283.4
+      "quantity": 477924.0,
+      "market_value": 191853031.32,
+      "price": 401.43
     },
     {
       "ticker": "ETN",
       "name": "EATON PLC",
       "identifier": "ETN",
       "sector": "Industrials",
-      "pct_of_fund": 0.45,
-      "quantity": 475171.0,
-      "market_value": 191246824.08,
-      "price": 402.48
+      "pct_of_fund": 0.44,
+      "quantity": 475717.0,
+      "market_value": 186124276.25,
+      "price": 391.25
     },
     {
       "ticker": "BKNG",
@@ -568,9 +568,9 @@
       "identifier": "BKNG",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.41,
-      "quantity": 1063171.0,
-      "market_value": 176273751.8,
-      "price": 165.8
+      "quantity": 1064389.0,
+      "market_value": 173974382.05,
+      "price": 163.45
     },
     {
       "ticker": "V",
@@ -578,29 +578,29 @@
       "identifier": "V",
       "sector": "Financials",
       "pct_of_fund": 0.4,
-      "quantity": 421339.0,
-      "market_value": 168430265.25,
-      "price": 399.75
+      "quantity": 421815.0,
+      "market_value": 169826937.15,
+      "price": 402.61
     },
     {
       "ticker": "WDC",
       "name": "WESTERN DIGITAL CORP",
       "identifier": "WDC",
       "sector": "Information Technology",
-      "pct_of_fund": 0.37,
-      "quantity": 445398.0,
-      "market_value": 158762117.1,
-      "price": 356.45
+      "pct_of_fund": 0.35,
+      "quantity": 445902.0,
+      "market_value": 148039464.0,
+      "price": 332.0
     },
     {
       "ticker": "GLW",
       "name": "CORNING",
       "identifier": "GLW",
       "sector": "Information Technology",
-      "pct_of_fund": 0.36,
-      "quantity": 1113944.0,
-      "market_value": 154203267.92,
-      "price": 138.43
+      "pct_of_fund": 0.35,
+      "quantity": 1115218.0,
+      "market_value": 147208776.0,
+      "price": 132.0
     },
     {
       "ticker": "MDT",
@@ -608,9 +608,29 @@
       "identifier": "MDT",
       "sector": "Health Care",
       "pct_of_fund": 0.32,
-      "quantity": 1420842.0,
-      "market_value": 135619368.9,
-      "price": 95.45
+      "quantity": 1422466.0,
+      "market_value": 134778653.5,
+      "price": 94.75
+    },
+    {
+      "ticker": "PM",
+      "name": "PHILIP MORRIS INTERNATIONAL",
+      "identifier": "PM",
+      "sector": "Consumer Staples",
+      "pct_of_fund": 0.29,
+      "quantity": 602889.0,
+      "market_value": 123712822.8,
+      "price": 205.2
+    },
+    {
+      "ticker": "PGR",
+      "name": "PROGRESSIVE",
+      "identifier": "PGR",
+      "sector": "Financials",
+      "pct_of_fund": 0.29,
+      "quantity": 563485.0,
+      "market_value": 123115837.65,
+      "price": 218.49
     },
     {
       "ticker": "PFE",
@@ -618,39 +638,9 @@
       "identifier": "PFE",
       "sector": "Health Care",
       "pct_of_fund": 0.29,
-      "quantity": 4124878.0,
-      "market_value": 121436408.32,
-      "price": 29.44
-    },
-    {
-      "ticker": "PM",
-      "name": "PHILIP MORRIS INTERNATIONAL",
-      "identifier": "PM",
-      "sector": "Consumer Staples",
-      "pct_of_fund": 0.28,
-      "quantity": 602203.0,
-      "market_value": 120380379.7,
-      "price": 199.9
-    },
-    {
-      "ticker": "PGR",
-      "name": "PROGRESSIVE",
-      "identifier": "PGR",
-      "sector": "Financials",
-      "pct_of_fund": 0.28,
-      "quantity": 562841.0,
-      "market_value": 120307263.75,
-      "price": 213.75
-    },
-    {
-      "ticker": "ORCL",
-      "name": "ORACLE",
-      "identifier": "ORCL",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.27,
-      "quantity": 860734.0,
-      "market_value": 115742900.98,
-      "price": 134.47
+      "quantity": 4129582.0,
+      "market_value": 122153035.56,
+      "price": 29.58
     },
     {
       "ticker": "GM",
@@ -658,9 +648,19 @@
       "identifier": "GM",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.26,
-      "quantity": 1327784.0,
-      "market_value": 111082409.44,
-      "price": 83.66
+      "quantity": 1329296.0,
+      "market_value": 111607692.16,
+      "price": 83.96
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE",
+      "identifier": "ORCL",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.26,
+      "quantity": 861714.0,
+      "market_value": 110497586.22,
+      "price": 128.23
     },
     {
       "ticker": "INTU",
@@ -668,9 +668,9 @@
       "identifier": "INTU",
       "sector": "Information Technology",
       "pct_of_fund": 0.25,
-      "quantity": 328774.0,
-      "market_value": 108551311.58,
-      "price": 330.17
+      "quantity": 329152.0,
+      "market_value": 107023772.8,
+      "price": 325.15
     },
     {
       "ticker": "PLD",
@@ -678,29 +678,19 @@
       "identifier": "PLD",
       "sector": "Real Estate",
       "pct_of_fund": 0.25,
-      "quantity": 847132.0,
-      "market_value": 107534936.08,
-      "price": 126.94
+      "quantity": 848098.0,
+      "market_value": 106648323.5,
+      "price": 125.75
     },
     {
       "ticker": "MRVL",
       "name": "MARVELL TECHNOLOGY",
       "identifier": "MRVL",
       "sector": "Information Technology",
-      "pct_of_fund": 0.25,
-      "quantity": 442604.0,
-      "market_value": 106773788.96,
-      "price": 241.24
-    },
-    {
-      "ticker": "PANW",
-      "name": "PALO ALTO NETWORKS",
-      "identifier": "PANW",
-      "sector": "Information Technology",
       "pct_of_fund": 0.24,
-      "quantity": 278137.0,
-      "market_value": 102985786.99,
-      "price": 370.27
+      "quantity": 443108.0,
+      "market_value": 100953295.64,
+      "price": 227.83
     },
     {
       "ticker": "ADBE",
@@ -708,29 +698,39 @@
       "identifier": "ADBE",
       "sector": "Information Technology",
       "pct_of_fund": 0.24,
-      "quantity": 407043.0,
-      "market_value": 102440511.81,
-      "price": 251.67
+      "quantity": 407505.0,
+      "market_value": 99920226.0,
+      "price": 245.2
     },
     {
       "ticker": "PSX",
       "name": "PHILLIPS 66",
       "identifier": "PSX",
       "sector": "Energy",
-      "pct_of_fund": 0.22,
-      "quantity": 329348.0,
-      "market_value": 95247441.6,
-      "price": 289.2
+      "pct_of_fund": 0.23,
+      "quantity": 329726.0,
+      "market_value": 96665771.42,
+      "price": 293.17
     },
     {
-      "ticker": "STX",
-      "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
-      "identifier": "STX",
+      "ticker": "PANW",
+      "name": "PALO ALTO NETWORKS",
+      "identifier": "PANW",
       "sector": "Information Technology",
+      "pct_of_fund": 0.23,
+      "quantity": 278459.0,
+      "market_value": 95232978.0,
+      "price": 342.0
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "identifier": "XTSLA",
+      "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.22,
-      "quantity": 137555.0,
-      "market_value": 95024369.55,
-      "price": 690.81
+      "quantity": 91770000.0,
+      "market_value": 91770000.0,
+      "price": 1.0
     },
     {
       "ticker": "ISRG",
@@ -738,39 +738,29 @@
       "identifier": "ISRG",
       "sector": "Health Care",
       "pct_of_fund": 0.21,
-      "quantity": 212047.0,
-      "market_value": 90726429.42,
-      "price": 427.86
+      "quantity": 212285.0,
+      "market_value": 90582009.5,
+      "price": 426.7
     },
     {
-      "ticker": "DELL",
-      "name": "DELL TECHNOLOGIES INC CLASS C",
-      "identifier": "DELL",
+      "ticker": "STX",
+      "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "identifier": "STX",
       "sector": "Information Technology",
       "pct_of_fund": 0.21,
-      "quantity": 189176.0,
-      "market_value": 89554026.64,
-      "price": 473.39
+      "quantity": 137709.0,
+      "market_value": 87997428.09,
+      "price": 639.01
     },
     {
       "ticker": "COST",
       "name": "COSTCO WHOLESALE CORP",
       "identifier": "COST",
       "sector": "Consumer Staples",
-      "pct_of_fund": 0.2,
-      "quantity": 88476.0,
-      "market_value": 86530412.76,
-      "price": 978.01
-    },
-    {
-      "ticker": "XTSLA",
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "identifier": "XTSLA",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.2,
-      "quantity": 86290000.0,
-      "market_value": 86290000.0,
-      "price": 1.0
+      "pct_of_fund": 0.21,
+      "quantity": 88574.0,
+      "market_value": 87609429.14,
+      "price": 989.11
     },
     {
       "ticker": "PG",
@@ -778,29 +768,19 @@
       "identifier": "PG",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.2,
-      "quantity": 538621.0,
-      "market_value": 84606586.68,
-      "price": 157.08
+      "quantity": 539237.0,
+      "market_value": 85927415.95,
+      "price": 159.35
     },
     {
-      "ticker": "MCK",
-      "name": "MCKESSON CORP",
-      "identifier": "MCK",
-      "sector": "Health Care",
-      "pct_of_fund": 0.2,
-      "quantity": 83842.0,
-      "market_value": 83727974.88,
-      "price": 998.64
-    },
-    {
-      "ticker": "IBM",
-      "name": "INTERNATIONAL BUSINESS MACHINES",
-      "identifier": "IBM",
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES INC CLASS C",
+      "identifier": "DELL",
       "sector": "Information Technology",
       "pct_of_fund": 0.2,
-      "quantity": 357010.0,
-      "market_value": 83583181.2,
-      "price": 234.12
+      "quantity": 189386.0,
+      "market_value": 85547550.06,
+      "price": 451.71
     },
     {
       "ticker": "USB",
@@ -808,39 +788,39 @@
       "identifier": "USB",
       "sector": "Financials",
       "pct_of_fund": 0.2,
-      "quantity": 1447138.0,
-      "market_value": 83051249.82,
-      "price": 57.39
+      "quantity": 1448790.0,
+      "market_value": 85087436.7,
+      "price": 58.73
+    },
+    {
+      "ticker": "MCK",
+      "name": "MCKESSON CORP",
+      "identifier": "MCK",
+      "sector": "Health Care",
+      "pct_of_fund": 0.2,
+      "quantity": 83940.0,
+      "market_value": 84346269.6,
+      "price": 1004.84
+    },
+    {
+      "ticker": "IBM",
+      "name": "INTERNATIONAL BUSINESS MACHINES",
+      "identifier": "IBM",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.2,
+      "quantity": 357416.0,
+      "market_value": 82970550.24,
+      "price": 232.14
     },
     {
       "ticker": "EXC",
       "name": "EXELON CORP",
       "identifier": "EXC",
       "sector": "Utilities",
-      "pct_of_fund": 0.19,
-      "quantity": 1892918.0,
-      "market_value": 80411156.64,
-      "price": 42.48
-    },
-    {
-      "ticker": "MCD",
-      "name": "MCDONALDS CORP",
-      "identifier": "MCD",
-      "sector": "Consumer Discretionary",
-      "pct_of_fund": 0.19,
-      "quantity": 329765.0,
-      "market_value": 79968012.5,
-      "price": 242.5
-    },
-    {
-      "ticker": "REGN",
-      "name": "REGENERON PHARMACEUTICALS",
-      "identifier": "REGN",
-      "sector": "Health Care",
-      "pct_of_fund": 0.19,
-      "quantity": 99955.0,
-      "market_value": 79598164.7,
-      "price": 796.34
+      "pct_of_fund": 0.2,
+      "quantity": 1895074.0,
+      "market_value": 82435719.0,
+      "price": 43.5
     },
     {
       "ticker": "LMT",
@@ -848,9 +828,29 @@
       "identifier": "LMT",
       "sector": "Industrials",
       "pct_of_fund": 0.19,
-      "quantity": 148765.0,
-      "market_value": 79238189.6,
-      "price": 532.64
+      "quantity": 148933.0,
+      "market_value": 82224419.97,
+      "price": 552.09
+    },
+    {
+      "ticker": "MCD",
+      "name": "MCDONALDS CORP",
+      "identifier": "MCD",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 0.19,
+      "quantity": 330143.0,
+      "market_value": 80214844.71,
+      "price": 242.97
+    },
+    {
+      "ticker": "REGN",
+      "name": "REGENERON PHARMACEUTICALS",
+      "identifier": "REGN",
+      "sector": "Health Care",
+      "pct_of_fund": 0.19,
+      "quantity": 100067.0,
+      "market_value": 79126979.58,
+      "price": 790.74
     },
     {
       "ticker": "SCHW",
@@ -858,39 +858,29 @@
       "identifier": "SCHW",
       "sector": "Financials",
       "pct_of_fund": 0.18,
-      "quantity": 827328.0,
-      "market_value": 77901204.48,
-      "price": 94.16
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CROWDSTRIKE HOLDINGS CLASS A",
-      "identifier": "CRWD",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.18,
-      "quantity": 318499.0,
-      "market_value": 77895300.43,
-      "price": 244.57
+      "quantity": 828266.0,
+      "market_value": 76167341.36,
+      "price": 91.96
     },
     {
       "ticker": "HST",
       "name": "HOST HOTELS & RESORTS REIT",
       "identifier": "HST",
       "sector": "Real Estate",
-      "pct_of_fund": 0.17,
-      "quantity": 3114207.0,
-      "market_value": 74273836.95,
-      "price": 23.85
+      "pct_of_fund": 0.18,
+      "quantity": 3117763.0,
+      "market_value": 74732779.11,
+      "price": 23.97
     },
     {
-      "ticker": "APP",
-      "name": "APPLOVIN CLASS A",
-      "identifier": "APP",
-      "sector": "Communication",
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS CLASS A",
+      "identifier": "CRWD",
+      "sector": "Information Technology",
       "pct_of_fund": 0.17,
-      "quantity": 253481.0,
-      "market_value": 70794708.49,
-      "price": 279.29
+      "quantity": 318863.0,
+      "market_value": 72506257.57,
+      "price": 227.39
     },
     {
       "ticker": "ACN",
@@ -898,9 +888,19 @@
       "identifier": "ACN",
       "sector": "Information Technology",
       "pct_of_fund": 0.16,
-      "quantity": 298211.0,
-      "market_value": 67073618.12,
-      "price": 224.92
+      "quantity": 298547.0,
+      "market_value": 68570274.96,
+      "price": 229.68
+    },
+    {
+      "ticker": "APP",
+      "name": "APPLOVIN CLASS A",
+      "identifier": "APP",
+      "sector": "Communication",
+      "pct_of_fund": 0.16,
+      "quantity": 253775.0,
+      "market_value": 67537140.75,
+      "price": 266.13
     },
     {
       "ticker": "HCA",
@@ -908,9 +908,9 @@
       "identifier": "HCA",
       "sector": "Health Care",
       "pct_of_fund": 0.15,
-      "quantity": 139112.0,
-      "market_value": 65173972.0,
-      "price": 468.5
+      "quantity": 139266.0,
+      "market_value": 63900811.44,
+      "price": 458.84
     },
     {
       "ticker": "CVS",
@@ -918,9 +918,9 @@
       "identifier": "CVS",
       "sector": "Health Care",
       "pct_of_fund": 0.15,
-      "quantity": 689830.0,
-      "market_value": 63864461.4,
-      "price": 92.58
+      "quantity": 690614.0,
+      "market_value": 63785109.04,
+      "price": 92.36
     },
     {
       "ticker": "UNP",
@@ -928,19 +928,9 @@
       "identifier": "UNP",
       "sector": "Industrials",
       "pct_of_fund": 0.14,
-      "quantity": 208123.0,
-      "market_value": 60087191.33,
-      "price": 288.71
-    },
-    {
-      "ticker": "LITE",
-      "name": "LUMENTUM HOLDINGS",
-      "identifier": "LITE",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.14,
-      "quantity": 68595.0,
-      "market_value": 59646096.3,
-      "price": 869.54
+      "quantity": 208361.0,
+      "market_value": 60224663.44,
+      "price": 289.04
     },
     {
       "ticker": "UBER",
@@ -948,9 +938,19 @@
       "identifier": "UBER",
       "sector": "Industrials",
       "pct_of_fund": 0.14,
-      "quantity": 812908.0,
-      "market_value": 57935953.16,
-      "price": 71.27
+      "quantity": 813832.0,
+      "market_value": 57253081.2,
+      "price": 70.35
+    },
+    {
+      "ticker": "LITE",
+      "name": "LUMENTUM HOLDINGS",
+      "identifier": "LITE",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.13,
+      "quantity": 68679.0,
+      "market_value": 56600424.27,
+      "price": 824.13
     },
     {
       "ticker": "HWM",
@@ -958,9 +958,9 @@
       "identifier": "HWM",
       "sector": "Industrials",
       "pct_of_fund": 0.13,
-      "quantity": 253864.0,
-      "market_value": 55773920.8,
-      "price": 219.7
+      "quantity": 254158.0,
+      "market_value": 56158751.68,
+      "price": 220.96
     },
     {
       "ticker": "FDX",
@@ -968,9 +968,9 @@
       "identifier": "FDX",
       "sector": "Industrials",
       "pct_of_fund": 0.13,
-      "quantity": 188529.0,
-      "market_value": 55717860.66,
-      "price": 295.54
+      "quantity": 188739.0,
+      "market_value": 55404333.45,
+      "price": 293.55
     },
     {
       "ticker": "MS",
@@ -978,9 +978,9 @@
       "identifier": "MS",
       "sector": "Financials",
       "pct_of_fund": 0.13,
-      "quantity": 299449.0,
-      "market_value": 54529662.9,
-      "price": 182.1
+      "quantity": 299785.0,
+      "market_value": 54132177.45,
+      "price": 180.57
     },
     {
       "ticker": "DIS",
@@ -988,9 +988,9 @@
       "identifier": "DIS",
       "sector": "Communication",
       "pct_of_fund": 0.12,
-      "quantity": 473681.0,
-      "market_value": 52427013.08,
-      "price": 110.68
+      "quantity": 474227.0,
+      "market_value": 52444763.93,
+      "price": 110.59
     },
     {
       "ticker": "NUE",
@@ -998,29 +998,9 @@
       "identifier": "NUE",
       "sector": "Materials",
       "pct_of_fund": 0.12,
-      "quantity": 203908.0,
-      "market_value": 51933328.52,
-      "price": 254.69
-    },
-    {
-      "ticker": "STT",
-      "name": "STATE STREET",
-      "identifier": "STT",
-      "sector": "Financials",
-      "pct_of_fund": 0.12,
-      "quantity": 297305.0,
-      "market_value": 49828318.0,
-      "price": 167.6
-    },
-    {
-      "ticker": "SNOW",
-      "name": "SNOWFLAKE",
-      "identifier": "SNOW",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.12,
-      "quantity": 147820.0,
-      "market_value": 49530047.4,
-      "price": 335.07
+      "quantity": 204146.0,
+      "market_value": 52320578.34,
+      "price": 256.29
     },
     {
       "ticker": "BNY",
@@ -1028,29 +1008,39 @@
       "identifier": "BNY",
       "sector": "Financials",
       "pct_of_fund": 0.12,
-      "quantity": 346511.0,
-      "market_value": 49235747.99,
-      "price": 142.09
+      "quantity": 346903.0,
+      "market_value": 49711199.9,
+      "price": 143.3
+    },
+    {
+      "ticker": "STT",
+      "name": "STATE STREET",
+      "identifier": "STT",
+      "sector": "Financials",
+      "pct_of_fund": 0.12,
+      "quantity": 297641.0,
+      "market_value": 49325066.52,
+      "price": 165.72
     },
     {
       "ticker": "WFC",
       "name": "WELLS FARGO",
       "identifier": "WFC",
       "sector": "Financials",
-      "pct_of_fund": 0.11,
-      "quantity": 579774.0,
-      "market_value": 47976298.5,
-      "price": 82.75
+      "pct_of_fund": 0.12,
+      "quantity": 580432.0,
+      "market_value": 48680831.84,
+      "price": 83.87
     },
     {
       "ticker": "COF",
       "name": "CAPITAL ONE FINANCIAL CORP",
       "identifier": "COF",
       "sector": "Financials",
-      "pct_of_fund": 0.11,
-      "quantity": 240595.0,
-      "market_value": 47844721.7,
-      "price": 198.86
+      "pct_of_fund": 0.12,
+      "quantity": 240875.0,
+      "market_value": 48594122.5,
+      "price": 201.74
     },
     {
       "ticker": "CBOE",
@@ -1059,28 +1049,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.11,
       "quantity": 153244.0,
-      "market_value": 47212943.96,
-      "price": 308.09
-    },
-    {
-      "ticker": "FIX",
-      "name": "COMFORT SYSTEMS USA",
-      "identifier": "FIX",
-      "sector": "Industrials",
-      "pct_of_fund": 0.11,
-      "quantity": 31605.0,
-      "market_value": 46815538.35,
-      "price": 1481.27
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM",
-      "identifier": "QCOM",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.11,
-      "quantity": 261387.0,
-      "market_value": 46631440.8,
-      "price": 178.4
+      "market_value": 48268795.12,
+      "price": 314.98
     },
     {
       "ticker": "DG",
@@ -1088,19 +1058,39 @@
       "identifier": "DG",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.11,
-      "quantity": 342764.0,
-      "market_value": 45892671.96,
-      "price": 133.89
+      "quantity": 343156.0,
+      "market_value": 46106440.16,
+      "price": 134.36
     },
     {
-      "ticker": "WWD",
-      "name": "WOODWARD",
-      "identifier": "WWD",
+      "ticker": "FIX",
+      "name": "COMFORT SYSTEMS USA",
+      "identifier": "FIX",
       "sector": "Industrials",
       "pct_of_fund": 0.11,
-      "quantity": 135885.0,
-      "market_value": 45286393.95,
-      "price": 333.27
+      "quantity": 31647.0,
+      "market_value": 45542248.29,
+      "price": 1439.07
+    },
+    {
+      "ticker": "SNOW",
+      "name": "SNOWFLAKE",
+      "identifier": "SNOW",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.11,
+      "quantity": 147988.0,
+      "market_value": 45408637.92,
+      "price": 306.84
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM",
+      "identifier": "QCOM",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.11,
+      "quantity": 261681.0,
+      "market_value": 45037916.91,
+      "price": 172.11
     },
     {
       "ticker": "TXN",
@@ -1108,19 +1098,29 @@
       "identifier": "TXN",
       "sector": "Information Technology",
       "pct_of_fund": 0.11,
-      "quantity": 161590.0,
-      "market_value": 45103000.8,
-      "price": 279.12
+      "quantity": 161772.0,
+      "market_value": 44726722.56,
+      "price": 276.48
+    },
+    {
+      "ticker": "WWD",
+      "name": "WOODWARD",
+      "identifier": "WWD",
+      "sector": "Industrials",
+      "pct_of_fund": 0.11,
+      "quantity": 136039.0,
+      "market_value": 44686090.72,
+      "price": 328.48
     },
     {
       "ticker": "PEP",
       "name": "PEPSICO",
       "identifier": "PEP",
       "sector": "Consumer Staples",
-      "pct_of_fund": 0.1,
-      "quantity": 336981.0,
-      "market_value": 43261620.78,
-      "price": 128.38
+      "pct_of_fund": 0.11,
+      "quantity": 337359.0,
+      "market_value": 44359334.91,
+      "price": 131.49
     },
     {
       "ticker": "AEP",
@@ -1128,9 +1128,9 @@
       "identifier": "AEP",
       "sector": "Utilities",
       "pct_of_fund": 0.1,
-      "quantity": 343165.0,
-      "market_value": 42651977.85,
-      "price": 124.29
+      "quantity": 343557.0,
+      "market_value": 43679836.98,
+      "price": 127.14
     },
     {
       "ticker": "UTHR",
@@ -1138,29 +1138,19 @@
       "identifier": "UTHR",
       "sector": "Health Care",
       "pct_of_fund": 0.1,
-      "quantity": 77832.0,
-      "market_value": 42146806.32,
-      "price": 541.51
+      "quantity": 77916.0,
+      "market_value": 41538577.92,
+      "price": 533.12
     },
     {
       "ticker": "NOC",
       "name": "NORTHROP GRUMMAN CORP",
       "identifier": "NOC",
       "sector": "Industrials",
-      "pct_of_fund": 0.09,
-      "quantity": 78620.0,
-      "market_value": 39280910.6,
-      "price": 499.63
-    },
-    {
-      "ticker": "TEAM",
-      "name": "ATLASSIAN CORP CLASS A",
-      "identifier": "TEAM",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.09,
-      "quantity": 178163.0,
-      "market_value": 38682750.56,
-      "price": 217.12
+      "pct_of_fund": 0.1,
+      "quantity": 78704.0,
+      "market_value": 40915061.44,
+      "price": 519.86
     },
     {
       "ticker": "BSX",
@@ -1168,29 +1158,29 @@
       "identifier": "BSX",
       "sector": "Health Care",
       "pct_of_fund": 0.09,
-      "quantity": 865875.0,
-      "market_value": 38219722.5,
-      "price": 44.14
+      "quantity": 866869.0,
+      "market_value": 38480314.91,
+      "price": 44.39
+    },
+    {
+      "ticker": "TEAM",
+      "name": "ATLASSIAN CORP CLASS A",
+      "identifier": "TEAM",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.09,
+      "quantity": 178373.0,
+      "market_value": 37069476.86,
+      "price": 207.82
     },
     {
       "ticker": "ATI",
       "name": "ATI",
       "identifier": "ATI",
       "sector": "Industrials",
-      "pct_of_fund": 0.09,
-      "quantity": 192549.0,
-      "market_value": 36451451.19,
-      "price": 189.31
-    },
-    {
-      "ticker": "DDOG",
-      "name": "DATADOG INC CLASS A",
-      "identifier": "DDOG",
-      "sector": "Information Technology",
       "pct_of_fund": 0.08,
-      "quantity": 135902.0,
-      "market_value": 36183907.5,
-      "price": 266.25
+      "quantity": 192773.0,
+      "market_value": 35776741.07,
+      "price": 185.59
     },
     {
       "ticker": "CSX",
@@ -1198,19 +1188,9 @@
       "identifier": "CSX",
       "sector": "Industrials",
       "pct_of_fund": 0.08,
-      "quantity": 728811.0,
-      "market_value": 35485807.59,
-      "price": 48.69
-    },
-    {
-      "ticker": "FTNT",
-      "name": "FORTINET",
-      "identifier": "FTNT",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.08,
-      "quantity": 188443.0,
-      "market_value": 34279666.13,
-      "price": 181.91
+      "quantity": 729637.0,
+      "market_value": 35518729.16,
+      "price": 48.68
     },
     {
       "ticker": "CFG",
@@ -1218,29 +1198,9 @@
       "identifier": "CFG",
       "sector": "Financials",
       "pct_of_fund": 0.08,
-      "quantity": 536927.0,
-      "market_value": 34057279.61,
-      "price": 63.43
-    },
-    {
-      "ticker": "BE",
-      "name": "BLOOM ENERGY CLASS A",
-      "identifier": "BE",
-      "sector": "Industrials",
-      "pct_of_fund": 0.08,
-      "quantity": 143195.0,
-      "market_value": 33836978.5,
-      "price": 236.3
-    },
-    {
-      "ticker": "FIVE",
-      "name": "FIVE BELOW",
-      "identifier": "FIVE",
-      "sector": "Consumer Discretionary",
-      "pct_of_fund": 0.08,
-      "quantity": 150033.0,
-      "market_value": 33491866.59,
-      "price": 223.23
+      "quantity": 537543.0,
+      "market_value": 34058724.48,
+      "price": 63.36
     },
     {
       "ticker": "CASY",
@@ -1248,9 +1208,29 @@
       "identifier": "CASY",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.08,
-      "quantity": 49300.0,
-      "market_value": 33209959.0,
-      "price": 673.63
+      "quantity": 49356.0,
+      "market_value": 34017142.32,
+      "price": 689.22
+    },
+    {
+      "ticker": "DDOG",
+      "name": "DATADOG INC CLASS A",
+      "identifier": "DDOG",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.08,
+      "quantity": 136056.0,
+      "market_value": 33620798.16,
+      "price": 247.11
+    },
+    {
+      "ticker": "FIVE",
+      "name": "FIVE BELOW",
+      "identifier": "FIVE",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 0.08,
+      "quantity": 150201.0,
+      "market_value": 33452766.72,
+      "price": 222.72
     },
     {
       "ticker": "RBLX",
@@ -1258,39 +1238,29 @@
       "identifier": "RBLX",
       "sector": "Communication",
       "pct_of_fund": 0.08,
-      "quantity": 647316.0,
-      "market_value": 33097267.08,
-      "price": 51.13
+      "quantity": 648058.0,
+      "market_value": 32111273.9,
+      "price": 49.55
     },
     {
-      "ticker": "HOOD",
-      "name": "ROBINHOOD MARKETS CLASS A",
-      "identifier": "HOOD",
-      "sector": "Financials",
-      "pct_of_fund": 0.08,
-      "quantity": 310731.0,
-      "market_value": 32312916.69,
-      "price": 103.99
-    },
-    {
-      "ticker": "HPE",
-      "name": "HEWLETT PACKARD ENTERPRISE",
-      "identifier": "HPE",
+      "ticker": "FTNT",
+      "name": "FORTINET",
+      "identifier": "FTNT",
       "sector": "Information Technology",
-      "pct_of_fund": 0.07,
-      "quantity": 540044.0,
-      "market_value": 31662779.72,
-      "price": 58.63
+      "pct_of_fund": 0.08,
+      "quantity": 188653.0,
+      "market_value": 31906881.89,
+      "price": 169.13
     },
     {
-      "ticker": "VRT",
-      "name": "VERTIV HOLDINGS CLASS A",
-      "identifier": "VRT",
+      "ticker": "BE",
+      "name": "BLOOM ENERGY CLASS A",
+      "identifier": "BE",
       "sector": "Industrials",
-      "pct_of_fund": 0.07,
-      "quantity": 146627.0,
-      "market_value": 31488148.25,
-      "price": 214.75
+      "pct_of_fund": 0.08,
+      "quantity": 143363.0,
+      "market_value": 31727665.53,
+      "price": 221.31
     },
     {
       "ticker": "CRH",
@@ -1298,19 +1268,39 @@
       "identifier": "CRH",
       "sector": "Materials",
       "pct_of_fund": 0.07,
-      "quantity": 368932.0,
-      "market_value": 30370482.24,
-      "price": 82.32
+      "quantity": 369352.0,
+      "market_value": 30888907.76,
+      "price": 83.63
     },
     {
-      "ticker": "MA",
-      "name": "MASTERCARD CLASS A",
-      "identifier": "MA",
+      "ticker": "HOOD",
+      "name": "ROBINHOOD MARKETS CLASS A",
+      "identifier": "HOOD",
       "sector": "Financials",
       "pct_of_fund": 0.07,
-      "quantity": 46037.0,
-      "market_value": 28373523.84,
-      "price": 616.32
+      "quantity": 311081.0,
+      "market_value": 30756578.47,
+      "price": 98.87
+    },
+    {
+      "ticker": "VRT",
+      "name": "VERTIV HOLDINGS CLASS A",
+      "identifier": "VRT",
+      "sector": "Industrials",
+      "pct_of_fund": 0.07,
+      "quantity": 146795.0,
+      "market_value": 30301423.9,
+      "price": 206.42
+    },
+    {
+      "ticker": "HPE",
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "identifier": "HPE",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.07,
+      "quantity": 540660.0,
+      "market_value": 29806585.8,
+      "price": 55.13
     },
     {
       "ticker": "KO",
@@ -1318,19 +1308,19 @@
       "identifier": "KO",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.07,
-      "quantity": 308203.0,
-      "market_value": 28354676.0,
-      "price": 92.0
+      "quantity": 308553.0,
+      "market_value": 28973126.7,
+      "price": 93.9
     },
     {
-      "ticker": "ALAB",
-      "name": "ASTERA LABS",
-      "identifier": "ALAB",
-      "sector": "Information Technology",
+      "ticker": "MA",
+      "name": "MASTERCARD CLASS A",
+      "identifier": "MA",
+      "sector": "Financials",
       "pct_of_fund": 0.07,
-      "quantity": 92762.0,
-      "market_value": 28012268.76,
-      "price": 301.98
+      "quantity": 46093.0,
+      "market_value": 28458740.06,
+      "price": 617.42
     },
     {
       "ticker": "ADM",
@@ -1338,19 +1328,9 @@
       "identifier": "ADM",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.06,
-      "quantity": 330362.0,
-      "market_value": 27396920.66,
-      "price": 82.93
-    },
-    {
-      "ticker": "CIEN",
-      "name": "CIENA",
-      "identifier": "CIEN",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.06,
-      "quantity": 76505.0,
-      "market_value": 27275562.6,
-      "price": 356.52
+      "quantity": 330740.0,
+      "market_value": 27322431.4,
+      "price": 82.61
     },
     {
       "ticker": "RCL",
@@ -1358,19 +1338,19 @@
       "identifier": "RCL",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.06,
-      "quantity": 95680.0,
-      "market_value": 26791356.8,
-      "price": 280.01
+      "quantity": 95792.0,
+      "market_value": 26599522.56,
+      "price": 277.68
     },
     {
-      "ticker": "WDAY",
-      "name": "WORKDAY CLASS A",
-      "identifier": "WDAY",
+      "ticker": "ALAB",
+      "name": "ASTERA LABS",
+      "identifier": "ALAB",
       "sector": "Information Technology",
       "pct_of_fund": 0.06,
-      "quantity": 135658.0,
-      "market_value": 26674432.54,
-      "price": 196.63
+      "quantity": 92874.0,
+      "market_value": 26545246.68,
+      "price": 285.82
     },
     {
       "ticker": "CAH",
@@ -1378,9 +1358,29 @@
       "identifier": "CAH",
       "sector": "Health Care",
       "pct_of_fund": 0.06,
-      "quantity": 102959.0,
-      "market_value": 26121727.89,
-      "price": 253.71
+      "quantity": 103071.0,
+      "market_value": 26186218.26,
+      "price": 254.06
+    },
+    {
+      "ticker": "WDAY",
+      "name": "WORKDAY CLASS A",
+      "identifier": "WDAY",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.06,
+      "quantity": 135812.0,
+      "market_value": 25914287.72,
+      "price": 190.81
+    },
+    {
+      "ticker": "CIEN",
+      "name": "CIENA",
+      "identifier": "CIEN",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.06,
+      "quantity": 76589.0,
+      "market_value": 25483457.97,
+      "price": 332.73
     },
     {
       "ticker": "ANET",
@@ -1388,9 +1388,9 @@
       "identifier": "ANET",
       "sector": "Information Technology",
       "pct_of_fund": 0.06,
-      "quantity": 139448.0,
-      "market_value": 25878759.84,
-      "price": 185.58
+      "quantity": 139602.0,
+      "market_value": 24706761.96,
+      "price": 176.98
     },
     {
       "ticker": "NBIX",
@@ -1398,19 +1398,9 @@
       "identifier": "NBIX",
       "sector": "Health Care",
       "pct_of_fund": 0.06,
-      "quantity": 181227.0,
-      "market_value": 24819037.65,
-      "price": 136.95
-    },
-    {
-      "ticker": "USD",
-      "name": "USD CASH",
-      "identifier": "USD",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.06,
-      "quantity": 24754570.0,
-      "market_value": 24754570.26,
-      "price": 100.0
+      "quantity": 181437.0,
+      "market_value": 24622815.27,
+      "price": 135.71
     },
     {
       "ticker": "DHR",
@@ -1418,9 +1408,9 @@
       "identifier": "DHR",
       "sector": "Health Care",
       "pct_of_fund": 0.06,
-      "quantity": 106688.0,
-      "market_value": 24698272.0,
-      "price": 231.5
+      "quantity": 106814.0,
+      "market_value": 24464678.56,
+      "price": 229.04
     },
     {
       "ticker": "ABNB",
@@ -1428,9 +1418,9 @@
       "identifier": "ABNB",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.06,
-      "quantity": 139844.0,
-      "market_value": 24372012.32,
-      "price": 174.28
+      "quantity": 139998.0,
+      "market_value": 24317652.6,
+      "price": 173.7
     },
     {
       "ticker": "CMI",
@@ -1438,19 +1428,9 @@
       "identifier": "CMI",
       "sector": "Industrials",
       "pct_of_fund": 0.06,
-      "quantity": 44551.0,
-      "market_value": 23733654.23,
-      "price": 532.73
-    },
-    {
-      "ticker": "SNDK",
-      "name": "SANDISK",
-      "identifier": "SNDK",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.05,
-      "quantity": 16786.0,
-      "market_value": 23413616.38,
-      "price": 1394.83
+      "quantity": 44607.0,
+      "market_value": 23701037.31,
+      "price": 531.33
     },
     {
       "ticker": "VRTX",
@@ -1458,9 +1438,9 @@
       "identifier": "VRTX",
       "sector": "Health Care",
       "pct_of_fund": 0.05,
-      "quantity": 44076.0,
-      "market_value": 22423665.0,
-      "price": 508.75
+      "quantity": 44132.0,
+      "market_value": 22054525.68,
+      "price": 499.74
     },
     {
       "ticker": "OMC",
@@ -1468,19 +1448,19 @@
       "identifier": "OMC",
       "sector": "Communication",
       "pct_of_fund": 0.05,
-      "quantity": 273072.0,
-      "market_value": 22042371.84,
-      "price": 80.72
+      "quantity": 273380.0,
+      "market_value": 22023492.8,
+      "price": 80.56
     },
     {
-      "ticker": "BMY",
-      "name": "BRISTOL MYERS SQUIBB",
-      "identifier": "BMY",
-      "sector": "Health Care",
+      "ticker": "SNDK",
+      "name": "SANDISK",
+      "identifier": "SNDK",
+      "sector": "Information Technology",
       "pct_of_fund": 0.05,
-      "quantity": 338304.0,
-      "market_value": 20491073.28,
-      "price": 60.57
+      "quantity": 16800.0,
+      "market_value": 21828240.0,
+      "price": 1299.3
     },
     {
       "ticker": "HALO",
@@ -1488,19 +1468,29 @@
       "identifier": "HALO",
       "sector": "Health Care",
       "pct_of_fund": 0.05,
-      "quantity": 167296.0,
-      "market_value": 20328136.96,
-      "price": 121.51
+      "quantity": 167492.0,
+      "market_value": 20407225.28,
+      "price": 121.84
     },
     {
-      "ticker": "SOFI",
-      "name": "SOFI TECHNOLOGIES",
-      "identifier": "SOFI",
-      "sector": "Financials",
+      "ticker": "BMY",
+      "name": "BRISTOL MYERS SQUIBB",
+      "identifier": "BMY",
+      "sector": "Health Care",
       "pct_of_fund": 0.05,
-      "quantity": 1324823.0,
-      "market_value": 19991579.07,
-      "price": 15.09
+      "quantity": 338696.0,
+      "market_value": 20237086.0,
+      "price": 59.75
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "identifier": "USD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.05,
+      "quantity": 20060559.0,
+      "market_value": 20060559.25,
+      "price": 100.0
     },
     {
       "ticker": "AMGN",
@@ -1508,19 +1498,9 @@
       "identifier": "AMGN",
       "sector": "Health Care",
       "pct_of_fund": 0.05,
-      "quantity": 45998.0,
-      "market_value": 19964511.94,
-      "price": 434.03
-    },
-    {
-      "ticker": "COHR",
-      "name": "COHERENT",
-      "identifier": "COHR",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.05,
-      "quantity": 78838.0,
-      "market_value": 19756802.8,
-      "price": 250.6
+      "quantity": 46054.0,
+      "market_value": 19917894.46,
+      "price": 432.49
     },
     {
       "ticker": "AU",
@@ -1528,9 +1508,19 @@
       "identifier": "AU",
       "sector": "Materials",
       "pct_of_fund": 0.05,
-      "quantity": 210627.0,
-      "market_value": 19287114.39,
-      "price": 91.57
+      "quantity": 210865.0,
+      "market_value": 19572489.3,
+      "price": 92.82
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SOFI TECHNOLOGIES",
+      "identifier": "SOFI",
+      "sector": "Financials",
+      "pct_of_fund": 0.05,
+      "quantity": 1326335.0,
+      "market_value": 19298174.25,
+      "price": 14.55
     },
     {
       "ticker": "ADI",
@@ -1538,9 +1528,19 @@
       "identifier": "ADI",
       "sector": "Information Technology",
       "pct_of_fund": 0.04,
-      "quantity": 46994.0,
-      "market_value": 18983226.3,
-      "price": 403.95
+      "quantity": 47050.0,
+      "market_value": 18605452.0,
+      "price": 395.44
+    },
+    {
+      "ticker": "COHR",
+      "name": "COHERENT",
+      "identifier": "COHR",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.04,
+      "quantity": 78922.0,
+      "market_value": 18380933.8,
+      "price": 232.9
     },
     {
       "ticker": "TPR",
@@ -1548,29 +1548,9 @@
       "identifier": "TPR",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.04,
-      "quantity": 148185.0,
-      "market_value": 17745153.75,
-      "price": 119.75
-    },
-    {
-      "ticker": "RVMD",
-      "name": "REVOLUTION MEDICINES",
-      "identifier": "RVMD",
-      "sector": "Health Care",
-      "pct_of_fund": 0.04,
-      "quantity": 86022.0,
-      "market_value": 16280523.72,
-      "price": 189.26
-    },
-    {
-      "ticker": "NET",
-      "name": "CLOUDFLARE CLASS A",
-      "identifier": "NET",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.04,
-      "quantity": 51089.0,
-      "market_value": 16160472.48,
-      "price": 316.32
+      "quantity": 148353.0,
+      "market_value": 17829063.54,
+      "price": 120.18
     },
     {
       "ticker": "MTZ",
@@ -1578,9 +1558,9 @@
       "identifier": "MTZ",
       "sector": "Industrials",
       "pct_of_fund": 0.04,
-      "quantity": 83232.0,
-      "market_value": 15949748.16,
-      "price": 191.63
+      "quantity": 83330.0,
+      "market_value": 15917696.6,
+      "price": 191.02
     },
     {
       "ticker": "CTSH",
@@ -1588,9 +1568,29 @@
       "identifier": "CTSH",
       "sector": "Information Technology",
       "pct_of_fund": 0.04,
-      "quantity": 236336.0,
-      "market_value": 15543818.72,
-      "price": 65.77
+      "quantity": 236602.0,
+      "market_value": 15622830.06,
+      "price": 66.03
+    },
+    {
+      "ticker": "RVMD",
+      "name": "REVOLUTION MEDICINES",
+      "identifier": "RVMD",
+      "sector": "Health Care",
+      "pct_of_fund": 0.04,
+      "quantity": 86120.0,
+      "market_value": 15325915.2,
+      "price": 177.96
+    },
+    {
+      "ticker": "NET",
+      "name": "CLOUDFLARE CLASS A",
+      "identifier": "NET",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.04,
+      "quantity": 51145.0,
+      "market_value": 15154263.5,
+      "price": 296.3
     },
     {
       "ticker": "HUBS",
@@ -1598,29 +1598,19 @@
       "identifier": "HUBS",
       "sector": "Information Technology",
       "pct_of_fund": 0.04,
-      "quantity": 63890.0,
-      "market_value": 15263959.9,
-      "price": 238.91
+      "quantity": 63960.0,
+      "market_value": 14770922.4,
+      "price": 230.94
     },
     {
       "ticker": "INSM",
       "name": "INSMED",
       "identifier": "INSM",
       "sector": "Health Care",
-      "pct_of_fund": 0.04,
-      "quantity": 150360.0,
-      "market_value": 14917215.6,
-      "price": 99.21
-    },
-    {
-      "ticker": "MDB",
-      "name": "MONGODB CLASS A",
-      "identifier": "MDB",
-      "sector": "Information Technology",
       "pct_of_fund": 0.03,
-      "quantity": 40141.0,
-      "market_value": 14711275.09,
-      "price": 366.49
+      "quantity": 150528.0,
+      "market_value": 14491330.56,
+      "price": 96.27
     },
     {
       "ticker": "PWR",
@@ -1628,9 +1618,9 @@
       "identifier": "PWR",
       "sector": "Industrials",
       "pct_of_fund": 0.03,
-      "quantity": 22635.0,
-      "market_value": 14536423.35,
-      "price": 642.21
+      "quantity": 22663.0,
+      "market_value": 14319843.18,
+      "price": 631.86
     },
     {
       "ticker": "BIIB",
@@ -1638,9 +1628,19 @@
       "identifier": "BIIB",
       "sector": "Health Care",
       "pct_of_fund": 0.03,
-      "quantity": 59812.0,
-      "market_value": 14076754.2,
-      "price": 235.35
+      "quantity": 59882.0,
+      "market_value": 13931547.3,
+      "price": 232.65
+    },
+    {
+      "ticker": "MDB",
+      "name": "MONGODB CLASS A",
+      "identifier": "MDB",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.03,
+      "quantity": 40183.0,
+      "market_value": 13564575.31,
+      "price": 337.57
     },
     {
       "ticker": "CRS",
@@ -1648,9 +1648,9 @@
       "identifier": "CRS",
       "sector": "Industrials",
       "pct_of_fund": 0.03,
-      "quantity": 33408.0,
-      "market_value": 12713748.48,
-      "price": 380.56
+      "quantity": 33450.0,
+      "market_value": 12613660.5,
+      "price": 377.09
     },
     {
       "ticker": "JCI",
@@ -1658,29 +1658,9 @@
       "identifier": "JCI",
       "sector": "Industrials",
       "pct_of_fund": 0.03,
-      "quantity": 85454.0,
-      "market_value": 12615574.02,
-      "price": 147.63
-    },
-    {
-      "ticker": "MSTR",
-      "name": "STRATEGY INC CLASS A",
-      "identifier": "MSTR",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.03,
-      "quantity": 80476.0,
-      "market_value": 12175214.04,
-      "price": 151.29
-    },
-    {
-      "ticker": "RDDT",
-      "name": "REDDIT CLASS A",
-      "identifier": "RDDT",
-      "sector": "Communication",
-      "pct_of_fund": 0.03,
-      "quantity": 74386.0,
-      "market_value": 11854152.96,
-      "price": 159.36
+      "quantity": 85552.0,
+      "market_value": 12445249.44,
+      "price": 145.47
     },
     {
       "ticker": "LHX",
@@ -1688,9 +1668,19 @@
       "identifier": "LHX",
       "sector": "Industrials",
       "pct_of_fund": 0.03,
-      "quantity": 48145.0,
-      "market_value": 11578872.5,
-      "price": 240.5
+      "quantity": 48201.0,
+      "market_value": 11978430.51,
+      "price": 248.51
+    },
+    {
+      "ticker": "RDDT",
+      "name": "REDDIT CLASS A",
+      "identifier": "RDDT",
+      "sector": "Communication",
+      "pct_of_fund": 0.03,
+      "quantity": 74470.0,
+      "market_value": 11627745.8,
+      "price": 156.14
     },
     {
       "ticker": "KEYS",
@@ -1698,29 +1688,9 @@
       "identifier": "KEYS",
       "sector": "Information Technology",
       "pct_of_fund": 0.03,
-      "quantity": 33666.0,
-      "market_value": 11516465.28,
-      "price": 342.08
-    },
-    {
-      "ticker": "CRDO",
-      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
-      "identifier": "CRDO",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.03,
-      "quantity": 62352.0,
-      "market_value": 11129832.0,
-      "price": 178.5
-    },
-    {
-      "ticker": "EXPE",
-      "name": "EXPEDIA GROUP",
-      "identifier": "EXPE",
-      "sector": "Consumer Discretionary",
-      "pct_of_fund": 0.03,
-      "quantity": 37691.0,
-      "market_value": 11000872.17,
-      "price": 291.87
+      "quantity": 33708.0,
+      "market_value": 11164426.68,
+      "price": 331.21
     },
     {
       "ticker": "TJX",
@@ -1728,9 +1698,29 @@
       "identifier": "TJX",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.03,
-      "quantity": 75109.0,
-      "market_value": 10859259.22,
-      "price": 144.58
+      "quantity": 75193.0,
+      "market_value": 11078184.69,
+      "price": 147.33
+    },
+    {
+      "ticker": "MSTR",
+      "name": "STRATEGY INC CLASS A",
+      "identifier": "MSTR",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.03,
+      "quantity": 80574.0,
+      "market_value": 11024940.42,
+      "price": 136.83
+    },
+    {
+      "ticker": "EXPE",
+      "name": "EXPEDIA GROUP",
+      "identifier": "EXPE",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 0.03,
+      "quantity": 37733.0,
+      "market_value": 10902950.35,
+      "price": 288.95
     },
     {
       "ticker": "TGT",
@@ -1738,9 +1728,19 @@
       "identifier": "TGT",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.03,
-      "quantity": 69296.0,
-      "market_value": 10853832.48,
-      "price": 156.63
+      "quantity": 69380.0,
+      "market_value": 10702558.8,
+      "price": 154.26
+    },
+    {
+      "ticker": "CRDO",
+      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+      "identifier": "CRDO",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.03,
+      "quantity": 62422.0,
+      "market_value": 10593013.4,
+      "price": 169.7
     },
     {
       "ticker": "CACI",
@@ -1748,9 +1748,9 @@
       "identifier": "CACI",
       "sector": "Industrials",
       "pct_of_fund": 0.02,
-      "quantity": 17141.0,
-      "market_value": 10479321.76,
-      "price": 611.36
+      "quantity": 17155.0,
+      "market_value": 10538488.05,
+      "price": 614.31
     },
     {
       "ticker": "LEN",
@@ -1758,29 +1758,9 @@
       "identifier": "LEN",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.02,
-      "quantity": 127981.0,
-      "market_value": 9942843.89,
-      "price": 77.69
-    },
-    {
-      "ticker": "RKLB",
-      "name": "ROCKET LAB CORP",
-      "identifier": "RKLB",
-      "sector": "Industrials",
-      "pct_of_fund": 0.02,
-      "quantity": 174857.0,
-      "market_value": 9660849.25,
-      "price": 55.25
-    },
-    {
-      "ticker": "FTAI",
-      "name": "FTAI AVIATION",
-      "identifier": "FTAI",
-      "sector": "Industrials",
-      "pct_of_fund": 0.02,
-      "quantity": 56634.0,
-      "market_value": 9546227.04,
-      "price": 168.56
+      "quantity": 128121.0,
+      "market_value": 9875566.68,
+      "price": 77.08
     },
     {
       "ticker": "DVN",
@@ -1788,9 +1768,19 @@
       "identifier": "DVN",
       "sector": "Energy",
       "pct_of_fund": 0.02,
-      "quantity": 184605.0,
-      "market_value": 9089950.2,
-      "price": 49.24
+      "quantity": 184815.0,
+      "market_value": 9375664.95,
+      "price": 50.73
+    },
+    {
+      "ticker": "FTAI",
+      "name": "FTAI AVIATION",
+      "identifier": "FTAI",
+      "sector": "Industrials",
+      "pct_of_fund": 0.02,
+      "quantity": 56704.0,
+      "market_value": 9325539.84,
+      "price": 164.46
     },
     {
       "ticker": "ICE",
@@ -1798,39 +1788,19 @@
       "identifier": "ICE",
       "sector": "Financials",
       "pct_of_fund": 0.02,
-      "quantity": 56223.0,
-      "market_value": 8906285.43,
-      "price": 158.41
+      "quantity": 56293.0,
+      "market_value": 9094697.08,
+      "price": 161.56
     },
     {
-      "ticker": "ZM",
-      "name": "ZOOM COMMUNICATIONS CLASS A",
-      "identifier": "ZM",
-      "sector": "Information Technology",
+      "ticker": "RKLB",
+      "name": "ROCKET LAB CORP",
+      "identifier": "RKLB",
+      "sector": "Industrials",
       "pct_of_fund": 0.02,
-      "quantity": 90117.0,
-      "market_value": 8877425.67,
-      "price": 98.51
-    },
-    {
-      "ticker": "MPWR",
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "identifier": "MPWR",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.02,
-      "quantity": 7091.0,
-      "market_value": 8858077.2,
-      "price": 1249.2
-    },
-    {
-      "ticker": "TWLO",
-      "name": "TWILIO CLASS A",
-      "identifier": "TWLO",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.02,
-      "quantity": 31640.0,
-      "market_value": 8650376.0,
-      "price": 273.4
+      "quantity": 175053.0,
+      "market_value": 8899694.52,
+      "price": 50.84
     },
     {
       "ticker": "FOXA",
@@ -1838,29 +1808,29 @@
       "identifier": "FOXA",
       "sector": "Communication",
       "pct_of_fund": 0.02,
-      "quantity": 134094.0,
-      "market_value": 8579334.12,
-      "price": 63.98
+      "quantity": 134248.0,
+      "market_value": 8612009.2,
+      "price": 64.15
     },
     {
-      "ticker": "IQV",
-      "name": "IQVIA HOLDINGS INC",
-      "identifier": "IQV",
-      "sector": "Health Care",
+      "ticker": "MPWR",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "identifier": "MPWR",
+      "sector": "Information Technology",
       "pct_of_fund": 0.02,
-      "quantity": 30079.0,
-      "market_value": 8152612.16,
-      "price": 271.04
+      "quantity": 7105.0,
+      "market_value": 8603160.3,
+      "price": 1210.86
     },
     {
-      "ticker": "HD",
-      "name": "HOME DEPOT",
-      "identifier": "HD",
-      "sector": "Consumer Discretionary",
+      "ticker": "ZM",
+      "name": "ZOOM COMMUNICATIONS CLASS A",
+      "identifier": "ZM",
+      "sector": "Information Technology",
       "pct_of_fund": 0.02,
-      "quantity": 26125.0,
-      "market_value": 8052770.0,
-      "price": 308.24
+      "quantity": 90215.0,
+      "market_value": 8497350.85,
+      "price": 94.19
     },
     {
       "ticker": "LDOS",
@@ -1868,9 +1838,19 @@
       "identifier": "LDOS",
       "sector": "Industrials",
       "pct_of_fund": 0.02,
-      "quantity": 64802.0,
-      "market_value": 8035448.0,
-      "price": 124.0
+      "quantity": 64872.0,
+      "market_value": 8099269.2,
+      "price": 124.85
+    },
+    {
+      "ticker": "HD",
+      "name": "HOME DEPOT",
+      "identifier": "HD",
+      "sector": "Consumer Discretionary",
+      "pct_of_fund": 0.02,
+      "quantity": 26153.0,
+      "market_value": 8097753.39,
+      "price": 309.63
     },
     {
       "ticker": "VICI",
@@ -1878,9 +1858,29 @@
       "identifier": "VICI",
       "sector": "Real Estate",
       "pct_of_fund": 0.02,
-      "quantity": 340419.0,
-      "market_value": 7986229.74,
-      "price": 23.46
+      "quantity": 340811.0,
+      "market_value": 8043139.6,
+      "price": 23.6
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "identifier": "IQV",
+      "sector": "Health Care",
+      "pct_of_fund": 0.02,
+      "quantity": 30107.0,
+      "market_value": 8035558.3,
+      "price": 266.9
+    },
+    {
+      "ticker": "TWLO",
+      "name": "TWILIO CLASS A",
+      "identifier": "TWLO",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.02,
+      "quantity": 31682.0,
+      "market_value": 7742130.34,
+      "price": 244.37
     },
     {
       "ticker": "DXCM",
@@ -1888,19 +1888,9 @@
       "identifier": "DXCM",
       "sector": "Health Care",
       "pct_of_fund": 0.02,
-      "quantity": 89159.0,
-      "market_value": 7820135.89,
-      "price": 87.71
-    },
-    {
-      "ticker": "FIG",
-      "name": "FIGMA CLASS A",
-      "identifier": "FIG",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.02,
-      "quantity": 336549.0,
-      "market_value": 7737261.51,
-      "price": 22.99
+      "quantity": 89257.0,
+      "market_value": 7679672.28,
+      "price": 86.04
     },
     {
       "ticker": "MRK",
@@ -1908,9 +1898,9 @@
       "identifier": "MRK",
       "sector": "Health Care",
       "pct_of_fund": 0.02,
-      "quantity": 51950.0,
-      "market_value": 7542620.5,
-      "price": 145.19
+      "quantity": 52006.0,
+      "market_value": 7590275.7,
+      "price": 145.95
     },
     {
       "ticker": "DLTR",
@@ -1918,9 +1908,19 @@
       "identifier": "DLTR",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.02,
-      "quantity": 60487.0,
-      "market_value": 7525187.67,
-      "price": 124.41
+      "quantity": 60557.0,
+      "market_value": 7519968.26,
+      "price": 124.18
+    },
+    {
+      "ticker": "FIG",
+      "name": "FIGMA CLASS A",
+      "identifier": "FIG",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.02,
+      "quantity": 336927.0,
+      "market_value": 7240561.23,
+      "price": 21.49
     },
     {
       "ticker": "TER",
@@ -1928,9 +1928,9 @@
       "identifier": "TER",
       "sector": "Information Technology",
       "pct_of_fund": 0.02,
-      "quantity": 21657.0,
-      "market_value": 7432898.97,
-      "price": 343.21
+      "quantity": 21685.0,
+      "market_value": 7047625.0,
+      "price": 325.0
     },
     {
       "ticker": "ON",
@@ -1938,29 +1938,9 @@
       "identifier": "ON",
       "sector": "Information Technology",
       "pct_of_fund": 0.02,
-      "quantity": 96313.0,
-      "market_value": 7098268.1,
-      "price": 73.7
-    },
-    {
-      "ticker": "OKTA",
-      "name": "OKTA CLASS A",
-      "identifier": "OKTA",
-      "sector": "Information Technology",
-      "pct_of_fund": 0.02,
-      "quantity": 33415.0,
-      "market_value": 6967695.8,
-      "price": 208.52
-    },
-    {
-      "ticker": "ILMN",
-      "name": "ILLUMINA INC",
-      "identifier": "ILMN",
-      "sector": "Health Care",
-      "pct_of_fund": 0.02,
-      "quantity": 26008.0,
-      "market_value": 6968323.44,
-      "price": 267.93
+      "quantity": 96425.0,
+      "market_value": 6944528.5,
+      "price": 72.02
     },
     {
       "ticker": "DECK",
@@ -1968,9 +1948,19 @@
       "identifier": "DECK",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.02,
-      "quantity": 80310.0,
-      "market_value": 6953239.8,
-      "price": 86.58
+      "quantity": 80408.0,
+      "market_value": 6891769.68,
+      "price": 85.71
+    },
+    {
+      "ticker": "ILMN",
+      "name": "ILLUMINA INC",
+      "identifier": "ILMN",
+      "sector": "Health Care",
+      "pct_of_fund": 0.02,
+      "quantity": 26036.0,
+      "market_value": 6835491.44,
+      "price": 262.54
     },
     {
       "ticker": "ADSK",
@@ -1978,9 +1968,9 @@
       "identifier": "ADSK",
       "sector": "Information Technology",
       "pct_of_fund": 0.02,
-      "quantity": 28309.0,
-      "market_value": 6940234.44,
-      "price": 245.16
+      "quantity": 28337.0,
+      "market_value": 6798046.3,
+      "price": 239.9
     },
     {
       "ticker": "ABT",
@@ -1988,19 +1978,9 @@
       "identifier": "ABT",
       "sector": "Health Care",
       "pct_of_fund": 0.02,
-      "quantity": 64417.0,
-      "market_value": 6743171.56,
-      "price": 104.68
-    },
-    {
-      "ticker": "HUM",
-      "name": "HUMANA",
-      "identifier": "HUM",
-      "sector": "Health Care",
-      "pct_of_fund": 0.02,
-      "quantity": 15180.0,
-      "market_value": 6560796.0,
-      "price": 432.2
+      "quantity": 64487.0,
+      "market_value": 6764041.43,
+      "price": 104.89
     },
     {
       "ticker": "FDXF",
@@ -2008,9 +1988,9 @@
       "identifier": "FDXF",
       "sector": "Industrials",
       "pct_of_fund": 0.02,
-      "quantity": 59012.0,
-      "market_value": 6520826.0,
-      "price": 110.5
+      "quantity": 59082.0,
+      "market_value": 6688673.22,
+      "price": 113.21
     },
     {
       "ticker": "ALNY",
@@ -2018,19 +1998,39 @@
       "identifier": "ALNY",
       "sector": "Health Care",
       "pct_of_fund": 0.02,
-      "quantity": 27718.0,
-      "market_value": 6486843.54,
-      "price": 234.03
+      "quantity": 27746.0,
+      "market_value": 6432355.18,
+      "price": 231.83
     },
     {
       "ticker": "AA",
       "name": "ALCOA CORP",
       "identifier": "AA",
       "sector": "Materials",
+      "pct_of_fund": 0.02,
+      "quantity": 154483.0,
+      "market_value": 6403320.35,
+      "price": 41.45
+    },
+    {
+      "ticker": "HUM",
+      "name": "HUMANA",
+      "identifier": "HUM",
+      "sector": "Health Care",
       "pct_of_fund": 0.01,
-      "quantity": 154301.0,
-      "market_value": 6236846.42,
-      "price": 40.42
+      "quantity": 15194.0,
+      "market_value": 6277553.04,
+      "price": 413.16
+    },
+    {
+      "ticker": "OKTA",
+      "name": "OKTA CLASS A",
+      "identifier": "OKTA",
+      "sector": "Information Technology",
+      "pct_of_fund": 0.01,
+      "quantity": 33457.0,
+      "market_value": 6265157.82,
+      "price": 187.26
     },
     {
       "ticker": "THC",
@@ -2038,9 +2038,9 @@
       "identifier": "THC",
       "sector": "Health Care",
       "pct_of_fund": 0.01,
-      "quantity": 21590.0,
-      "market_value": 5940056.7,
-      "price": 275.13
+      "quantity": 21618.0,
+      "market_value": 5777410.5,
+      "price": 267.25
     },
     {
       "ticker": "ELV",
@@ -2048,9 +2048,9 @@
       "identifier": "ELV",
       "sector": "Health Care",
       "pct_of_fund": 0.01,
-      "quantity": 13394.0,
-      "market_value": 5738391.42,
-      "price": 428.43
+      "quantity": 13408.0,
+      "market_value": 5742110.08,
+      "price": 428.26
     },
     {
       "ticker": "CHRW",
@@ -2058,19 +2058,9 @@
       "identifier": "CHRW",
       "sector": "Industrials",
       "pct_of_fund": 0.01,
-      "quantity": 39611.0,
-      "market_value": 5696854.02,
-      "price": 143.82
-    },
-    {
-      "ticker": "UPS",
-      "name": "UNITED PARCEL SERVICE INC CLASS B",
-      "identifier": "UPS",
-      "sector": "Industrials",
-      "pct_of_fund": 0.01,
-      "quantity": 43636.0,
-      "market_value": 4268909.88,
-      "price": 97.83
+      "quantity": 39653.0,
+      "market_value": 5531196.97,
+      "price": 139.49
     },
     {
       "ticker": "NKE",
@@ -2078,9 +2068,19 @@
       "identifier": "NKE",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.01,
-      "quantity": 114564.0,
-      "market_value": 4254906.96,
-      "price": 37.14
+      "quantity": 114690.0,
+      "market_value": 4258439.7,
+      "price": 37.13
+    },
+    {
+      "ticker": "UPS",
+      "name": "UNITED PARCEL SERVICE INC CLASS B",
+      "identifier": "UPS",
+      "sector": "Industrials",
+      "pct_of_fund": 0.01,
+      "quantity": 43692.0,
+      "market_value": 4259096.16,
+      "price": 97.48
     },
     {
       "ticker": "KHC",
@@ -2088,9 +2088,9 @@
       "identifier": "KHC",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.01,
-      "quantity": 177073.0,
-      "market_value": 4122259.44,
-      "price": 23.28
+      "quantity": 177269.0,
+      "market_value": 4197729.92,
+      "price": 23.68
     },
     {
       "ticker": "ODFL",
@@ -2098,9 +2098,9 @@
       "identifier": "ODFL",
       "sector": "Industrials",
       "pct_of_fund": 0.01,
-      "quantity": 21740.0,
-      "market_value": 4106251.2,
-      "price": 188.88
+      "quantity": 21768.0,
+      "market_value": 4086288.96,
+      "price": 187.72
     },
     {
       "ticker": "CVNA",
@@ -2108,9 +2108,9 @@
       "identifier": "CVNA",
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.01,
-      "quantity": 60010.0,
-      "market_value": 3637806.2,
-      "price": 60.62
+      "quantity": 60080.0,
+      "market_value": 3534506.4,
+      "price": 58.83
     },
     {
       "ticker": "ALB",
@@ -2118,9 +2118,9 @@
       "identifier": "ALB",
       "sector": "Materials",
       "pct_of_fund": 0.01,
-      "quantity": 34523.0,
-      "market_value": 3389468.14,
-      "price": 98.18
+      "quantity": 34565.0,
+      "market_value": 3300266.2,
+      "price": 95.48
     },
     {
       "ticker": "CELH",
@@ -2128,9 +2128,9 @@
       "identifier": "CELH",
       "sector": "Consumer Staples",
       "pct_of_fund": 0.01,
-      "quantity": 85566.0,
-      "market_value": 2409538.56,
-      "price": 28.16
+      "quantity": 85664.0,
+      "market_value": 2414868.16,
+      "price": 28.19
     },
     {
       "ticker": "ADP",
@@ -2139,8 +2139,8 @@
       "sector": "Industrials",
       "pct_of_fund": 0.0,
       "quantity": 380.0,
-      "market_value": 108547.0,
-      "price": 285.65
+      "market_value": 109782.0,
+      "price": 288.9
     },
     {
       "ticker": "ROST",
@@ -2149,8 +2149,8 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 228.0,
-      "market_value": 53541.24,
-      "price": 234.83
+      "market_value": 54010.92,
+      "price": 236.89
     },
     {
       "ticker": "SRE",
@@ -2159,8 +2159,8 @@
       "sector": "Utilities",
       "pct_of_fund": 0.0,
       "quantity": 406.0,
-      "market_value": 33263.58,
-      "price": 81.93
+      "market_value": 33864.46,
+      "price": 83.41
     },
     {
       "ticker": "RNR",
@@ -2169,8 +2169,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 84.0,
-      "market_value": 28909.44,
-      "price": 344.16
+      "market_value": 29489.04,
+      "price": 351.06
     },
     {
       "ticker": "APG",
@@ -2179,8 +2179,8 @@
       "sector": "Industrials",
       "pct_of_fund": 0.0,
       "quantity": 480.0,
-      "market_value": 19358.4,
-      "price": 40.33
+      "market_value": 19272.0,
+      "price": 40.15
     },
     {
       "ticker": "MPC",
@@ -2189,8 +2189,8 @@
       "sector": "Energy",
       "pct_of_fund": 0.0,
       "quantity": 42.0,
-      "market_value": 20030.64,
-      "price": 476.92
+      "market_value": 20078.94,
+      "price": 478.07
     },
     {
       "ticker": "TIGO",
@@ -2199,8 +2199,8 @@
       "sector": "Communication",
       "pct_of_fund": 0.0,
       "quantity": 252.0,
-      "market_value": 20681.64,
-      "price": 82.07
+      "market_value": 20881.98,
+      "price": 82.86
     },
     {
       "ticker": "CF",
@@ -2209,8 +2209,8 @@
       "sector": "Materials",
       "pct_of_fund": 0.0,
       "quantity": 180.0,
-      "market_value": 21558.6,
-      "price": 119.77
+      "market_value": 21753.0,
+      "price": 120.85
     },
     {
       "ticker": "XEL",
@@ -2219,8 +2219,8 @@
       "sector": "Utilities",
       "pct_of_fund": 0.0,
       "quantity": 294.0,
-      "market_value": 22085.28,
-      "price": 75.12
+      "market_value": 22435.14,
+      "price": 76.31
     },
     {
       "ticker": "DINO",
@@ -2229,8 +2229,8 @@
       "sector": "Energy",
       "pct_of_fund": 0.0,
       "quantity": 144.0,
-      "market_value": 17956.8,
-      "price": 124.7
+      "market_value": 18041.76,
+      "price": 125.29
     },
     {
       "ticker": "INCY",
@@ -2239,8 +2239,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 96.0,
-      "market_value": 10873.92,
-      "price": 113.27
+      "market_value": 10854.72,
+      "price": 113.07
     },
     {
       "ticker": "IONS",
@@ -2249,18 +2249,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 264.0,
-      "market_value": 11647.68,
-      "price": 44.12
-    },
-    {
-      "ticker": "OXY",
-      "name": "OCCIDENTAL PETROLEUM CORP",
-      "identifier": "OXY",
-      "sector": "Energy",
-      "pct_of_fund": 0.0,
-      "quantity": 192.0,
-      "market_value": 11648.64,
-      "price": 60.67
+      "market_value": 11336.16,
+      "price": 42.94
     },
     {
       "ticker": "ORLY",
@@ -2269,8 +2259,8 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 132.0,
-      "market_value": 11682.0,
-      "price": 88.5
+      "market_value": 11783.64,
+      "price": 89.27
     },
     {
       "ticker": "EXEL",
@@ -2279,8 +2269,18 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 192.0,
-      "market_value": 12063.36,
-      "price": 62.83
+      "market_value": 11948.16,
+      "price": 62.23
+    },
+    {
+      "ticker": "OXY",
+      "name": "OCCIDENTAL PETROLEUM CORP",
+      "identifier": "OXY",
+      "sector": "Energy",
+      "pct_of_fund": 0.0,
+      "quantity": 192.0,
+      "market_value": 11976.96,
+      "price": 62.38
     },
     {
       "ticker": "PEN",
@@ -2289,8 +2289,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 42.0,
-      "market_value": 13490.4,
-      "price": 321.2
+      "market_value": 13476.12,
+      "price": 320.86
     },
     {
       "ticker": "AMG",
@@ -2299,8 +2299,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 36.0,
-      "market_value": 13789.44,
-      "price": 383.04
+      "market_value": 13815.36,
+      "price": 383.76
     },
     {
       "ticker": "EIX",
@@ -2309,8 +2309,8 @@
       "sector": "Utilities",
       "pct_of_fund": 0.0,
       "quantity": 256.0,
-      "market_value": 14246.4,
-      "price": 55.65
+      "market_value": 14318.08,
+      "price": 55.93
     },
     {
       "ticker": "DAR",
@@ -2319,8 +2319,8 @@
       "sector": "Consumer Staples",
       "pct_of_fund": 0.0,
       "quantity": 108.0,
-      "market_value": 6573.96,
-      "price": 60.87
+      "market_value": 6626.88,
+      "price": 61.36
     },
     {
       "ticker": "RBC",
@@ -2329,18 +2329,8 @@
       "sector": "Industrials",
       "pct_of_fund": 0.0,
       "quantity": 14.0,
-      "market_value": 6968.22,
-      "price": 497.73
-    },
-    {
-      "ticker": "ZBH",
-      "name": "ZIMMER BIOMET HOLDINGS",
-      "identifier": "ZBH",
-      "sector": "Health Care",
-      "pct_of_fund": 0.0,
-      "quantity": 80.0,
-      "market_value": 7550.4,
-      "price": 94.38
+      "market_value": 6979.28,
+      "price": 498.52
     },
     {
       "ticker": "JAZZ",
@@ -2349,8 +2339,18 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 36.0,
-      "market_value": 7719.12,
-      "price": 214.42
+      "market_value": 7568.28,
+      "price": 210.23
+    },
+    {
+      "ticker": "ZBH",
+      "name": "ZIMMER BIOMET HOLDINGS",
+      "identifier": "ZBH",
+      "sector": "Health Care",
+      "pct_of_fund": 0.0,
+      "quantity": 80.0,
+      "market_value": 7598.4,
+      "price": 94.98
     },
     {
       "ticker": "PCAR",
@@ -2359,8 +2359,8 @@
       "sector": "Industrials",
       "pct_of_fund": 0.0,
       "quantity": 70.0,
-      "market_value": 7756.7,
-      "price": 110.81
+      "market_value": 7757.4,
+      "price": 110.82
     },
     {
       "ticker": "LNG",
@@ -2369,8 +2369,8 @@
       "sector": "Energy",
       "pct_of_fund": 0.0,
       "quantity": 28.0,
-      "market_value": 7816.2,
-      "price": 279.15
+      "market_value": 8104.04,
+      "price": 289.43
     },
     {
       "ticker": "DGX",
@@ -2379,28 +2379,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 36.0,
-      "market_value": 8609.4,
-      "price": 239.15
-    },
-    {
-      "ticker": "OHI",
-      "name": "OMEGA HEALTHCARE INVESTORS REIT",
-      "identifier": "OHI",
-      "sector": "Real Estate",
-      "pct_of_fund": 0.0,
-      "quantity": 196.0,
-      "market_value": 8923.88,
-      "price": 45.53
-    },
-    {
-      "ticker": "WM",
-      "name": "WASTE MANAGEMENT INC",
-      "identifier": "WM",
-      "sector": "Industrials",
-      "pct_of_fund": 0.0,
-      "quantity": 40.0,
-      "market_value": 8967.6,
-      "price": 224.19
+      "market_value": 8460.0,
+      "price": 235.0
     },
     {
       "ticker": "UHS",
@@ -2409,18 +2389,18 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 48.0,
-      "market_value": 8993.28,
-      "price": 187.36
+      "market_value": 8884.8,
+      "price": 185.1
     },
     {
-      "ticker": "PNC",
-      "name": "PNC FINANCIAL SERVICES GROUP",
-      "identifier": "PNC",
-      "sector": "Financials",
+      "ticker": "OHI",
+      "name": "OMEGA HEALTHCARE INVESTORS REIT",
+      "identifier": "OHI",
+      "sector": "Real Estate",
       "pct_of_fund": 0.0,
-      "quantity": 42.0,
-      "market_value": 9027.48,
-      "price": 214.94
+      "quantity": 196.0,
+      "market_value": 8945.44,
+      "price": 45.64
     },
     {
       "ticker": "YUM",
@@ -2429,8 +2409,28 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 60.0,
-      "market_value": 9049.8,
-      "price": 150.83
+      "market_value": 9030.6,
+      "price": 150.51
+    },
+    {
+      "ticker": "WM",
+      "name": "WASTE MANAGEMENT INC",
+      "identifier": "WM",
+      "sector": "Industrials",
+      "pct_of_fund": 0.0,
+      "quantity": 40.0,
+      "market_value": 9074.4,
+      "price": 226.86
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC FINANCIAL SERVICES GROUP",
+      "identifier": "PNC",
+      "sector": "Financials",
+      "pct_of_fund": 0.0,
+      "quantity": 42.0,
+      "market_value": 9130.38,
+      "price": 217.39
     },
     {
       "ticker": "APA",
@@ -2439,18 +2439,8 @@
       "sector": "Energy",
       "pct_of_fund": 0.0,
       "quantity": 192.0,
-      "market_value": 9068.16,
-      "price": 47.23
-    },
-    {
-      "ticker": "HII",
-      "name": "HUNTINGTON INGALLS INDUSTRIES",
-      "identifier": "HII",
-      "sector": "Industrials",
-      "pct_of_fund": 0.0,
-      "quantity": 36.0,
-      "market_value": 9619.92,
-      "price": 267.22
+      "market_value": 9436.8,
+      "price": 49.15
     },
     {
       "ticker": "VIRT",
@@ -2459,18 +2449,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 168.0,
-      "market_value": 9644.88,
-      "price": 57.41
-    },
-    {
-      "ticker": "MO",
-      "name": "ALTRIA GROUP INC",
-      "identifier": "MO",
-      "sector": "Consumer Staples",
-      "pct_of_fund": 0.0,
-      "quantity": 132.0,
-      "market_value": 9746.88,
-      "price": 73.84
+      "market_value": 9549.12,
+      "price": 56.84
     },
     {
       "ticker": "LVS",
@@ -2479,8 +2459,28 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 256.0,
-      "market_value": 9809.92,
-      "price": 38.32
+      "market_value": 9730.56,
+      "price": 38.01
+    },
+    {
+      "ticker": "HII",
+      "name": "HUNTINGTON INGALLS INDUSTRIES",
+      "identifier": "HII",
+      "sector": "Industrials",
+      "pct_of_fund": 0.0,
+      "quantity": 36.0,
+      "market_value": 9792.0,
+      "price": 272.0
+    },
+    {
+      "ticker": "MO",
+      "name": "ALTRIA GROUP INC",
+      "identifier": "MO",
+      "sector": "Consumer Staples",
+      "pct_of_fund": 0.0,
+      "quantity": 132.0,
+      "market_value": 9914.52,
+      "price": 75.11
     },
     {
       "ticker": "MOH",
@@ -2489,8 +2489,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 48.0,
-      "market_value": 10200.0,
-      "price": 212.5
+      "market_value": 9953.28,
+      "price": 207.36
     },
     {
       "ticker": "M",
@@ -2499,8 +2499,8 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
-      "market_value": 2179.8,
-      "price": 24.22
+      "market_value": 2160.0,
+      "price": 24.0
     },
     {
       "ticker": "AXP",
@@ -2509,8 +2509,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 8.0,
-      "market_value": 2510.96,
-      "price": 313.87
+      "market_value": 2508.72,
+      "price": 313.59
     },
     {
       "ticker": "NRG",
@@ -2519,8 +2519,8 @@
       "sector": "Utilities",
       "pct_of_fund": 0.0,
       "quantity": 32.0,
-      "market_value": 3291.52,
-      "price": 102.86
+      "market_value": 3320.0,
+      "price": 103.75
     },
     {
       "ticker": "SOLS",
@@ -2529,8 +2529,8 @@
       "sector": "Materials",
       "pct_of_fund": 0.0,
       "quantity": 62.0,
-      "market_value": 3715.04,
-      "price": 59.92
+      "market_value": 3673.5,
+      "price": 59.25
     },
     {
       "ticker": "MNST",
@@ -2539,8 +2539,8 @@
       "sector": "Consumer Staples",
       "pct_of_fund": 0.0,
       "quantity": 96.0,
-      "market_value": 4352.64,
-      "price": 45.34
+      "market_value": 4390.08,
+      "price": 45.73
     },
     {
       "ticker": "MET",
@@ -2549,8 +2549,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 44.0,
-      "market_value": 4411.88,
-      "price": 100.27
+      "market_value": 4433.44,
+      "price": 100.76
     },
     {
       "ticker": "DVA",
@@ -2559,8 +2559,8 @@
       "sector": "Health Care",
       "pct_of_fund": 0.0,
       "quantity": 24.0,
-      "market_value": 4539.84,
-      "price": 189.16
+      "market_value": 4495.44,
+      "price": 187.31
     },
     {
       "ticker": "NU",
@@ -2569,8 +2569,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 315.0,
-      "market_value": 4639.95,
-      "price": 14.73
+      "market_value": 4586.4,
+      "price": 14.56
     },
     {
       "ticker": "RKT",
@@ -2579,18 +2579,8 @@
       "sector": "Financials",
       "pct_of_fund": 0.0,
       "quantity": 434.0,
-      "market_value": 4804.38,
-      "price": 11.07
-    },
-    {
-      "ticker": "KR",
-      "name": "KROGER",
-      "identifier": "KR",
-      "sector": "Consumer Staples",
-      "pct_of_fund": 0.0,
-      "quantity": 84.0,
-      "market_value": 5267.64,
-      "price": 62.71
+      "market_value": 4678.52,
+      "price": 10.78
     },
     {
       "ticker": "BURL",
@@ -2599,8 +2589,18 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 20.0,
-      "market_value": 5355.8,
-      "price": 267.79
+      "market_value": 5253.2,
+      "price": 262.66
+    },
+    {
+      "ticker": "KR",
+      "name": "KROGER",
+      "identifier": "KR",
+      "sector": "Consumer Staples",
+      "pct_of_fund": 0.0,
+      "quantity": 84.0,
+      "market_value": 5344.92,
+      "price": 63.63
     },
     {
       "ticker": "NTNX",
@@ -2609,8 +2609,8 @@
       "sector": "Information Technology",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
-      "market_value": 6298.2,
-      "price": 69.98
+      "market_value": 6024.6,
+      "price": 66.94
     },
     {
       "ticker": "MRP",
@@ -2619,8 +2619,8 @@
       "sector": "Real Estate",
       "pct_of_fund": 0.0,
       "quantity": 4.0,
-      "market_value": 88.88,
-      "price": 22.22
+      "market_value": 90.0,
+      "price": 22.5
     },
     {
       "ticker": "CPNG",
@@ -2629,8 +2629,8 @@
       "sector": "Consumer Discretionary",
       "pct_of_fund": 0.0,
       "quantity": 45.0,
-      "market_value": 665.55,
-      "price": 14.79
+      "market_value": 642.15,
+      "price": 14.27
     }
   ]
 }
