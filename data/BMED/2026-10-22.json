@@ -1,0 +1,596 @@
+{
+  "date": "2026-10-22",
+  "ticker": "BMED",
+  "holdings": [
+    {
+      "ticker": "MRNA",
+      "name": "MODERNA",
+      "identifier": "MRNA",
+      "sector": "Health Care",
+      "pct_of_fund": 6.0,
+      "quantity": 3476.0,
+      "market_value": 854435.56,
+      "price": 245.81
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "identifier": "XTSLA",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 5.97,
+      "quantity": 850000.0,
+      "market_value": 850000.0,
+      "price": 1.0
+    },
+    {
+      "ticker": "GILD",
+      "name": "GILEAD SCIENCES",
+      "identifier": "GILD",
+      "sector": "Health Care",
+      "pct_of_fund": 5.43,
+      "quantity": 5033.0,
+      "market_value": 772917.81,
+      "price": 153.57
+    },
+    {
+      "ticker": "DHR",
+      "name": "DANAHER",
+      "identifier": "DHR",
+      "sector": "Health Care",
+      "pct_of_fund": 5.31,
+      "quantity": 3232.0,
+      "market_value": 755835.52,
+      "price": 233.86
+    },
+    {
+      "ticker": "ABBV",
+      "name": "ABBVIE",
+      "identifier": "ABBV",
+      "sector": "Health Care",
+      "pct_of_fund": 4.86,
+      "quantity": 2431.0,
+      "market_value": 692348.8,
+      "price": 284.8
+    },
+    {
+      "ticker": "TMO",
+      "name": "THERMO FISHER SCIENTIFIC",
+      "identifier": "TMO",
+      "sector": "Health Care",
+      "pct_of_fund": 4.39,
+      "quantity": 902.0,
+      "market_value": 626006.04,
+      "price": 694.02
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "identifier": "IQV",
+      "sector": "Health Care",
+      "pct_of_fund": 3.73,
+      "quantity": 1923.0,
+      "market_value": 531959.49,
+      "price": 276.63
+    },
+    {
+      "ticker": "BIIB",
+      "name": "BIOGEN",
+      "identifier": "BIIB",
+      "sector": "Health Care",
+      "pct_of_fund": 3.64,
+      "quantity": 2150.0,
+      "market_value": 518107.0,
+      "price": 240.98
+    },
+    {
+      "ticker": "MTD",
+      "name": "METTLER TOLEDO",
+      "identifier": "MTD",
+      "sector": "Health Care",
+      "pct_of_fund": 3.58,
+      "quantity": 304.0,
+      "market_value": 510093.76,
+      "price": 1677.94
+    },
+    {
+      "ticker": "VRTX",
+      "name": "VERTEX PHARMACEUTICALS",
+      "identifier": "VRTX",
+      "sector": "Health Care",
+      "pct_of_fund": 3.26,
+      "quantity": 884.0,
+      "market_value": 463675.68,
+      "price": 524.52
+    },
+    {
+      "ticker": "MRK",
+      "name": "MERCK & CO INC",
+      "identifier": "MRK",
+      "sector": "Health Care",
+      "pct_of_fund": 3.1,
+      "quantity": 2943.0,
+      "market_value": 441096.84,
+      "price": 149.88
+    },
+    {
+      "ticker": "EW",
+      "name": "EDWARDS LIFESCIENCES",
+      "identifier": "EW",
+      "sector": "Health Care",
+      "pct_of_fund": 2.94,
+      "quantity": 4736.0,
+      "market_value": 418662.4,
+      "price": 88.4
+    },
+    {
+      "ticker": "ROP",
+      "name": "ROCHE PS PAR AG",
+      "identifier": "ROP",
+      "sector": "Health Care",
+      "pct_of_fund": 2.84,
+      "quantity": 853.0,
+      "market_value": 405083.29,
+      "price": 474.89
+    },
+    {
+      "ticker": "AMGN",
+      "name": "AMGEN INC",
+      "identifier": "AMGN",
+      "sector": "Health Care",
+      "pct_of_fund": 2.47,
+      "quantity": 802.0,
+      "market_value": 351548.68,
+      "price": 438.34
+    },
+    {
+      "ticker": "A",
+      "name": "AGILENT TECHNOLOGIES INC",
+      "identifier": "A",
+      "sector": "Health Care",
+      "pct_of_fund": 2.46,
+      "quantity": 1973.0,
+      "market_value": 350700.75,
+      "price": 177.75
+    },
+    {
+      "ticker": "WAT",
+      "name": "WATERS CORP",
+      "identifier": "WAT",
+      "sector": "Health Care",
+      "pct_of_fund": 2.28,
+      "quantity": 710.0,
+      "market_value": 324803.7,
+      "price": 457.47
+    },
+    {
+      "ticker": "HALO",
+      "name": "HALOZYME THERAPEUTICS",
+      "identifier": "HALO",
+      "sector": "Health Care",
+      "pct_of_fund": 2.22,
+      "quantity": 2531.0,
+      "market_value": 315944.73,
+      "price": 124.83
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DEXCOM INC",
+      "identifier": "DXCM",
+      "sector": "Health Care",
+      "pct_of_fund": 2.19,
+      "quantity": 3881.0,
+      "market_value": 311489.06,
+      "price": 80.26
+    },
+    {
+      "ticker": "GMAB",
+      "name": "GENMAB SPONSORED ADR",
+      "identifier": "GMAB",
+      "sector": "Health Care",
+      "pct_of_fund": 2.01,
+      "quantity": 7231.0,
+      "market_value": 286130.67,
+      "price": 39.57
+    },
+    {
+      "ticker": "ILMN",
+      "name": "ILLUMINA INC",
+      "identifier": "ILMN",
+      "sector": "Health Care",
+      "pct_of_fund": 1.98,
+      "quantity": 995.0,
+      "market_value": 281445.7,
+      "price": 282.86
+    },
+    {
+      "ticker": "ARGX",
+      "name": "ARGENX SE ADR",
+      "identifier": "ARGX",
+      "sector": "Health Care",
+      "pct_of_fund": 1.73,
+      "quantity": 277.0,
+      "market_value": 246543.85,
+      "price": 890.05
+    },
+    {
+      "ticker": "CRL",
+      "name": "CHARLES RIVER LABORATORIES INTERNA",
+      "identifier": "CRL",
+      "sector": "Health Care",
+      "pct_of_fund": 1.67,
+      "quantity": 689.0,
+      "market_value": 237615.43,
+      "price": 344.87
+    },
+    {
+      "ticker": "PFE",
+      "name": "PFIZER",
+      "identifier": "PFE",
+      "sector": "Health Care",
+      "pct_of_fund": 1.54,
+      "quantity": 7359.0,
+      "market_value": 219666.15,
+      "price": 29.85
+    },
+    {
+      "ticker": "TEVA",
+      "name": "TEVA PHARMACEUTICAL INDUSTRIES",
+      "identifier": "TEVA",
+      "sector": "Health Care",
+      "pct_of_fund": 1.4,
+      "quantity": 4924.0,
+      "market_value": 200012.88,
+      "price": 40.62
+    },
+    {
+      "ticker": "NBIX",
+      "name": "NEUROCRINE BIOSCIENCES",
+      "identifier": "NBIX",
+      "sector": "Health Care",
+      "pct_of_fund": 1.37,
+      "quantity": 1382.0,
+      "market_value": 195290.42,
+      "price": 141.31
+    },
+    {
+      "ticker": "GH",
+      "name": "GUARDANT HEALTH",
+      "identifier": "GH",
+      "sector": "Health Care",
+      "pct_of_fund": 1.36,
+      "quantity": 1166.0,
+      "market_value": 194325.56,
+      "price": 166.66
+    },
+    {
+      "ticker": "ROIV",
+      "name": "ROIVANT SCIENCES LTD",
+      "identifier": "ROIV",
+      "sector": "Health Care",
+      "pct_of_fund": 1.34,
+      "quantity": 5171.0,
+      "market_value": 190292.8,
+      "price": 36.8
+    },
+    {
+      "ticker": "GALD",
+      "name": "GALDERMA GROUP N AG",
+      "identifier": "GALD",
+      "sector": "Health Care",
+      "pct_of_fund": 1.33,
+      "quantity": 896.0,
+      "market_value": 189142.89,
+      "price": 211.1
+    },
+    {
+      "ticker": "BMY",
+      "name": "BRISTOL MYERS SQUIBB",
+      "identifier": "BMY",
+      "sector": "Health Care",
+      "pct_of_fund": 1.31,
+      "quantity": 3058.0,
+      "market_value": 186904.96,
+      "price": 61.12
+    },
+    {
+      "ticker": "CYTK",
+      "name": "CYTOKINETICS",
+      "identifier": "CYTK",
+      "sector": "Health Care",
+      "pct_of_fund": 1.27,
+      "quantity": 2888.0,
+      "market_value": 181539.68,
+      "price": 62.86
+    },
+    {
+      "ticker": "NOVN",
+      "name": "NOVARTIS AG",
+      "identifier": "NOVN",
+      "sector": "Health Care",
+      "pct_of_fund": 1.26,
+      "quantity": 1171.0,
+      "market_value": 179994.52,
+      "price": 153.71
+    },
+    {
+      "ticker": "ABT",
+      "name": "ABBOTT LABORATORIES",
+      "identifier": "ABT",
+      "sector": "Health Care",
+      "pct_of_fund": 1.23,
+      "quantity": 1746.0,
+      "market_value": 175490.46,
+      "price": 100.51
+    },
+    {
+      "ticker": "JNJ",
+      "name": "JOHNSON & JOHNSON",
+      "identifier": "JNJ",
+      "sector": "Health Care",
+      "pct_of_fund": 1.18,
+      "quantity": 650.0,
+      "market_value": 167557.0,
+      "price": 257.78
+    },
+    {
+      "ticker": "COR",
+      "name": "CENCORA",
+      "identifier": "COR",
+      "sector": "Health Care",
+      "pct_of_fund": 1.0,
+      "quantity": 419.0,
+      "market_value": 142640.17,
+      "price": 340.43
+    },
+    {
+      "ticker": "BMRN",
+      "name": "BIOMARIN PHARMACEUTICAL",
+      "identifier": "BMRN",
+      "sector": "Health Care",
+      "pct_of_fund": 0.98,
+      "quantity": 2533.0,
+      "market_value": 139846.93,
+      "price": 55.21
+    },
+    {
+      "ticker": "PTGX",
+      "name": "PROTAGONIST THERAPEUTICS",
+      "identifier": "PTGX",
+      "sector": "Health Care",
+      "pct_of_fund": 0.84,
+      "quantity": 866.0,
+      "market_value": 119577.28,
+      "price": 138.08
+    },
+    {
+      "ticker": "TEM",
+      "name": "TEMPUS AI CLASS A",
+      "identifier": "TEM",
+      "sector": "Health Care",
+      "pct_of_fund": 0.83,
+      "quantity": 1749.0,
+      "market_value": 118512.24,
+      "price": 67.76
+    },
+    {
+      "ticker": "AXSM",
+      "name": "AXSOME THERAPEUTICS",
+      "identifier": "AXSM",
+      "sector": "Health Care",
+      "pct_of_fund": 0.79,
+      "quantity": 721.0,
+      "market_value": 112699.51,
+      "price": 156.31
+    },
+    {
+      "ticker": "BRKR",
+      "name": "BRUKER",
+      "identifier": "BRKR",
+      "sector": "Health Care",
+      "pct_of_fund": 0.68,
+      "quantity": 1648.0,
+      "market_value": 97405.04,
+      "price": 59.1
+    },
+    {
+      "ticker": "UCB",
+      "name": "UCB SA",
+      "identifier": "UCB",
+      "sector": "Health Care",
+      "pct_of_fund": 0.62,
+      "quantity": 370.0,
+      "market_value": 88456.34,
+      "price": 239.07
+    },
+    {
+      "ticker": "ALKS",
+      "name": "ALKERMES",
+      "identifier": "ALKS",
+      "sector": "Health Care",
+      "pct_of_fund": 0.58,
+      "quantity": 1902.0,
+      "market_value": 82698.96,
+      "price": 43.48
+    },
+    {
+      "ticker": "RVMD",
+      "name": "REVOLUTION MEDICINES",
+      "identifier": "RVMD",
+      "sector": "Health Care",
+      "pct_of_fund": 0.57,
+      "quantity": 416.0,
+      "market_value": 80820.48,
+      "price": 194.28
+    },
+    {
+      "ticker": "PTCT",
+      "name": "PTC THERAPEUTICS",
+      "identifier": "PTCT",
+      "sector": "Health Care",
+      "pct_of_fund": 0.44,
+      "quantity": 1001.0,
+      "market_value": 62682.62,
+      "price": 62.62
+    },
+    {
+      "ticker": "MBX",
+      "name": "MBX BIOSCIENCES",
+      "identifier": "MBX",
+      "sector": "Health Care",
+      "pct_of_fund": 0.42,
+      "quantity": 1103.0,
+      "market_value": 59484.79,
+      "price": 53.93
+    },
+    {
+      "ticker": "COGT",
+      "name": "COGENT BIOSCIENCES",
+      "identifier": "COGT",
+      "sector": "Health Care",
+      "pct_of_fund": 0.4,
+      "quantity": 1813.0,
+      "market_value": 56982.59,
+      "price": 31.43
+    },
+    {
+      "ticker": "DNTH",
+      "name": "DIANTHUS THERAPEUTICS",
+      "identifier": "DNTH",
+      "sector": "Health Care",
+      "pct_of_fund": 0.4,
+      "quantity": 723.0,
+      "market_value": 56466.3,
+      "price": 78.1
+    },
+    {
+      "ticker": "VRDN",
+      "name": "VIRIDIAN THERAPEUTICS ORS",
+      "identifier": "VRDN",
+      "sector": "Health Care",
+      "pct_of_fund": 0.33,
+      "quantity": 2025.0,
+      "market_value": 46595.25,
+      "price": 23.01
+    },
+    {
+      "ticker": "SGMT",
+      "name": "SAGIMET BIOSCIENCES SERIES A",
+      "identifier": "SGMT",
+      "sector": "Health Care",
+      "pct_of_fund": 0.13,
+      "quantity": 1875.0,
+      "market_value": 18731.25,
+      "price": 9.99
+    },
+    {
+      "ticker": "SMMT",
+      "name": "SUMMIT THERAPEUTICS",
+      "identifier": "SMMT",
+      "sector": "Health Care",
+      "pct_of_fund": 0.08,
+      "quantity": 706.0,
+      "market_value": 11175.98,
+      "price": 15.83
+    },
+    {
+      "ticker": "EIKN",
+      "name": "EIKON THERAPEUTICS",
+      "identifier": "EIKN",
+      "sector": "Health Care",
+      "pct_of_fund": 0.08,
+      "quantity": 1392.0,
+      "market_value": 11136.0,
+      "price": 8.0
+    },
+    {
+      "ticker": "AVTX",
+      "name": "AVALO THERAPEUTICS",
+      "identifier": "AVTX",
+      "sector": "Health Care",
+      "pct_of_fund": 0.07,
+      "quantity": 867.0,
+      "market_value": 10629.42,
+      "price": 12.26
+    },
+    {
+      "ticker": "MRTX",
+      "name": "MIRATI THERAPEUTICS INC",
+      "identifier": "MRTX",
+      "sector": "Health Care",
+      "pct_of_fund": 0.0,
+      "quantity": 334.0,
+      "market_value": 260.52,
+      "price": 0.78
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 127.0,
+      "market_value": 170.57,
+      "price": 133.84
+    },
+    {
+      "ticker": "DUMMY",
+      "name": "VIGIL NEUROSCIENCE INC CVR",
+      "identifier": "DUMMY",
+      "sector": "Health Care",
+      "pct_of_fund": 0.0,
+      "quantity": 484.0,
+      "market_value": 24.2,
+      "price": 0.05
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD CASH",
+      "identifier": "HKD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 150.0,
+      "market_value": 19.06,
+      "price": 12.74
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "identifier": "KRW",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 9.0,
+      "market_value": 0.01,
+      "price": 0.08
+    },
+    {
+      "ticker": "KRRBIO",
+      "name": "KORRO BIO INC CVR",
+      "identifier": "KRRBIO",
+      "sector": "Health Care",
+      "pct_of_fund": 0.0,
+      "quantity": 420.0,
+      "market_value": 0.0,
+      "price": 0.0
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 5408.0,
+      "market_value": -6.08,
+      "price": 1.0
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "identifier": "USD",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": -0.15,
+      "quantity": -21713.0,
+      "market_value": -21712.87,
+      "price": 100.0
+    }
+  ]
+}
