@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "ticker": "BILT",
   "holdings": [
     {
@@ -7,30 +7,30 @@
       "name": "AENA SME SA",
       "identifier": "AENA",
       "sector": "Industrials",
-      "pct_of_fund": 5.76,
+      "pct_of_fund": 5.78,
       "quantity": 217040.0,
-      "market_value": 6900757.28,
-      "price": 31.79
+      "market_value": 6841293.53,
+      "price": 31.52
     },
     {
       "ticker": "UNP",
       "name": "UNION PACIFIC",
       "identifier": "UNP",
       "sector": "Industrials",
-      "pct_of_fund": 5.68,
+      "pct_of_fund": 5.59,
       "quantity": 22812.0,
-      "market_value": 6796835.4,
-      "price": 297.95
+      "market_value": 6619129.92,
+      "price": 290.16
     },
     {
       "ticker": "AEP",
       "name": "AMERICAN ELECTRIC POWER INC",
       "identifier": "AEP",
       "sector": "Utilities",
-      "pct_of_fund": 4.82,
+      "pct_of_fund": 4.86,
       "quantity": 45512.0,
-      "market_value": 5769556.24,
-      "price": 126.77
+      "market_value": 5758633.36,
+      "price": 126.53
     },
     {
       "ticker": "TRP",
@@ -39,128 +39,128 @@
       "sector": "Energy",
       "pct_of_fund": 4.67,
       "quantity": 89151.0,
-      "market_value": 5588142.28,
-      "price": 62.68
+      "market_value": 5532311.5,
+      "price": 62.06
     },
     {
       "ticker": "ETR",
       "name": "ENTERGY CORP",
       "identifier": "ETR",
       "sector": "Utilities",
-      "pct_of_fund": 3.92,
+      "pct_of_fund": 3.98,
       "quantity": 42600.0,
-      "market_value": 4698780.0,
-      "price": 110.3
+      "market_value": 4709430.0,
+      "price": 110.55
     },
     {
       "ticker": "XEL",
       "name": "XCEL ENERGY INC",
       "identifier": "XEL",
       "sector": "Utilities",
-      "pct_of_fund": 3.73,
+      "pct_of_fund": 3.74,
       "quantity": 55606.0,
-      "market_value": 4469054.22,
-      "price": 80.37
+      "market_value": 4430130.02,
+      "price": 79.67
     },
     {
       "ticker": "PPL",
       "name": "PPL CORP",
       "identifier": "PPL",
       "sector": "Utilities",
-      "pct_of_fund": 3.4,
+      "pct_of_fund": 3.42,
       "quantity": 112944.0,
-      "market_value": 4065984.0,
-      "price": 36.0
+      "market_value": 4043395.2,
+      "price": 35.8
     },
     {
       "ticker": "CP",
       "name": "CANADIAN PACIFIC KANSAS CITY",
       "identifier": "CP",
       "sector": "Industrials",
-      "pct_of_fund": 3.33,
+      "pct_of_fund": 3.3,
       "quantity": 42435.0,
-      "market_value": 3983483.48,
-      "price": 93.87
-    },
-    {
-      "ticker": "NEE",
-      "name": "NEXTERA ENERGY",
-      "identifier": "NEE",
-      "sector": "Utilities",
-      "pct_of_fund": 3.01,
-      "quantity": 40876.0,
-      "market_value": 3607307.0,
-      "price": 88.25
+      "market_value": 3910573.23,
+      "price": 92.15
     },
     {
       "ticker": "WMB",
       "name": "WILLIAMS",
       "identifier": "WMB",
       "sector": "Energy",
-      "pct_of_fund": 2.97,
-      "quantity": 55314.0,
-      "market_value": 3553924.5,
-      "price": 64.25
+      "pct_of_fund": 3.15,
+      "quantity": 58218.0,
+      "market_value": 3730609.44,
+      "price": 64.08
     },
     {
-      "ticker": "D",
-      "name": "DOMINION ENERGY",
-      "identifier": "D",
+      "ticker": "NEE",
+      "name": "NEXTERA ENERGY",
+      "identifier": "NEE",
       "sector": "Utilities",
-      "pct_of_fund": 2.92,
-      "quantity": 50264.0,
-      "market_value": 3500384.96,
-      "price": 69.64
+      "pct_of_fund": 3.0,
+      "quantity": 40876.0,
+      "market_value": 3554168.2,
+      "price": 86.95
     },
     {
       "ticker": "TCL",
       "name": "TRANSURBAN GROUP STAPLED UNITS",
       "identifier": "TCL",
       "sector": "Industrials",
-      "pct_of_fund": 2.92,
+      "pct_of_fund": 2.95,
       "quantity": 348157.0,
-      "market_value": 3496387.04,
-      "price": 10.04
+      "market_value": 3493609.27,
+      "price": 10.03
+    },
+    {
+      "ticker": "D",
+      "name": "DOMINION ENERGY",
+      "identifier": "D",
+      "sector": "Utilities",
+      "pct_of_fund": 2.91,
+      "quantity": 50264.0,
+      "market_value": 3448110.4,
+      "price": 68.6
     },
     {
       "ticker": "SRE",
       "name": "SEMPRA",
       "identifier": "SRE",
       "sector": "Utilities",
-      "pct_of_fund": 2.6,
+      "pct_of_fund": 2.58,
       "quantity": 39024.0,
-      "market_value": 3115285.92,
-      "price": 79.83
-    },
-    {
-      "ticker": "CCI",
-      "name": "CROWN CASTLE INC",
-      "identifier": "CCI",
-      "sector": "Real Estate",
-      "pct_of_fund": 2.49,
-      "quantity": 32807.0,
-      "market_value": 2983796.65,
-      "price": 90.95
+      "market_value": 3050506.08,
+      "price": 78.17
     },
     {
       "ticker": "TRGP",
       "name": "TARGA RESOURCES",
       "identifier": "TRGP",
       "sector": "Energy",
-      "pct_of_fund": 2.41,
-      "quantity": 10622.0,
-      "market_value": 2887272.04,
-      "price": 271.82
+      "pct_of_fund": 2.54,
+      "quantity": 11358.0,
+      "market_value": 3005213.22,
+      "price": 264.59
+    },
+    {
+      "ticker": "CCI",
+      "name": "CROWN CASTLE INC",
+      "identifier": "CCI",
+      "sector": "Real Estate",
+      "pct_of_fund": 2.46,
+      "quantity": 32807.0,
+      "market_value": 2906700.2,
+      "price": 88.6
     },
     {
       "ticker": "NI",
       "name": "NISOURCE",
       "identifier": "NI",
       "sector": "Utilities",
-      "pct_of_fund": 2.32,
+      "pct_of_fund": 2.33,
       "quantity": 62407.0,
-      "market_value": 2773367.08,
-      "price": 44.44
+      "market_value": 2755269.05,
+      "price": 44.15
     },
     {
       "ticker": "LNT",
@@ -169,58 +169,58 @@
       "sector": "Utilities",
       "pct_of_fund": 2.31,
       "quantity": 37612.0,
-      "market_value": 2762225.28,
-      "price": 73.44
+      "market_value": 2733264.04,
+      "price": 72.67
     },
     {
       "ticker": "EVRG",
       "name": "EVERGY",
       "identifier": "EVRG",
       "sector": "Utilities",
-      "pct_of_fund": 2.19,
+      "pct_of_fund": 2.22,
       "quantity": 29963.0,
-      "market_value": 2619065.83,
-      "price": 87.41
+      "market_value": 2622961.02,
+      "price": 87.54
     },
     {
       "ticker": "NG.",
       "name": "NATIONAL GRID PLC",
       "identifier": "NG.",
       "sector": "Utilities",
-      "pct_of_fund": 1.97,
+      "pct_of_fund": 1.92,
       "quantity": 136397.0,
-      "market_value": 2362947.19,
-      "price": 17.32
+      "market_value": 2277089.2,
+      "price": 16.69
     },
     {
       "ticker": "HTO",
       "name": "H2O AMERICA",
       "identifier": "HTO",
       "sector": "Utilities",
-      "pct_of_fund": 1.86,
+      "pct_of_fund": 1.89,
       "quantity": 35532.0,
-      "market_value": 2225369.16,
-      "price": 62.63
+      "market_value": 2236739.4,
+      "price": 62.95
     },
     {
       "ticker": "AIA",
       "name": "AUCKLAND INTERNATIONAL AIRPORT",
       "identifier": "AIA",
       "sector": "Industrials",
-      "pct_of_fund": 1.76,
+      "pct_of_fund": 1.77,
       "quantity": 430283.0,
-      "market_value": 2110301.89,
-      "price": 4.9
+      "market_value": 2096537.14,
+      "price": 4.87
     },
     {
       "ticker": "PCG",
       "name": "PG&E CORP",
       "identifier": "PCG",
       "sector": "Utilities",
-      "pct_of_fund": 1.64,
+      "pct_of_fund": 1.63,
       "quantity": 148520.0,
-      "market_value": 1964919.6,
-      "price": 13.23
+      "market_value": 1926304.4,
+      "price": 12.97
     },
     {
       "ticker": "SSE",
@@ -229,18 +229,18 @@
       "sector": "Utilities",
       "pct_of_fund": 1.54,
       "quantity": 51426.0,
-      "market_value": 1837948.68,
-      "price": 35.74
+      "market_value": 1820135.28,
+      "price": 35.39
     },
     {
       "ticker": "DTM",
       "name": "DT MIDSTREAM",
       "identifier": "DTM",
       "sector": "Energy",
-      "pct_of_fund": 1.48,
+      "pct_of_fund": 1.51,
       "quantity": 15710.0,
-      "market_value": 1773344.8,
-      "price": 112.88
+      "market_value": 1785598.6,
+      "price": 113.66
     },
     {
       "ticker": "SR",
@@ -249,78 +249,68 @@
       "sector": "Utilities",
       "pct_of_fund": 1.42,
       "quantity": 18987.0,
-      "market_value": 1694399.88,
-      "price": 89.24
-    },
-    {
-      "ticker": "DUK",
-      "name": "DUKE ENERGY CORP",
-      "identifier": "DUK",
-      "sector": "Utilities",
-      "pct_of_fund": 1.35,
-      "quantity": 12407.0,
-      "market_value": 1613902.56,
-      "price": 130.08
-    },
-    {
-      "ticker": "FRA",
-      "name": "FRAPORT AG",
-      "identifier": "FRA",
-      "sector": "Industrials",
-      "pct_of_fund": 1.3,
-      "quantity": 20374.0,
-      "market_value": 1556568.2,
-      "price": 76.4
-    },
-    {
-      "ticker": "XTSLA",
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "identifier": "XTSLA",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 1.25,
-      "quantity": 1500000.0,
-      "market_value": 1500000.0,
-      "price": 1.0
+      "market_value": 1686235.47,
+      "price": 88.81
     },
     {
       "ticker": "SEI",
       "name": "SOLARIS ENERGY INFRASTRUCTURE INC",
       "identifier": "SEI",
       "sector": "Energy",
-      "pct_of_fund": 1.2,
+      "pct_of_fund": 1.39,
       "quantity": 28538.0,
-      "market_value": 1442595.9,
-      "price": 50.55
+      "market_value": 1648640.26,
+      "price": 57.77
+    },
+    {
+      "ticker": "DUK",
+      "name": "DUKE ENERGY CORP",
+      "identifier": "DUK",
+      "sector": "Utilities",
+      "pct_of_fund": 1.34,
+      "quantity": 12407.0,
+      "market_value": 1585366.46,
+      "price": 127.78
+    },
+    {
+      "ticker": "FRA",
+      "name": "FRAPORT AG",
+      "identifier": "FRA",
+      "sector": "Industrials",
+      "pct_of_fund": 1.31,
+      "quantity": 20374.0,
+      "market_value": 1553286.05,
+      "price": 76.24
+    },
+    {
+      "ticker": "ADP",
+      "name": "AEROPORTS DE PARIS SA",
+      "identifier": "ADP",
+      "sector": "Industrials",
+      "pct_of_fund": 1.11,
+      "quantity": 10104.0,
+      "market_value": 1318770.64,
+      "price": 130.52
     },
     {
       "ticker": "CSX",
       "name": "CSX",
       "identifier": "CSX",
       "sector": "Industrials",
-      "pct_of_fund": 1.12,
+      "pct_of_fund": 1.09,
       "quantity": 26320.0,
-      "market_value": 1337845.6,
-      "price": 50.83
+      "market_value": 1292838.4,
+      "price": 49.12
     },
     {
-      "ticker": "LNG",
-      "name": "CHENIERE ENERGY",
-      "identifier": "LNG",
+      "ticker": "KEY",
+      "name": "KEYERA",
+      "identifier": "KEY",
       "sector": "Energy",
-      "pct_of_fund": 1.07,
-      "quantity": 4561.0,
-      "market_value": 1275118.77,
-      "price": 279.57
-    },
-    {
-      "ticker": "SBAC",
-      "name": "SBA COMMUNICATIONS REIT CORP CLASS",
-      "identifier": "SBAC",
-      "sector": "Real Estate",
-      "pct_of_fund": 0.98,
-      "quantity": 6069.0,
-      "market_value": 1171802.52,
-      "price": 193.08
+      "pct_of_fund": 1.0,
+      "quantity": 32894.0,
+      "market_value": 1182257.5,
+      "price": 35.94
     },
     {
       "ticker": "RENE",
@@ -329,8 +319,18 @@
       "sector": "Utilities",
       "pct_of_fund": 0.97,
       "quantity": 285116.0,
-      "market_value": 1163562.53,
-      "price": 4.08
+      "market_value": 1151989.81,
+      "price": 4.04
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA COMMUNICATIONS REIT CORP CLASS",
+      "identifier": "SBAC",
+      "sector": "Real Estate",
+      "pct_of_fund": 0.97,
+      "quantity": 6069.0,
+      "market_value": 1149589.98,
+      "price": 189.42
     },
     {
       "ticker": "DBI",
@@ -339,48 +339,28 @@
       "sector": "Industrials",
       "pct_of_fund": 0.97,
       "quantity": 297398.0,
-      "market_value": 1161124.91,
-      "price": 3.9
-    },
-    {
-      "ticker": "KEY",
-      "name": "KEYERA",
-      "identifier": "KEY",
-      "sector": "Energy",
-      "pct_of_fund": 0.96,
-      "quantity": 31619.0,
-      "market_value": 1154773.01,
-      "price": 36.52
+      "market_value": 1144649.21,
+      "price": 3.85
     },
     {
       "ticker": "NSC",
       "name": "NORFOLK SOUTHERN CORP",
       "identifier": "NSC",
       "sector": "Industrials",
-      "pct_of_fund": 0.91,
+      "pct_of_fund": 0.89,
       "quantity": 3293.0,
-      "market_value": 1084220.25,
-      "price": 329.25
+      "market_value": 1053562.42,
+      "price": 319.94
     },
     {
       "ticker": "AQN",
       "name": "ALGONQUIN POWER UTILITIES",
       "identifier": "AQN",
       "sector": "Utilities",
-      "pct_of_fund": 0.9,
+      "pct_of_fund": 0.89,
       "quantity": 190435.0,
-      "market_value": 1072298.26,
-      "price": 5.63
-    },
-    {
-      "ticker": "ADP",
-      "name": "AEROPORTS DE PARIS SA",
-      "identifier": "ADP",
-      "sector": "Industrials",
-      "pct_of_fund": 0.87,
-      "quantity": 7875.0,
-      "market_value": 1041500.72,
-      "price": 132.25
+      "market_value": 1053208.78,
+      "price": 5.53
     },
     {
       "ticker": "ALX",
@@ -389,8 +369,8 @@
       "sector": "Industrials",
       "pct_of_fund": 0.86,
       "quantity": 392908.0,
-      "market_value": 1028150.65,
-      "price": 2.62
+      "market_value": 1012671.26,
+      "price": 2.58
     },
     {
       "ticker": "ENAV",
@@ -399,18 +379,18 @@
       "sector": "Industrials",
       "pct_of_fund": 0.82,
       "quantity": 165014.0,
-      "market_value": 978179.23,
-      "price": 5.93
+      "market_value": 967443.42,
+      "price": 5.86
     },
     {
       "ticker": "EOAN",
       "name": "E.ON N",
       "identifier": "EOAN",
       "sector": "Utilities",
-      "pct_of_fund": 0.8,
+      "pct_of_fund": 0.79,
       "quantity": 44117.0,
-      "market_value": 956922.61,
-      "price": 21.69
+      "market_value": 938463.04,
+      "price": 21.27
     },
     {
       "ticker": "FGP",
@@ -419,28 +399,38 @@
       "sector": "Industrials",
       "pct_of_fund": 0.79,
       "quantity": 300975.0,
-      "market_value": 945068.87,
-      "price": 3.14
+      "market_value": 934556.39,
+      "price": 3.11
+    },
+    {
+      "ticker": "LNG",
+      "name": "CHENIERE ENERGY",
+      "identifier": "LNG",
+      "sector": "Energy",
+      "pct_of_fund": 0.74,
+      "quantity": 3173.0,
+      "market_value": 881935.35,
+      "price": 277.95
     },
     {
       "ticker": "PPC",
       "name": "PUBLIC POWER CORPORATION SA",
       "identifier": "PPC",
       "sector": "Utilities",
-      "pct_of_fund": 0.74,
+      "pct_of_fund": 0.72,
       "quantity": 33222.0,
-      "market_value": 883970.64,
-      "price": 26.61
+      "market_value": 856856.64,
+      "price": 25.79
     },
     {
-      "ticker": "FHZN",
-      "name": "FLUGHAFEN ZUERICH AG",
-      "identifier": "FHZN",
-      "sector": "Industrials",
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "identifier": "XTSLA",
+      "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.63,
-      "quantity": 2898.0,
-      "market_value": 754963.6,
-      "price": 260.51
+      "quantity": 740000.0,
+      "market_value": 740000.0,
+      "price": 1.0
     },
     {
       "ticker": "HTWS",
@@ -449,8 +439,8 @@
       "sector": "Communication",
       "pct_of_fund": 0.6,
       "quantity": 242981.0,
-      "market_value": 719742.45,
-      "price": 2.96
+      "market_value": 716171.09,
+      "price": 2.95
     },
     {
       "ticker": "SO",
@@ -459,18 +449,18 @@
       "sector": "Utilities",
       "pct_of_fund": 0.59,
       "quantity": 7617.0,
-      "market_value": 710970.78,
-      "price": 93.34
+      "market_value": 703353.78,
+      "price": 92.34
     },
     {
-      "ticker": "SGD",
-      "name": "SGD CASH",
-      "identifier": "SGD",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.48,
-      "quantity": 731360.0,
-      "market_value": 572515.75,
-      "price": 78.28
+      "ticker": "NRG",
+      "name": "NRG ENERGY INC",
+      "identifier": "NRG",
+      "sector": "Utilities",
+      "pct_of_fund": 0.5,
+      "quantity": 6752.0,
+      "market_value": 596134.08,
+      "price": 88.29
     },
     {
       "ticker": "RWE",
@@ -479,38 +469,38 @@
       "sector": "Utilities",
       "pct_of_fund": 0.48,
       "quantity": 8893.0,
-      "market_value": 569696.8,
-      "price": 64.06
-    },
-    {
-      "ticker": "NRG",
-      "name": "NRG ENERGY INC",
-      "identifier": "NRG",
-      "sector": "Utilities",
-      "pct_of_fund": 0.45,
-      "quantity": 6752.0,
-      "market_value": 543873.6,
-      "price": 80.55
+      "market_value": 571335.62,
+      "price": 64.25
     },
     {
       "ticker": "VSAT",
       "name": "VIASAT INC",
       "identifier": "VSAT",
       "sector": "Information Technology",
-      "pct_of_fund": 0.4,
+      "pct_of_fund": 0.43,
       "quantity": 7966.0,
-      "market_value": 473021.08,
-      "price": 59.38
+      "market_value": 509425.7,
+      "price": 63.95
+    },
+    {
+      "ticker": "FHZN",
+      "name": "FLUGHAFEN ZUERICH AG",
+      "identifier": "FHZN",
+      "sector": "Industrials",
+      "pct_of_fund": 0.4,
+      "quantity": 1832.0,
+      "market_value": 471707.89,
+      "price": 257.48
     },
     {
       "ticker": "KEP",
       "name": "KOREA ELECTRIC POWER ADR REP",
       "identifier": "KEP",
       "sector": "Utilities",
-      "pct_of_fund": 0.3,
+      "pct_of_fund": 0.31,
       "quantity": 32522.0,
-      "market_value": 360994.2,
-      "price": 11.1
+      "market_value": 364246.4,
+      "price": 11.2
     },
     {
       "ticker": "ENGI",
@@ -519,37 +509,57 @@
       "sector": "Utilities",
       "pct_of_fund": 0.25,
       "quantity": 10908.0,
-      "market_value": 294036.34,
-      "price": 26.96
+      "market_value": 294224.97,
+      "price": 26.97
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF CASH",
+      "identifier": "CHF",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.23,
+      "quantity": 225301.0,
+      "market_value": 274673.56,
+      "price": 121.91
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY CASH",
+      "identifier": "JPY",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.04,
+      "quantity": 7035279.0,
+      "market_value": 44455.33,
+      "price": 0.63
     },
     {
       "ticker": "CAD",
       "name": "CAD/USD",
       "identifier": "CAD",
       "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.02,
+      "pct_of_fund": 0.01,
       "quantity": 2166000.0,
-      "market_value": 22145.58,
+      "market_value": 9992.23,
       "price": 1.0
     },
     {
-      "ticker": "CHF",
-      "name": "CHF/USD",
-      "identifier": "CHF",
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "identifier": "NZD",
       "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.01,
-      "quantity": 678000.0,
-      "market_value": 16281.8,
+      "quantity": -965000.0,
+      "market_value": 7147.6,
       "price": 1.0
     },
     {
-      "ticker": "JPY",
-      "name": "JPY/USD",
-      "identifier": "JPY",
+      "ticker": "EUR",
+      "name": "EUR/USD",
+      "identifier": "EUR",
       "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.0,
-      "quantity": -50975000.0,
-      "market_value": 3375.48,
+      "quantity": -845000.0,
+      "market_value": 4939.3,
       "price": 1.0
     },
     {
@@ -559,37 +569,17 @@
       "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.0,
       "quantity": -241000.0,
-      "market_value": 1757.88,
+      "market_value": 3831.23,
       "price": 1.0
     },
     {
-      "ticker": "NZD",
-      "name": "NZD/USD",
-      "identifier": "NZD",
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "identifier": "SGD",
       "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.0,
-      "quantity": -965000.0,
-      "market_value": 1156.2,
-      "price": 1.0
-    },
-    {
-      "ticker": "EUR",
-      "name": "EUR CASH",
-      "identifier": "EUR",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.0,
-      "quantity": 142.0,
-      "market_value": 159.46,
-      "price": 112.27
-    },
-    {
-      "ticker": "GBP",
-      "name": "GBP/USD",
-      "identifier": "GBP",
-      "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.0,
-      "quantity": 18000.0,
-      "market_value": 139.83,
+      "quantity": -1243000.0,
+      "market_value": 3720.92,
       "price": 1.0
     },
     {
@@ -599,7 +589,7 @@
       "sector": "Cash and/or Derivatives",
       "pct_of_fund": 0.0,
       "quantity": 603.0,
-      "market_value": 76.94,
+      "market_value": 76.93,
       "price": 12.75
     },
     {
@@ -613,13 +603,23 @@
       "price": 0.07
     },
     {
+      "ticker": "GBP",
+      "name": "GBP/USD",
+      "identifier": "GBP",
+      "sector": "Cash and/or Derivatives",
+      "pct_of_fund": 0.0,
+      "quantity": 4000.0,
+      "market_value": -24.2,
+      "price": 1.0
+    },
+    {
       "ticker": "USD",
       "name": "USD CASH",
       "identifier": "USD",
       "sector": "Cash and/or Derivatives",
-      "pct_of_fund": -0.86,
-      "quantity": -1035460.0,
-      "market_value": -1035460.35,
+      "pct_of_fund": -0.3,
+      "quantity": -350164.0,
+      "market_value": -350164.88,
       "price": 100.0
     }
   ]
