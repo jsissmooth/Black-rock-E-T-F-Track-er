@@ -1,0 +1,2748 @@
+{
+  "date": "2026-11-23",
+  "run_date": "2026-11-24",
+  "ticker": "DYNF",
+  "count": 274,
+  "holdings": [
+    {
+      "ticker": "AAPL",
+      "name": "APPLE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 8.45,
+      "market_value": 3420544508.28,
+      "shares": 3420544508.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 6.36,
+      "market_value": 2575630337.6,
+      "shares": 2575630337.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 4.68,
+      "market_value": 1892280052.5,
+      "shares": 1892280052.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON.COM INC",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 4.43,
+      "market_value": 1791056710.14,
+      "shares": 1791056710.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMORGAN CHASE & CO",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 2.8,
+      "market_value": 1132166847.74,
+      "shares": 1132166847.74,
+      "location": "United States"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "BROADCOM INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.41,
+      "market_value": 973632010.95,
+      "shares": 973632010.95,
+      "location": "United States"
+    },
+    {
+      "ticker": "META",
+      "name": "META PLATFORMS CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 2.38,
+      "market_value": 962815471.2,
+      "shares": 962815471.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "XOM",
+      "name": "EXXONMOBIL HOLDINGS CORP",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 2.23,
+      "market_value": 900938941.8,
+      "shares": 900938941.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "ALPHABET CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 2.2,
+      "market_value": 889417292.4,
+      "shares": 889417292.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "JOHNSON & JOHNSON",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.88,
+      "market_value": 760097582.75,
+      "shares": 760097582.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "ALPHABET CLASS C",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 1.81,
+      "market_value": 733691615.49,
+      "shares": 733691615.49,
+      "location": "United States"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TESLA INC",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 1.75,
+      "market_value": 707295201.48,
+      "shares": 707295201.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "BAC",
+      "name": "BANK OF AMERICA",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 1.68,
+      "market_value": 678206140.56,
+      "shares": 678206140.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "LLY",
+      "name": "ELI LILLY",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.59,
+      "market_value": 642124811.4,
+      "shares": 642124811.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "TRV",
+      "name": "TRAVELERS COMPANIES",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 1.55,
+      "market_value": 626749351.83,
+      "shares": 626749351.83,
+      "location": "United States"
+    },
+    {
+      "ticker": "BRK B",
+      "name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 1.5,
+      "market_value": 606149272.6,
+      "shares": 606149272.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.46,
+      "market_value": 590433487.98,
+      "shares": 590433487.98,
+      "location": "United States"
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.43,
+      "market_value": 580690496.4,
+      "shares": 580690496.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "CVX",
+      "name": "CHEVRON",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 1.4,
+      "market_value": 567024196.75,
+      "shares": 567024196.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRM",
+      "name": "SALESFORCE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.25,
+      "market_value": 506147231.7,
+      "shares": 506147231.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "C",
+      "name": "CITIGROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 1.23,
+      "market_value": 497487336.45,
+      "shares": 497487336.45,
+      "location": "United States"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "CISCO SYSTEMS INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.23,
+      "market_value": 496927930.4,
+      "shares": 496927930.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALL",
+      "name": "ALLSTATE CORP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 1.21,
+      "market_value": 489174197.76,
+      "shares": 489174197.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "PH",
+      "name": "PARKER-HANNIFIN",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.19,
+      "market_value": 481102447.32,
+      "shares": 481102447.32,
+      "location": "United States"
+    },
+    {
+      "ticker": "WMT",
+      "name": "WALMART",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 1.16,
+      "market_value": 470140212.3,
+      "shares": 470140212.3,
+      "location": "United States"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.11,
+      "market_value": 447348320.31,
+      "shares": 447348320.31,
+      "location": "United States"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "LAM RESEARCH",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.1,
+      "market_value": 445175955.36,
+      "shares": 445175955.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "CAT",
+      "name": "CATERPILLAR INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.04,
+      "market_value": 421615762.88,
+      "shares": 421615762.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "DUK",
+      "name": "DUKE ENERGY CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.03,
+      "market_value": 418224740.01,
+      "shares": 418224740.01,
+      "location": "United States"
+    },
+    {
+      "ticker": "COST",
+      "name": "COSTCO WHOLESALE CORP",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.98,
+      "market_value": 396953752.14,
+      "shares": 396953752.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "APPLIED MATERIAL INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.96,
+      "market_value": 388526658.91,
+      "shares": 388526658.91,
+      "location": "United States"
+    },
+    {
+      "ticker": "GS",
+      "name": "GOLDMAN SACHS GROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.96,
+      "market_value": 386813133.0,
+      "shares": 386813133.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "WELL",
+      "name": "WELLTOWER",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.91,
+      "market_value": 369930186.18,
+      "shares": 369930186.18,
+      "location": "United States"
+    },
+    {
+      "ticker": "PG",
+      "name": "PROCTER & GAMBLE",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.86,
+      "market_value": 350088659.2,
+      "shares": 350088659.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "O",
+      "name": "REALTY INCOME REIT",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.8,
+      "market_value": 322167602.61,
+      "shares": 322167602.61,
+      "location": "United States"
+    },
+    {
+      "ticker": "VZ",
+      "name": "VERIZON COMMUNICATIONS INC",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.77,
+      "market_value": 311910681.65,
+      "shares": 311910681.65,
+      "location": "United States"
+    },
+    {
+      "ticker": "MDT",
+      "name": "MEDTRONIC PLC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.73,
+      "market_value": 295426868.0,
+      "shares": 295426868.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "NETFLIX",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.7,
+      "market_value": 284315022.6,
+      "shares": 284315022.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "PALANTIR TECHNOLOGIES CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.7,
+      "market_value": 282647589.12,
+      "shares": 282647589.12,
+      "location": "United States"
+    },
+    {
+      "ticker": "TMO",
+      "name": "THERMO FISHER SCIENTIFIC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.69,
+      "market_value": 278624234.4,
+      "shares": 278624234.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "CME",
+      "name": "CME GROUP CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.68,
+      "market_value": 275948746.92,
+      "shares": 275948746.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "V",
+      "name": "VISA CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.65,
+      "market_value": 262748826.0,
+      "shares": 262748826.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "AIG",
+      "name": "AMERICAN INTERNATIONAL GROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.63,
+      "market_value": 255566207.76,
+      "shares": 255566207.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "APH",
+      "name": "AMPHENOL CORP CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.63,
+      "market_value": 253477961.26,
+      "shares": 253477961.26,
+      "location": "United States"
+    },
+    {
+      "ticker": "HIG",
+      "name": "HARTFORD INSURANCE GROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.6,
+      "market_value": 244575865.95,
+      "shares": 244575865.95,
+      "location": "United States"
+    },
+    {
+      "ticker": "NEM",
+      "name": "NEWMONT",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.59,
+      "market_value": 237128593.73,
+      "shares": 237128593.73,
+      "location": "United States"
+    },
+    {
+      "ticker": "GILD",
+      "name": "GILEAD SCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.57,
+      "market_value": 229922907.9,
+      "shares": 229922907.9,
+      "location": "United States"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "ABBVIE",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.55,
+      "market_value": 221005486.35,
+      "shares": 221005486.35,
+      "location": "United States"
+    },
+    {
+      "ticker": "ANT",
+      "name": "ANTHROPIC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.54,
+      "market_value": 217786101.12,
+      "shares": 217786101.12,
+      "location": "United States"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE AEROSPACE",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.54,
+      "market_value": 217746494.14,
+      "shares": 217746494.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "TT",
+      "name": "TRANE TECHNOLOGIES PLC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.53,
+      "market_value": 216416897.2,
+      "shares": 216416897.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UNITEDHEALTH GROUP",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.48,
+      "market_value": 192416554.56,
+      "shares": 192416554.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE VERNOVA",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.47,
+      "market_value": 190420774.53,
+      "shares": 190420774.53,
+      "location": "United States"
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORPORATION",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.46,
+      "market_value": 186085744.64,
+      "shares": 186085744.64,
+      "location": "United States"
+    },
+    {
+      "ticker": "PANW",
+      "name": "PALO ALTO NETWORKS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.45,
+      "market_value": 184078007.19,
+      "shares": 184078007.19,
+      "location": "United States"
+    },
+    {
+      "ticker": "DE",
+      "name": "DEERE",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.45,
+      "market_value": 180909212.49,
+      "shares": 180909212.49,
+      "location": "United States"
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 167919000.0,
+      "shares": 167919000.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "VLO",
+      "name": "VALERO ENERGY CORP",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 165542275.8,
+      "shares": 165542275.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "ETN",
+      "name": "EATON PLC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 165302028.82,
+      "shares": 165302028.82,
+      "location": "United States"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "BOOKING HOLDINGS",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.39,
+      "market_value": 159366892.78,
+      "shares": 159366892.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.38,
+      "market_value": 153933347.69,
+      "shares": 153933347.69,
+      "location": "United States"
+    },
+    {
+      "ticker": "NOW",
+      "name": "SERVICENOW",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.37,
+      "market_value": 151206014.92,
+      "shares": 151206014.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "NEE",
+      "name": "NEXTERA ENERGY",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.36,
+      "market_value": 147412777.77,
+      "shares": 147412777.77,
+      "location": "United States"
+    },
+    {
+      "ticker": "PEP",
+      "name": "PEPSICO",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.36,
+      "market_value": 144403821.31,
+      "shares": 144403821.31,
+      "location": "United States"
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.34,
+      "market_value": 136867573.5,
+      "shares": 136867573.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.34,
+      "market_value": 136796777.28,
+      "shares": 136796777.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADBE",
+      "name": "ADOBE INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.33,
+      "market_value": 133672383.9,
+      "shares": 133672383.9,
+      "location": "United States"
+    },
+    {
+      "ticker": "KO",
+      "name": "COCA-COLA",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.33,
+      "market_value": 131847368.52,
+      "shares": 131847368.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "GLW",
+      "name": "CORNING",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.31,
+      "market_value": 124771170.42,
+      "shares": 124771170.42,
+      "location": "United States"
+    },
+    {
+      "ticker": "PFE",
+      "name": "PFIZER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.29,
+      "market_value": 116869932.4,
+      "shares": 116869932.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "HD",
+      "name": "HOME DEPOT",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.27,
+      "market_value": 110519797.96,
+      "shares": 110519797.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "PLD",
+      "name": "PROLOGIS REIT",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.27,
+      "market_value": 109619386.36,
+      "shares": 109619386.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.27,
+      "market_value": 108852004.8,
+      "shares": 108852004.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "MCD",
+      "name": "MCDONALDS CORP",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.26,
+      "market_value": 103994884.5,
+      "shares": 103994884.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "DIS",
+      "name": "WALT DISNEY",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.26,
+      "market_value": 103280298.99,
+      "shares": 103280298.99,
+      "location": "United States"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 101174517.92,
+      "shares": 101174517.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "STX",
+      "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 100865593.5,
+      "shares": 100865593.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 100573023.22,
+      "shares": 100573023.22,
+      "location": "United States"
+    },
+    {
+      "ticker": "INTU",
+      "name": "INTUIT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 99221242.92,
+      "shares": 99221242.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "INTUITIVE SURGICAL",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 98721847.63,
+      "shares": 98721847.63,
+      "location": "United States"
+    },
+    {
+      "ticker": "APP",
+      "name": "APPLOVIN CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 98063885.28,
+      "shares": 98063885.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "REGN",
+      "name": "REGENERON PHARMACEUTICALS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 97332449.76,
+      "shares": 97332449.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "IBM",
+      "name": "INTERNATIONAL BUSINESS MACHINES CO",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 97063140.0,
+      "shares": 97063140.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "PM",
+      "name": "PHILIP MORRIS INTERNATIONAL",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 96359635.0,
+      "shares": 96359635.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "ACN",
+      "name": "ACCENTURE PLC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.23,
+      "market_value": 92529101.66,
+      "shares": 92529101.66,
+      "location": "United States"
+    },
+    {
+      "ticker": "MCK",
+      "name": "MCKESSON CORP",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.22,
+      "market_value": 90969306.56,
+      "shares": 90969306.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "PGR",
+      "name": "PROGRESSIVE",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.22,
+      "market_value": 89360790.48,
+      "shares": 89360790.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "LMT",
+      "name": "LOCKHEED MARTIN",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.22,
+      "market_value": 87911984.27,
+      "shares": 87911984.27,
+      "location": "United States"
+    },
+    {
+      "ticker": "UBER",
+      "name": "UBER TECHNOLOGIES",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.2,
+      "market_value": 82562588.17,
+      "shares": 82562588.17,
+      "location": "United States"
+    },
+    {
+      "ticker": "UNP",
+      "name": "UNION PACIFIC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.2,
+      "market_value": 81357779.58,
+      "shares": 81357779.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "CHARLES SCHWAB",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.2,
+      "market_value": 79007201.58,
+      "shares": 79007201.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "EXC",
+      "name": "EXELON CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.19,
+      "market_value": 77455823.7,
+      "shares": 77455823.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES INC CLASS C",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.19,
+      "market_value": 75194663.02,
+      "shares": 75194663.02,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SANDISK",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.18,
+      "market_value": 72312509.5,
+      "shares": 72312509.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "PSX",
+      "name": "PHILLIPS 66",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.18,
+      "market_value": 71547449.76,
+      "shares": 71547449.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "HCA",
+      "name": "HCA HEALTHCARE",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.17,
+      "market_value": 68975051.6,
+      "shares": 68975051.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "USB",
+      "name": "US BANCORP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.17,
+      "market_value": 68848483.22,
+      "shares": 68848483.22,
+      "location": "United States"
+    },
+    {
+      "ticker": "GM",
+      "name": "GENERAL MOTORS",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.16,
+      "market_value": 65976549.6,
+      "shares": 65976549.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "SNOWFLAKE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.15,
+      "market_value": 61637155.59,
+      "shares": 61637155.59,
+      "location": "United States"
+    },
+    {
+      "ticker": "LITE",
+      "name": "LUMENTUM HOLDINGS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.15,
+      "market_value": 61449070.02,
+      "shares": 61449070.02,
+      "location": "United States"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FEDEX CORP",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.15,
+      "market_value": 60518205.33,
+      "shares": 60518205.33,
+      "location": "United States"
+    },
+    {
+      "ticker": "MA",
+      "name": "MASTERCARD CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.15,
+      "market_value": 59840609.68,
+      "shares": 59840609.68,
+      "location": "United States"
+    },
+    {
+      "ticker": "HWM",
+      "name": "HOWMET AEROSPACE",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.14,
+      "market_value": 57066853.76,
+      "shares": 57066853.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS HEALTH",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.14,
+      "market_value": 56809406.7,
+      "shares": 56809406.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "CBOE",
+      "name": "CBOE GLOBAL MARKETS",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.13,
+      "market_value": 54351049.48,
+      "shares": 54351049.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "BSX",
+      "name": "BOSTON SCIENTIFIC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.13,
+      "market_value": 53791186.14,
+      "shares": 53791186.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "COF",
+      "name": "CAPITAL ONE FINANCIAL CORP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.13,
+      "market_value": 52852016.06,
+      "shares": 52852016.06,
+      "location": "United States"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "FORTINET",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.13,
+      "market_value": 51934609.5,
+      "shares": 51934609.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 50219621.56,
+      "shares": 50219621.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "FIX",
+      "name": "COMFORT SYSTEMS USA",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 49612888.72,
+      "shares": 49612888.72,
+      "location": "United States"
+    },
+    {
+      "ticker": "TXN",
+      "name": "TEXAS INSTRUMENT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 48635718.56,
+      "shares": 48635718.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "ANET",
+      "name": "ARISTA NETWORKS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 48288844.34,
+      "shares": 48288844.34,
+      "location": "United States"
+    },
+    {
+      "ticker": "DG",
+      "name": "DOLLAR GENERAL CORP",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 47562516.24,
+      "shares": 47562516.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "AMGEN INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.12,
+      "market_value": 46698812.88,
+      "shares": 46698812.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "NUE",
+      "name": "NUCOR",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 46167066.75,
+      "shares": 46167066.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "NET",
+      "name": "CLOUDFLARE CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 45474797.13,
+      "shares": 45474797.13,
+      "location": "United States"
+    },
+    {
+      "ticker": "HST",
+      "name": "HOST HOTELS & RESORTS REIT",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 45003304.23,
+      "shares": 45003304.23,
+      "location": "United States"
+    },
+    {
+      "ticker": "UTHR",
+      "name": "UNITED THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 44935768.8,
+      "shares": 44935768.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "WWD",
+      "name": "WOODWARD",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 44291585.7,
+      "shares": 44291585.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "NOC",
+      "name": "NORTHROP GRUMMAN CORP",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 43982733.92,
+      "shares": 43982733.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "VERTEX PHARMACEUTICALS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.11,
+      "market_value": 42562970.36,
+      "shares": 42562970.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "DHR",
+      "name": "DANAHER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.1,
+      "market_value": 39017290.98,
+      "shares": 39017290.98,
+      "location": "United States"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 37568163.78,
+      "shares": 37568163.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "ABT",
+      "name": "ABBOTT LABORATORIES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 37282918.68,
+      "shares": 37282918.68,
+      "location": "United States"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "DATADOG INC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 37265360.58,
+      "shares": 37265360.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "MS",
+      "name": "MORGAN STANLEY",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 36061835.8,
+      "shares": 36061835.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "WDAY",
+      "name": "WORKDAY CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 35636126.88,
+      "shares": 35636126.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "NKE",
+      "name": "NIKE CLASS B",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 35490740.16,
+      "shares": 35490740.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "ATI",
+      "name": "ATI",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 35452231.78,
+      "shares": 35452231.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRH",
+      "name": "CRH PUBLIC LIMITED PLC",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 35198421.44,
+      "shares": 35198421.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "CASY",
+      "name": "CASEYS GENERAL STORES INC",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 34966792.0,
+      "shares": 34966792.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "ROBLOX CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.09,
+      "market_value": 34578125.5,
+      "shares": 34578125.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "VRT",
+      "name": "VERTIV HOLDINGS CLASS A",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 34037200.2,
+      "shares": 34037200.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "HPE",
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 34036816.1,
+      "shares": 34036816.1,
+      "location": "United States"
+    },
+    {
+      "ticker": "CFG",
+      "name": "CITIZENS FINANCIAL GROUP INC",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 33774501.58,
+      "shares": 33774501.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "FIVE",
+      "name": "FIVE BELOW",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 33484382.04,
+      "shares": 33484382.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "ABNB",
+      "name": "AIRBNB CLASS A",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 31815544.4,
+      "shares": 31815544.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "CIEN",
+      "name": "CIENA",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 31449924.0,
+      "shares": 31449924.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "RCL",
+      "name": "ROYAL CARIBBEAN GROUP",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.08,
+      "market_value": 30414231.36,
+      "shares": 30414231.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "ATLASSIAN CORP CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 30286347.56,
+      "shares": 30286347.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "NEUROCRINE BIOSCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 29639525.76,
+      "shares": 29639525.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "CAH",
+      "name": "CARDINAL HEALTH",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 28911226.91,
+      "shares": 28911226.91,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "ASTERA LABS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 26942489.64,
+      "shares": 26942489.64,
+      "location": "United States"
+    },
+    {
+      "ticker": "VICI",
+      "name": "VICI PPTYS INC",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 26589239.68,
+      "shares": 26589239.68,
+      "location": "United States"
+    },
+    {
+      "ticker": "STT",
+      "name": "STATE STREET",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.07,
+      "market_value": 26569968.75,
+      "shares": 26569968.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "BE",
+      "name": "BLOOM ENERGY CLASS A",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 24921679.65,
+      "shares": 24921679.65,
+      "location": "United States"
+    },
+    {
+      "ticker": "PWR",
+      "name": "QUANTA SERVICES INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 24283266.0,
+      "shares": 24283266.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "COHR",
+      "name": "COHERENT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 24142448.89,
+      "shares": 24142448.89,
+      "location": "United States"
+    },
+    {
+      "ticker": "CTSH",
+      "name": "COGNIZANT TECHNOLOGY SOLUTIONS CLA",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 23842851.31,
+      "shares": 23842851.31,
+      "location": "United States"
+    },
+    {
+      "ticker": "INSM",
+      "name": "INSMED",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 23165007.84,
+      "shares": 23165007.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "OKTA CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.06,
+      "market_value": 22477712.76,
+      "shares": 22477712.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "ROBINHOOD MARKETS CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 21637963.97,
+      "shares": 21637963.97,
+      "location": "United States"
+    },
+    {
+      "ticker": "BMY",
+      "name": "BRISTOL MYERS SQUIBB",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 20944478.72,
+      "shares": 20944478.72,
+      "location": "United States"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MONGODB CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 20768557.11,
+      "shares": 20768557.11,
+      "location": "United States"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "REVOLUTION MEDICINES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 20360913.21,
+      "shares": 20360913.21,
+      "location": "United States"
+    },
+    {
+      "ticker": "CMI",
+      "name": "CUMMINS INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 19692384.69,
+      "shares": 19692384.69,
+      "location": "United States"
+    },
+    {
+      "ticker": "TPR",
+      "name": "TAPESTRY",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 19399842.63,
+      "shares": 19399842.63,
+      "location": "United States"
+    },
+    {
+      "ticker": "WM",
+      "name": "WASTE MANAGEMENT INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 19200284.95,
+      "shares": 19200284.95,
+      "location": "United States"
+    },
+    {
+      "ticker": "OMC",
+      "name": "OMNICOM GROUP INC",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 18921108.84,
+      "shares": 18921108.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADI",
+      "name": "ANALOG DEVICES",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 18432247.5,
+      "shares": 18432247.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRK",
+      "name": "MERCK & CO INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 18068582.19,
+      "shares": 18068582.19,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADM",
+      "name": "ARCHER DANIELS MIDLAND",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 18043164.75,
+      "shares": 18043164.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SOFI TECHNOLOGIES",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 17932868.03,
+      "shares": 17932868.03,
+      "location": "United States"
+    },
+    {
+      "ticker": "TWLO",
+      "name": "TWILIO CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 17397650.76,
+      "shares": 17397650.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 16970536.75,
+      "shares": 16970536.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "HALO",
+      "name": "HALOZYME THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 16288032.36,
+      "shares": 16288032.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "ILMN",
+      "name": "ILLUMINA INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 15995828.16,
+      "shares": 15995828.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "BIIB",
+      "name": "BIOGEN",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 15890862.42,
+      "shares": 15890862.42,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRDO",
+      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 15883796.76,
+      "shares": 15883796.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "BNY",
+      "name": "BANK OF NEW YORK MELLON CORP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 15352367.06,
+      "shares": 15352367.06,
+      "location": "United States"
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DEXCOM INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 14904915.22,
+      "shares": 14904915.22,
+      "location": "United States"
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 14212318.72,
+      "shares": 14212318.72,
+      "location": "United States"
+    },
+    {
+      "ticker": "AEP",
+      "name": "AMERICAN ELECTRIC POWER INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.04,
+      "market_value": 14170237.9,
+      "shares": 14170237.9,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADSK",
+      "name": "AUTODESK",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 14018382.99,
+      "shares": 14018382.99,
+      "location": "United States"
+    },
+    {
+      "ticker": "ZS",
+      "name": "ZSCALER",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13768154.4,
+      "shares": 13768154.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "MTZ",
+      "name": "MASTEC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13737031.52,
+      "shares": 13737031.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "CADENCE DESIGN SYSTEMS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13535609.78,
+      "shares": 13535609.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "DT",
+      "name": "DYNATRACE INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13342833.58,
+      "shares": 13342833.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HUBSPOT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13045565.6,
+      "shares": 13045565.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "VEEV",
+      "name": "VEEVA SYSTEMS CLASS A",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 13034629.35,
+      "shares": 13034629.35,
+      "location": "United States"
+    },
+    {
+      "ticker": "SYK",
+      "name": "STRYKER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 12791112.85,
+      "shares": 12791112.85,
+      "location": "United States"
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3HARRIS TECHNOLOGIES",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 12694866.11,
+      "shares": 12694866.11,
+      "location": "United States"
+    },
+    {
+      "ticker": "JCI",
+      "name": "JOHNSON CONTROLS INTERNATIONAL PLC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 12198207.6,
+      "shares": 12198207.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "TGT",
+      "name": "TARGET CORP",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 12076714.76,
+      "shares": 12076714.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "HUM",
+      "name": "HUMANA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 11109838.08,
+      "shares": 11109838.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "NATERA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 11102048.3,
+      "shares": 11102048.3,
+      "location": "United States"
+    },
+    {
+      "ticker": "LEN",
+      "name": "LENNAR A CLASS A",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 10810769.8,
+      "shares": 10810769.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "SYNOPSYS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 10387385.73,
+      "shares": 10387385.73,
+      "location": "United States"
+    },
+    {
+      "ticker": "CACI",
+      "name": "CACI INTERNATIONAL INC CLASS A",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 10365780.06,
+      "shares": 10365780.06,
+      "location": "United States"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DOORDASH CLASS A",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.03,
+      "market_value": 10245240.95,
+      "shares": 10245240.95,
+      "location": "United States"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "KEYSIGHT TECHNOLOGIES",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 10113879.6,
+      "shares": 10113879.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "ICE",
+      "name": "INTERCONTINENTAL EXCHANGE INC",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 10040915.47,
+      "shares": 10040915.47,
+      "location": "United States"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 10016104.92,
+      "shares": 10016104.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "HON",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9776668.65,
+      "shares": 9776668.65,
+      "location": "United States"
+    },
+    {
+      "ticker": "FTAI",
+      "name": "FTAI AVIATION",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9604897.44,
+      "shares": 9604897.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRS",
+      "name": "CARPENTER TECHNOLOGY",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9602413.86,
+      "shares": 9602413.86,
+      "location": "United States"
+    },
+    {
+      "ticker": "WFC",
+      "name": "WELLS FARGO",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9585440.0,
+      "shares": 9585440.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P GLOBAL",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9561213.8,
+      "shares": 9561213.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "EXPEDIA GROUP",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 9325769.7,
+      "shares": 9325769.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "ROCKET LAB CORP",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 8968587.67,
+      "shares": 8968587.67,
+      "location": "United States"
+    },
+    {
+      "ticker": "AZO",
+      "name": "AUTOZONE",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 8767825.14,
+      "shares": 8767825.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "DOLLAR TREE INC",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 8704460.7,
+      "shares": 8704460.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "LDOS",
+      "name": "LEIDOS HOLDINGS",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 8259155.24,
+      "shares": 8259155.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "ZM",
+      "name": "ZOOM COMMUNICATIONS CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 8004489.29,
+      "shares": 8004489.29,
+      "location": "United States"
+    },
+    {
+      "ticker": "DVN",
+      "name": "DEVON ENERGY",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 7816331.25,
+      "shares": 7816331.25,
+      "location": "United States"
+    },
+    {
+      "ticker": "FDXF",
+      "name": "FEDEX FREIGHT HOLDING COMPANY INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 7137324.62,
+      "shares": 7137324.62,
+      "location": "United States"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "STRATEGY INC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 7039128.8,
+      "shares": 7039128.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "DHI",
+      "name": "D R HORTON",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6996379.5,
+      "shares": 6996379.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "MELI",
+      "name": "MERCADOLIBRE",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6871735.76,
+      "shares": 6871735.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "REDDIT CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6825111.44,
+      "shares": 6825111.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "DECK",
+      "name": "DECKERS OUTDOOR",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6787063.44,
+      "shares": 6787063.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "ON",
+      "name": "ON SEMICONDUCTOR CORP",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6654097.89,
+      "shares": 6654097.89,
+      "location": "United States"
+    },
+    {
+      "ticker": "THC",
+      "name": "TENET HEALTHCARE CORP",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.02,
+      "market_value": 6122298.0,
+      "shares": 6122298.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "FIG",
+      "name": "FIGMA CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5947978.5,
+      "shares": 5947978.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "CMG",
+      "name": "CHIPOTLE MEXICAN GRILL",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5865938.75,
+      "shares": 5865938.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "RBRK",
+      "name": "RUBRIK CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5701005.18,
+      "shares": 5701005.18,
+      "location": "United States"
+    },
+    {
+      "ticker": "CHRW",
+      "name": "CH ROBINSON WORLDWIDE",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5605452.05,
+      "shares": 5605452.05,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "MODERNA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5533379.28,
+      "shares": 5533379.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "TER",
+      "name": "TERADYNE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5252340.43,
+      "shares": 5252340.43,
+      "location": "United States"
+    },
+    {
+      "ticker": "ELV",
+      "name": "ELEVANCE HEALTH INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 5242344.6,
+      "shares": 5242344.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "UPS",
+      "name": "UNITED PARCEL SERVICE INC CLASS B",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 4916371.08,
+      "shares": 4916371.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "FOXA",
+      "name": "FOX CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 4899773.47,
+      "shares": 4899773.47,
+      "location": "United States"
+    },
+    {
+      "ticker": "KHC",
+      "name": "KRAFT HEINZ",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 4591417.5,
+      "shares": 4591417.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "ALNYLAM PHARMACEUTICALS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 4453852.92,
+      "shares": 4453852.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "CARVANA CLASS A",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 4211001.0,
+      "shares": 4211001.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "ODFL",
+      "name": "OLD DOMINION FREIGHT LINE",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.01,
+      "market_value": 3866591.52,
+      "shares": 3866591.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADP",
+      "name": "AUTOMATIC DATA PROCESSING INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 114801.8,
+      "shares": 114801.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "AU",
+      "name": "ANGLOGOLD ASHANTI PLC",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 59302.8,
+      "shares": 59302.8,
+      "location": "South Africa"
+    },
+    {
+      "ticker": "TIGO",
+      "name": "MILLICOM INTERNATIONAL CELLULAR",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 19472.04,
+      "shares": 19472.04,
+      "location": "Sweden"
+    },
+    {
+      "ticker": "AA",
+      "name": "ALCOA CORP",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 20703.15,
+      "shares": 20703.15,
+      "location": "United States"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF INDUSTRIES HOLDINGS INC",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 20872.8,
+      "shares": 20872.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "MPC",
+      "name": "MARATHON PETROLEUM",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 15022.98,
+      "shares": 15022.98,
+      "location": "United States"
+    },
+    {
+      "ticker": "EIX",
+      "name": "EDISON INTERNATIONAL",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 15979.52,
+      "shares": 15979.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "HII",
+      "name": "HUNTINGTON INGALLS INDUSTRIES",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 10316.52,
+      "shares": 10316.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALB",
+      "name": "ALBEMARLE CORP",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 11148.3,
+      "shares": 11148.3,
+      "location": "United States"
+    },
+    {
+      "ticker": "INCY",
+      "name": "INCYTE CORP",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 11265.6,
+      "shares": 11265.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "ORLY",
+      "name": "OREILLY AUTOMOTIVE INC",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 12357.84,
+      "shares": 12357.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "DINO",
+      "name": "HF SINCLAIR",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 12533.76,
+      "shares": 12533.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "EXEL",
+      "name": "EXELIXIS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 12829.44,
+      "shares": 12829.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "PEN",
+      "name": "PENUMBRA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 13463.94,
+      "shares": 13463.94,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMG",
+      "name": "AFFILIATED MANAGERS GROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 13628.16,
+      "shares": 13628.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "RBC",
+      "name": "RBC BEARINGS",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 6759.76,
+      "shares": 6759.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "PCAR",
+      "name": "PACCAR INC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 7377.3,
+      "shares": 7377.3,
+      "location": "United States"
+    },
+    {
+      "ticker": "IONS",
+      "name": "IONIS PHARMACEUTICALS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 7476.48,
+      "shares": 7476.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "LNG",
+      "name": "CHENIERE ENERGY",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8272.88,
+      "shares": 8272.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "JAZZ",
+      "name": "JAZZ PHARMACEUTICALS PLC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8394.84,
+      "shares": 8394.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "APA",
+      "name": "APA",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8459.52,
+      "shares": 8459.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "ZBH",
+      "name": "ZIMMER BIOMET HOLDINGS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8478.4,
+      "shares": 8478.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "UHS",
+      "name": "UNIVERSAL HEALTH SERVICES CLASS B",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8799.84,
+      "shares": 8799.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "OHI",
+      "name": "OMEGA HEALTHCARE INVESTORS REIT",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 8986.6,
+      "shares": 8986.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "CELH",
+      "name": "CELSIUS HOLDINGS",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9065.7,
+      "shares": 9065.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC FINANCIAL SERVICES GROUP",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9119.46,
+      "shares": 9119.46,
+      "location": "United States"
+    },
+    {
+      "ticker": "MOH",
+      "name": "MOLINA HEALTHCARE INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9467.04,
+      "shares": 9467.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "DGX",
+      "name": "QUEST DIAGNOSTICS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9472.32,
+      "shares": 9472.32,
+      "location": "United States"
+    },
+    {
+      "ticker": "VIRT",
+      "name": "VIRTU FINANCIAL INC CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9713.76,
+      "shares": 9713.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "MO",
+      "name": "ALTRIA GROUP INC",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9741.6,
+      "shares": 9741.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "YUM",
+      "name": "YUM BRANDS",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 9866.4,
+      "shares": 9866.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "LVS",
+      "name": "LAS VEGAS SANDS",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 10019.84,
+      "shares": 10019.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "OXY",
+      "name": "OCCIDENTAL PETROLEUM CORP",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 10118.4,
+      "shares": 10118.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "M",
+      "name": "MACYS",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 2072.7,
+      "shares": 2072.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "AXP",
+      "name": "AMERICAN EXPRESS",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 2455.2,
+      "shares": 2455.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG ENERGY INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 3127.04,
+      "shares": 3127.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "NU",
+      "name": "NU HOLDINGS CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 3717.0,
+      "shares": 3717.0,
+      "location": "Brazil"
+    },
+    {
+      "ticker": "DVA",
+      "name": "DAVITA INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 3834.24,
+      "shares": 3834.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "SOLS",
+      "name": "SOLSTICE ADVANCED MATERIALS INC",
+      "sector": "Materials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 3994.04,
+      "shares": 3994.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "MNST",
+      "name": "MONSTER BEVERAGE",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 4073.28,
+      "shares": 4073.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "MET",
+      "name": "METLIFE",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 4343.68,
+      "shares": 4343.68,
+      "location": "United States"
+    },
+    {
+      "ticker": "BURL",
+      "name": "BURLINGTON STORES",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 4703.2,
+      "shares": 4703.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "NTNX",
+      "name": "NUTANIX CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 5180.4,
+      "shares": 5180.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "DAR",
+      "name": "DARLING INGREDIENTS",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 5458.32,
+      "shares": 5458.32,
+      "location": "United States"
+    },
+    {
+      "ticker": "KR",
+      "name": "KROGER",
+      "sector": "Consumer Staples",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 5640.6,
+      "shares": 5640.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "RKT",
+      "name": "ROCKET COMPANIES INC CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 6028.26,
+      "shares": 6028.26,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRP",
+      "name": "MILLROSE PROPERTIES INC CLASS A",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 99.96,
+      "shares": 99.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "CPNG",
+      "name": "COUPANG CLASS A",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 663.3,
+      "shares": 663.3,
+      "location": "United States"
+    }
+  ]
+}

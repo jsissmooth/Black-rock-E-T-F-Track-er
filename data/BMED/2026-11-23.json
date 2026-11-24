@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-23",
+  "run_date": "2026-11-24",
+  "ticker": "BMED",
+  "count": 58,
+  "holdings": [
+    {
+      "ticker": "GILD",
+      "name": "GILEAD SCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 6.05,
+      "market_value": 858579.47,
+      "shares": 858579.47,
+      "location": "United States"
+    },
+    {
+      "ticker": "DHR",
+      "name": "DANAHER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 5.28,
+      "market_value": 749868.18,
+      "shares": 749868.18,
+      "location": "United States"
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Money Market",
+      "weight": 5.22,
+      "market_value": 740000.0,
+      "shares": 740000.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "MODERNA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 5.2,
+      "market_value": 737190.08,
+      "shares": 737190.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "ABBVIE",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 4.94,
+      "market_value": 701221.95,
+      "shares": 701221.95,
+      "location": "United States"
+    },
+    {
+      "ticker": "TMO",
+      "name": "THERMO FISHER SCIENTIFIC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 4.37,
+      "market_value": 620648.16,
+      "shares": 620648.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "EW",
+      "name": "EDWARDS LIFESCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 4.33,
+      "market_value": 614180.76,
+      "shares": 614180.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "BIIB",
+      "name": "BIOGEN",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 3.89,
+      "market_value": 551926.5,
+      "shares": 551926.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "MTD",
+      "name": "METTLER TOLEDO",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 3.7,
+      "market_value": 524558.08,
+      "shares": 524558.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 3.41,
+      "market_value": 484442.16,
+      "shares": 484442.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "VERTEX PHARMACEUTICALS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 3.36,
+      "market_value": 476069.36,
+      "shares": 476069.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "ROP",
+      "name": "ROCHE PS PAR AG",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 3.19,
+      "market_value": 453147.22,
+      "shares": 453147.22,
+      "location": "Switzerland"
+    },
+    {
+      "ticker": "WAT",
+      "name": "WATERS CORP",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.74,
+      "market_value": 388588.2,
+      "shares": 388588.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "GMAB",
+      "name": "GENMAB SPONSORED ADR",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.71,
+      "market_value": 384472.27,
+      "shares": 384472.27,
+      "location": "Denmark"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "AMGEN INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.54,
+      "market_value": 360130.08,
+      "shares": 360130.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "A",
+      "name": "AGILENT TECHNOLOGIES INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.45,
+      "market_value": 347326.92,
+      "shares": 347326.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "NEUROCRINE BIOSCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.4,
+      "market_value": 340346.24,
+      "shares": 340346.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DEXCOM INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 2.25,
+      "market_value": 319872.02,
+      "shares": 319872.02,
+      "location": "United States"
+    },
+    {
+      "ticker": "ARGX",
+      "name": "ARGENX SE ADR",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.84,
+      "market_value": 261355.04,
+      "shares": 261355.04,
+      "location": "Belgium"
+    },
+    {
+      "ticker": "GH",
+      "name": "GUARDANT HEALTH",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.79,
+      "market_value": 253455.48,
+      "shares": 253455.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "HALO",
+      "name": "HALOZYME THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.68,
+      "market_value": 238091.17,
+      "shares": 238091.17,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRL",
+      "name": "CHARLES RIVER LABORATORIES INTERNA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.64,
+      "market_value": 233061.14,
+      "shares": 233061.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "BMY",
+      "name": "BRISTOL MYERS SQUIBB",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.63,
+      "market_value": 231461.12,
+      "shares": 231461.12,
+      "location": "United States"
+    },
+    {
+      "ticker": "ZBH",
+      "name": "ZIMMER BIOMET HOLDINGS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.55,
+      "market_value": 220014.48,
+      "shares": 220014.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRK",
+      "name": "MERCK & CO INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.48,
+      "market_value": 209843.03,
+      "shares": 209843.03,
+      "location": "United States"
+    },
+    {
+      "ticker": "ROIV",
+      "name": "ROIVANT SCIENCES LTD",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.44,
+      "market_value": 204926.73,
+      "shares": 204926.73,
+      "location": "United States"
+    },
+    {
+      "ticker": "ILMN",
+      "name": "ILLUMINA INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.44,
+      "market_value": 204253.6,
+      "shares": 204253.6,
+      "location": "United States"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "INTUITIVE SURGICAL",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.43,
+      "market_value": 202287.78,
+      "shares": 202287.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "GALD",
+      "name": "GALDERMA GROUP N AG",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.4,
+      "market_value": 199276.26,
+      "shares": 199276.26,
+      "location": "Switzerland"
+    },
+    {
+      "ticker": "TEVA",
+      "name": "TEVA PHARMACEUTICAL INDUSTRIES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.39,
+      "market_value": 196861.52,
+      "shares": 196861.52,
+      "location": "Israel"
+    },
+    {
+      "ticker": "NOVN",
+      "name": "NOVARTIS AG",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.25,
+      "market_value": 177630.69,
+      "shares": 177630.69,
+      "location": "Switzerland"
+    },
+    {
+      "ticker": "BMRN",
+      "name": "BIOMARIN PHARMACEUTICAL",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.12,
+      "market_value": 158515.14,
+      "shares": 158515.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "CYTK",
+      "name": "CYTOKINETICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 1.09,
+      "market_value": 155345.52,
+      "shares": 155345.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "PFE",
+      "name": "PFIZER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.95,
+      "market_value": 135493.0,
+      "shares": 135493.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "UCB",
+      "name": "UCB SA",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.81,
+      "market_value": 114379.46,
+      "shares": 114379.46,
+      "location": "Belgium"
+    },
+    {
+      "ticker": "PTGX",
+      "name": "PROTAGONIST THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.77,
+      "market_value": 108561.76,
+      "shares": 108561.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "ABT",
+      "name": "ABBOTT LABORATORIES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.72,
+      "market_value": 101976.84,
+      "shares": 101976.84,
+      "location": "United States"
+    },
+    {
+      "ticker": "AXSM",
+      "name": "AXSOME THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.71,
+      "market_value": 100420.88,
+      "shares": 100420.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "BRKR",
+      "name": "BRUKER",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.7,
+      "market_value": 100008.88,
+      "shares": 100008.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "TEM",
+      "name": "TEMPUS AI CLASS A",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.7,
+      "market_value": 99762.96,
+      "shares": 99762.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "VRDN",
+      "name": "VIRIDIAN THERAPEUTICS ORS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.69,
+      "market_value": 97806.63,
+      "shares": 97806.63,
+      "location": "United States"
+    },
+    {
+      "ticker": "INSM",
+      "name": "INSMED",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.62,
+      "market_value": 88410.37,
+      "shares": 88410.37,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALKS",
+      "name": "ALKERMES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.62,
+      "market_value": 87967.5,
+      "shares": 87967.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "DNTH",
+      "name": "DIANTHUS THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.57,
+      "market_value": 81568.5,
+      "shares": 81568.5,
+      "location": "United States"
+    },
+    {
+      "ticker": "MBX",
+      "name": "MBX BIOSCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.42,
+      "market_value": 60201.74,
+      "shares": 60201.74,
+      "location": "United States"
+    },
+    {
+      "ticker": "PTCT",
+      "name": "PTC THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.42,
+      "market_value": 59539.48,
+      "shares": 59539.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "COGT",
+      "name": "COGENT BIOSCIENCES",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.36,
+      "market_value": 50963.43,
+      "shares": 50963.43,
+      "location": "United States"
+    },
+    {
+      "ticker": "SGMT",
+      "name": "SAGIMET BIOSCIENCES SERIES A",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.13,
+      "market_value": 17850.0,
+      "shares": 17850.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "SMMT",
+      "name": "SUMMIT THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 7285.92,
+      "shares": 7285.92,
+      "location": "United States"
+    },
+    {
+      "ticker": "EIKN",
+      "name": "EIKON THERAPEUTICS",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.05,
+      "market_value": 7140.96,
+      "shares": 7140.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRTX",
+      "name": "MIRATI THERAPEUTICS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 260.52,
+      "shares": 260.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 165.91,
+      "shares": 165.91,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "DUMMY",
+      "name": "VIGIL NEUROSCIENCE INC CVR",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 24.2,
+      "shares": 24.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 10.46,
+      "shares": 10.46,
+      "location": "Hong Kong"
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 0.01,
+      "shares": 0.01,
+      "location": "Korea (South)"
+    },
+    {
+      "ticker": "KRRBIO",
+      "name": "KORRO BIO INC CVR",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.0,
+      "market_value": 0.0,
+      "shares": 0.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF/USD",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "FX",
+      "weight": 0.0,
+      "market_value": -262.18,
+      "shares": -262.18,
+      "location": "United States"
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": -0.39,
+      "market_value": -55641.7,
+      "shares": -55641.7,
+      "location": "United States"
+    }
+  ]
+}
