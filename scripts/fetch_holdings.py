@@ -21,22 +21,26 @@ except ImportError:
 
 # ─── Configuration ─────────────────────────────────────────────────────────────
 
+# Portfolio IDs for each ETF
 ETF_CONFIG = {
-    "DYNF": {"portfolio_id": "307283", "user_type": "individual",     "site": "one"},
-    "BAI":  {"portfolio_id": "339081", "user_type": "intermediaries", "site": "financial-professionals"},
-    "IALT": {"portfolio_id": "346898", "user_type": "individual",     "site": "one"},
-    "TEK":  {"portfolio_id": "339083", "user_type": "individual",     "site": "one"},
-    "CORO": {"portfolio_id": "340366", "user_type": "individual",     "site": "one"},
-    "BMED": {"portfolio_id": "316007", "user_type": "individual",     "site": "one"},
-    "BILT": {"portfolio_id": "345073", "user_type": "individual",     "site": "one"},
+    "DYNF": "307283",
+    "BAI":  "339081",
+    "IALT": "346898",
+    "TEK":  "339083",
+    "CORO": "340366",
+    "BMED": "316007",
+    "BILT": "345073",
 }
 
+# appSubType=ISHARES + targetSite=us-ishares is required to get the full
+# individual-holdings CSV.  The old appSubType=ONE / targetSite=one now
+# returns only an asset-allocation summary (Bond/Cash/Stock percentages).
 BLACKROCK_URL = (
     "https://www.blackrock.com/varnish-api/blk-one01-product-data/"
     "product-data/api/v1/get-fund-document"
-    "?appType=PRODUCT_PAGE&appSubType=ONE"
-    "&targetSite={site}&locale=en_US"
-    "&portfolioId={portfolio_id}&userType={user_type}"
+    "?appType=PRODUCT_PAGE&appSubType=ISHARES"
+    "&targetSite=us-ishares&locale=en_US"
+    "&portfolioId={portfolio_id}&userType=individual"
     "&asOfDate={date}&component=holdings"
 )
 
@@ -76,7 +80,7 @@ def is_trading_day(date_str: str) -> bool:
 
 # ─── HTTP fetching ─────────────────────────────────────────────────────────────
 
-def fetch_csv(ticker: str, cfg: dict, today: datetime):
+def fetch_csv(ticker: str, portfolio_id: str, today: datetime):
     """
     Try today, then up to 10 prior calendar days, to find the most recent
     published CSV.  Returns (date_str YYYY-MM-DD, csv_text) or None.
@@ -85,9 +89,7 @@ def fetch_csv(ticker: str, cfg: dict, today: datetime):
         d = today - timedelta(days=days_back)
         date_str = d.strftime("%Y%m%d")
         url = BLACKROCK_URL.format(
-            site=cfg["site"],
-            portfolio_id=cfg["portfolio_id"],
-            user_type=cfg["user_type"],
+            portfolio_id=portfolio_id,
             date=date_str,
         )
         try:
@@ -339,14 +341,14 @@ def main() -> None:
         sys.exit(0)
 
     any_saved = False
-    for ticker, cfg in ETF_CONFIG.items():
+    for ticker, portfolio_id in ETF_CONFIG.items():
         print(f"── {ticker} ──────────────────────────────────")
         prior = load_latest(ticker)
         if prior and prior.get("date") == today_str:
             print(f"  Already have {today_str}, skipping.\n")
             continue
 
-        result = fetch_csv(ticker, cfg, today)
+        result = fetch_csv(ticker, portfolio_id, today)
         if result is None:
             print()
             continue
