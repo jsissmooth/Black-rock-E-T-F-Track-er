@@ -1,384 +1,373 @@
-import json
-import os
-import sys
-import requests
-from datetime import date, timedelta
-from io import StringIO
-import pandas as pd
-import pandas_market_calendars as mcal
+#!/usr/bin/env python3
+"""
+BlackRock ETF Holdings Tracker
+Fetches daily holdings from BlackRock's CSV API.
+Writes JSON snapshots to data/{TICKER}/.
+"""
 
-BASE_URL = (
+import csv
+import json
+import sys
+from datetime import datetime, timedelta
+from pathlib import Path
+
+import requests
+
+try:
+    import pandas_market_calendars as mcal
+    _HAS_MCAL = True
+except ImportError:
+    _HAS_MCAL = False
+
+# ─── Configuration ─────────────────────────────────────────────────────────────
+
+ETF_CONFIG = {
+    "DYNF": {"portfolio_id": "307283", "user_type": "individual",     "site": "one"},
+    "BAI":  {"portfolio_id": "339081", "user_type": "intermediaries", "site": "financial-professionals"},
+    "IALT": {"portfolio_id": "346898", "user_type": "individual",     "site": "one"},
+    "TEK":  {"portfolio_id": "339083", "user_type": "individual",     "site": "one"},
+    "CORO": {"portfolio_id": "340366", "user_type": "individual",     "site": "one"},
+    "BMED": {"portfolio_id": "316007", "user_type": "individual",     "site": "one"},
+    "BILT": {"portfolio_id": "345073", "user_type": "individual",     "site": "one"},
+}
+
+BLACKROCK_URL = (
     "https://www.blackrock.com/varnish-api/blk-one01-product-data/"
     "product-data/api/v1/get-fund-document"
+    "?appType=PRODUCT_PAGE&appSubType=ONE"
+    "&targetSite={site}&locale=en_US"
+    "&portfolioId={portfolio_id}&userType={user_type}"
+    "&asOfDate={date}&component=holdings"
 )
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-
-ETFS = {
-    "DYNF": {"portfolio_id": "307283", "target_site": "one",                    "user_type": "individual",    "name": "iShares U.S. Equity Factor Rotation Active ETF"},
-    "BAI":  {"portfolio_id": "339081", "target_site": "financial-professionals", "user_type": "intermediaries","name": "iShares A.I. Innovation and Tech Active ETF"},
-    "IALT": {"portfolio_id": "346898", "target_site": "one",                    "user_type": "individual",    "name": "iShares International Equity Factor Rotation Active ETF"},
-    "TEK":  {"portfolio_id": "339083", "target_site": "one",                    "user_type": "individual",    "name": "iShares Technology Opportunities Active ETF"},
-    "CORO": {"portfolio_id": "340366", "target_site": "one",                    "user_type": "individual",    "name": "iShares International Country Rotation Active ETF"},
-    "BMED": {"portfolio_id": "316007", "target_site": "one",                    "user_type": "individual",    "name": "iShares Health Innovation Active ETF"},
-    "BILT": {"portfolio_id": "345073", "target_site": "one",                    "user_type": "individual",    "name": "iShares Infrastructure Active ETF"},
-}
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/csv,text/plain,*/*",
     "Referer": "https://www.blackrock.com/",
-    "Accept": "text/csv,application/json,*/*",
 }
 
-# Metadata values that appear as Ticker values in bad rows
-METADATA_TICKERS = {
-    "ticker", "-", "nan", "",
-    "stock", "bond", "cash", "other",
-    "shares outstanding", "inception date",
-    "fund holdings as of",
+DATA_DIR = Path("data")
+
+# First-field values that mark a metadata/summary row, not a real holding
+METADATA_VALUES = {
+    "Ticker", "Stock", "Bond", "Cash", "Other",
+    "Shares Outstanding", "Inception Date",
+    "Fund Holdings as of", "Total", "Subtotal",
+    "N/A", "-", "",
 }
 
+# ─── Market calendar ───────────────────────────────────────────────────────────
 
-def is_nyse_trading_day(d):
-    nyse = mcal.get_calendar("NYSE")
-    return not nyse.schedule(start_date=d.isoformat(), end_date=d.isoformat()).empty
-
-
-def fetch_csv(portfolio_id, target_site, user_type, as_of_date):
-    params = {
-        "appType":     "PRODUCT_PAGE",
-        "appSubType":  "ONE",
-        "targetSite":  target_site,
-        "locale":      "en_US",
-        "portfolioId": portfolio_id,
-        "userType":    user_type,
-        "asOfDate":    as_of_date,
-        "component":   "holdings",
-    }
-    resp = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return resp.text
-
-
-def find_latest_csv(portfolio_id, target_site, user_type):
-    d = date.today()
-    for _ in range(10):
-        date_str = d.strftime("%Y%m%d")
+def is_trading_day(date_str: str) -> bool:
+    """Return True if date_str (YYYY-MM-DD) is an NYSE trading day."""
+    if _HAS_MCAL:
         try:
-            text = fetch_csv(portfolio_id, target_site, user_type, date_str)
-            if "Ticker" in text and len(text) > 500:
-                print("  Data found for {}".format(d.isoformat()), file=sys.stderr)
-                return text, d.isoformat()
+            nyse = mcal.get_calendar("NYSE")
+            sched = nyse.schedule(start_date=date_str, end_date=date_str)
+            return not sched.empty
         except Exception as e:
-            print("  {} not available: {}".format(date_str, str(e)[:40]), file=sys.stderr)
-        d -= timedelta(days=1)
-    return None, None
+            print(f"  [warn] Market calendar error: {e} — falling back to weekday check")
+    d = datetime.strptime(date_str, "%Y-%m-%d")
+    return d.weekday() < 5   # Mon–Fri
 
+# ─── HTTP fetching ─────────────────────────────────────────────────────────────
 
-def is_valid_ticker(ticker):
-    """Return True if this looks like a real security ticker, not a metadata value."""
-    if not ticker:
-        return False
-    t = ticker.strip().lower()
-    if t in METADATA_TICKERS:
-        return False
-    # Real tickers are short — metadata descriptions are long
-    if len(ticker) > 25:
-        return False
-    # Must contain at least one letter
-    if not any(c.isalpha() for c in ticker):
-        return False
-    return True
-
-
-def parse_holdings(csv_text, etf_ticker=""):
-    """Parse BlackRock CSV robustly.
-
-    Strategy:
-    1. Find ALL Ticker header rows in the file.
-    2. For each header, parse the block until the next header (or EOF).
-    3. Collect valid holdings from ALL blocks, deduplicating by ticker.
-       This handles single-section ETFs and multi-section ETFs like CORO.
-    4. Filter rows by content — no assumption about quoting style.
+def fetch_csv(ticker: str, cfg: dict, today: datetime):
     """
-    lines = csv_text.splitlines()
-
-    # Find every header row index
-    header_indices = []
-    for i, line in enumerate(lines):
-        cleaned = line.replace('"', '').strip()
-        if (cleaned.startswith("Ticker,") and
-                "Name" in cleaned and
-                "Sector" in cleaned):
-            header_indices.append(i)
-
-    if not header_indices:
-        print("  No Ticker header found. First 15 lines:", file=sys.stderr)
-        for i, l in enumerate(lines[:15]):
-            print("    {}: {}".format(i, l[:80]), file=sys.stderr)
-        return []
-
-    print("  Header rows at lines: {}".format(header_indices), file=sys.stderr)
-
-    def safe_float(val):
+    Try today, then up to 10 prior calendar days, to find the most recent
+    published CSV.  Returns (date_str YYYY-MM-DD, csv_text) or None.
+    """
+    for days_back in range(0, 11):
+        d = today - timedelta(days=days_back)
+        date_str = d.strftime("%Y%m%d")
+        url = BLACKROCK_URL.format(
+            site=cfg["site"],
+            portfolio_id=cfg["portfolio_id"],
+            user_type=cfg["user_type"],
+            date=date_str,
+        )
         try:
-            import math
-            s = str(val).strip().replace(",", "").replace("%", "").replace("$", "")
-            v = float(s)
-            return None if math.isnan(v) else v
-        except (ValueError, TypeError):
-            return None
+            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
+            if resp.status_code == 200:
+                text = resp.text.strip()
+                if "Ticker" in text and len(text) > 300:
+                    print(f"  Found data for {d.strftime('%Y-%m-%d')} "
+                          f"({len(text):,} chars)")
+                    return d.strftime("%Y-%m-%d"), text
+                else:
+                    print(f"  {date_str}: 200 OK but content looks empty "
+                          f"({len(resp.text)} chars)")
+            elif resp.status_code in (400, 404):
+                pass  # normal – date not yet published
+            else:
+                print(f"  {date_str}: HTTP {resp.status_code}")
+        except requests.exceptions.Timeout:
+            print(f"  {date_str}: request timed out")
+        except Exception as e:
+            print(f"  {date_str}: {type(e).__name__}: {e}")
 
-    def find_col(df, keywords):
-        for kw in keywords:
-            for col in df.columns:
-                if kw.lower() == col.lower().strip():
-                    return col
-        for kw in keywords:
-            for col in df.columns:
-                if kw.lower() in col.lower():
-                    return col
+    print(f"  No CSV found for {ticker} in the past 10 days.")
+    return None
+
+# ─── CSV parsing ───────────────────────────────────────────────────────────────
+
+def _header_indices(lines: list) -> list:
+    """Return line numbers of every 'Ticker,…' header row."""
+    result = []
+    for i, raw in enumerate(lines):
+        line = raw.lstrip("﻿").replace('"', '').strip()
+        if (line.lower().startswith("ticker,")
+                and "Name" in line and "Sector" in line):
+            result.append(i)
+    return result
+
+def _col(col_map: dict, *names: str):
+    for name in names:
+        if name in col_map:
+            return col_map[name]
+    return None
+
+def _to_float(val: str):
+    if not val or val.strip() in ("", "-", "N/A", "nan", "None"):
+        return None
+    try:
+        return float(val.replace(",", "").replace("%", "").strip())
+    except ValueError:
         return None
 
-    seen = set()
-    all_records = []
+def _valid(ticker: str, name: str, weight: str, mv: str) -> bool:
+    t = (ticker or "").strip()
+    if not t or t in METADATA_VALUES:
+        return False
+    if len(t) > 30 or not any(c.isalpha() for c in t):
+        return False
+    if (name or "").strip() in ("", "-"):
+        return False
+    return _to_float(weight) is not None or _to_float(mv) is not None
 
-    # Parse each section separately
-    for sec_num, h_idx in enumerate(header_indices):
-        next_h = header_indices[sec_num + 1] if sec_num + 1 < len(header_indices) else len(lines)
+def _parse_rows(header_line: str, data_lines: list, stop_at_header: bool = True) -> list:
+    """
+    Parse a holdings section using csv.reader (handles variable column counts).
+    header_line     – the Ticker,Name,… row (quotes and BOM already stripped)
+    data_lines      – lines that follow the header
+    stop_at_header  – if True, stop when another Ticker,… row is found;
+                      if False (brute-force), skip such rows and keep going
+    """
+    try:
+        columns = [c.strip() for c in next(csv.reader([header_line]))]
+    except StopIteration:
+        return []
+    cmap = {c.lower(): i for i, c in enumerate(columns)}
 
-        # Slice just this section
-        section_lines = lines[h_idx:next_h]
-        section_text  = "\n".join(section_lines)
+    ticker_i = _col(cmap, "ticker")
+    name_i   = _col(cmap, "name")
+    sect_i   = _col(cmap, "sector")
+    asset_i  = _col(cmap, "asset class")
+    wt_i     = _col(cmap, "weight (%)", "weight(%)", "weight")
+    mv_i     = _col(cmap, "market value", "market value (usd)")
+    shr_i    = _col(cmap, "notional value", "shares", "quantity")
+    loc_i    = _col(cmap, "location", "exchange")
 
-        try:
-            df = pd.read_csv(StringIO(section_text), on_bad_lines="skip")
-            df.columns = [c.strip() for c in df.columns]
-        except Exception as e:
-            print("  Section {} parse error: {}".format(sec_num, e), file=sys.stderr)
+    if ticker_i is None:
+        return []
+
+    def g(row, idx, default=""):
+        return row[idx].strip() if idx is not None and idx < len(row) else default
+
+    holdings = []
+    seen = {}   # ticker -> index in holdings
+
+    for row in csv.reader(data_lines):
+        if not row:
+            continue
+        ticker = g(row, ticker_i)
+
+        # Hit a second header row
+        if ticker.lower() == "ticker" and len(row) > 3:
+            if stop_at_header:
+                break
+            else:
+                continue   # brute-force: skip the sub-header and keep reading
+
+        name   = g(row, name_i)
+        weight = g(row, wt_i)
+        mv     = g(row, mv_i)
+
+        if not _valid(ticker, name, weight, mv):
             continue
 
-        print("  Section {}: {} raw rows".format(sec_num, len(df)), file=sys.stderr)
-
-        ticker_col = find_col(df, ["Ticker"])
-        name_col   = find_col(df, ["Name"])
-        sector_col = find_col(df, ["Sector"])
-        weight_col = find_col(df, ["Weight (%)", "Weight"])
-        shares_col = find_col(df, ["Shares"])
-        mv_col     = find_col(df, ["Market Value"])
-        price_col  = find_col(df, ["Price"])
-
-        sec_records = []
-        for _, row in df.iterrows():
-            ticker = str(row[ticker_col]).strip() if ticker_col else ""
-            name   = str(row[name_col]).strip()   if name_col   else ""
-            sector = str(row[sector_col]).strip() if sector_col else ""
-
-            if not is_valid_ticker(ticker):
-                continue
-            if name.lower()   == "nan": name = ""
-            if sector.lower() == "nan": sector = ""
-
-            # Skip rows that look like metadata (name is "-")
-            if name == "-":
-                continue
-
-            # Skip rows with no useful numeric data at all
-            wt = safe_float(row[weight_col]) if weight_col else None
-            mv = safe_float(row[mv_col])     if mv_col     else None
-            if wt is None and mv is None:
-                continue
-
-            # Deduplicate across all sections — first occurrence wins
-            if ticker in seen:
-                continue
-            seen.add(ticker)
-
-            sec_records.append({
-                "ticker":       ticker,
-                "name":         name,
-                "identifier":   ticker,
-                "sector":       sector,
-                "pct_of_fund":  wt,
-                "quantity":     safe_float(row[shares_col]) if shares_col else None,
-                "market_value": mv,
-                "price":        safe_float(row[price_col])  if price_col  else None,
-            })
-
-        print("  Section {}: {} valid holdings".format(sec_num, len(sec_records)), file=sys.stderr)
-        all_records.extend(sec_records)
-
-    print("  Total holdings across all sections: {}".format(len(all_records)), file=sys.stderr)
-    return all_records
-
-
-def get_etf_data_dir(ticker):
-    d = os.path.join(DATA_DIR, ticker)
-    os.makedirs(d, exist_ok=True)
-    return d
-
-
-def save_snapshot(records, today_str, ticker):
-    data_dir = get_etf_data_dir(ticker)
-    payload = {"date": today_str, "ticker": ticker, "holdings": records}
-    with open(os.path.join(data_dir, "{}.json".format(today_str)), "w") as f:
-        json.dump(payload, f, indent=2)
-    with open(os.path.join(data_dir, "latest.json"), "w") as f:
-        json.dump(payload, f, indent=2)
-
-
-def find_prior_snapshot(today_str, ticker):
-    data_dir = get_etf_data_dir(ticker)
-    files = sorted(
-        f for f in os.listdir(data_dir)
-        if f.endswith(".json") and f not in ("latest.json", "diff.json", "history.json")
-    )
-    prior = [f for f in files if f.replace(".json", "") < today_str]
-    return os.path.join(data_dir, prior[-1]) if prior else None
-
-
-def compute_diff(today_records, prior_records, today_str, prior_date_str, etf_ticker):
-    today_map = {r["ticker"]: r for r in today_records}
-    prior_map = {r["ticker"]: r for r in prior_records}
-    all_keys  = sorted(set(today_map) | set(prior_map))
-    rows = []
-    for key in all_keys:
-        t = today_map.get(key)
-        p = prior_map.get(key)
-        if t and p:
-            q_today   = t["quantity"]    or 0
-            q_prior   = p["quantity"]    or 0
-            pct_today = t["pct_of_fund"] or 0
-            pct_prior = p["pct_of_fund"] or 0
-            qty_chg   = ((q_today - q_prior) / q_prior * 100) if q_prior != 0 else 0
-            rows.append({
-                "ticker":              t["ticker"],
-                "name":                t.get("name") or p.get("name") or "",
-                "identifier":          t.get("identifier") or "",
-                "sector":              t.get("sector") or "",
-                "status":              "changed" if round(qty_chg, 6) != 0 else "unchanged",
-                "quantity_today":      q_today,
-                "quantity_prior":      q_prior,
-                "quantity_pct_change": round(qty_chg, 4),
-                "pct_of_fund_today":   pct_today,
-                "pct_of_fund_prior":   pct_prior,
-                "pct_of_fund_change":  round(pct_today - pct_prior, 4),
-                "market_value_today":  t.get("market_value"),
-                "price_today":         t.get("price"),
-            })
-        elif t:
-            rows.append({
-                "ticker": t["ticker"], "name": t.get("name") or "",
-                "identifier": t.get("identifier") or "", "sector": t.get("sector") or "",
-                "status": "added",
-                "quantity_today": t["quantity"] or 0, "quantity_prior": None,
-                "quantity_pct_change": None,
-                "pct_of_fund_today": t["pct_of_fund"] or 0, "pct_of_fund_prior": None,
-                "pct_of_fund_change": None,
-                "market_value_today": t.get("market_value"), "price_today": t.get("price"),
-            })
+        h = {
+            "ticker":       ticker,
+            "name":         name,
+            "sector":       g(row, sect_i),
+            "asset_class":  g(row, asset_i),
+            "weight":       _to_float(weight),
+            "market_value": _to_float(mv),
+            "shares":       _to_float(g(row, shr_i)),
+            "location":     g(row, loc_i),
+        }
+        if ticker in seen:
+            prev_w = holdings[seen[ticker]].get("weight") or 0
+            curr_w = h["weight"] or 0
+            if curr_w > prev_w:
+                holdings[seen[ticker]] = h
         else:
-            rows.append({
-                "ticker": p["ticker"], "name": p.get("name") or "",
-                "identifier": p.get("identifier") or "", "sector": p.get("sector") or "",
-                "status": "removed",
-                "quantity_today": None, "quantity_prior": p["quantity"] or 0,
-                "quantity_pct_change": None, "pct_of_fund_today": None,
-                "pct_of_fund_prior": p["pct_of_fund"] or 0,
-                "pct_of_fund_change": None, "market_value_today": None, "price_today": None,
-            })
-    return {"date": today_str, "ticker": etf_ticker, "prior_date": prior_date_str, "diff": rows}
+            seen[ticker] = len(holdings)
+            holdings.append(h)
+
+    return holdings
 
 
-def append_history(today_str, diff, ticker):
-    data_dir = get_etf_data_dir(ticker)
-    history_path = os.path.join(data_dir, "history.json")
+def parse_holdings(csv_text: str) -> list:
+    """
+    Parse all holdings from a BlackRock CSV.
+
+    Strategy
+    --------
+    1. Find all "Ticker,…" header rows in the file.
+    2. Try each bounded section (between consecutive headers) in order;
+       return the first section that yields valid holdings.
+    3. Brute-force fallback: start from the FIRST header, read to EOF,
+       and skip (not stop at) any embedded sub-headers.
+       This handles cases like CORO where the real holdings sit in a
+       second section whose rows have column-count differences that caused
+       pandas to silently drop them.
+    """
+    lines = csv_text.replace("\r\n", "\n").replace("\r", "\n").splitlines()
+    hdrs  = _header_indices(lines)
+
+    if not hdrs:
+        print(f"  No Ticker header found in {len(lines)}-line CSV.")
+        return []
+
+    print(f"  Header row(s) at line(s): {hdrs}")
+
+    # Pass 1 – try each bounded section
+    for idx, hi in enumerate(hdrs):
+        next_hi = hdrs[idx + 1] if idx + 1 < len(hdrs) else len(lines)
+        hl   = lines[hi].lstrip("﻿").replace('"', '')
+        data = lines[hi + 1 : next_hi]
+        h    = _parse_rows(hl, data, stop_at_header=True)
+        print(f"  Section {idx} (lines {hi+1}–{next_hi-1}, "
+              f"{len(data)} data lines): {len(h)} valid holdings")
+        if h:
+            return h
+
+    # Pass 2 – brute force: first header to EOF, don't stop at sub-headers
+    if len(hdrs) >= 1:
+        print("  No section had valid holdings; trying brute-force pass…")
+        hl   = lines[hdrs[0]].lstrip("﻿").replace('"', '')
+        data = lines[hdrs[0] + 1 :]
+        h    = _parse_rows(hl, data, stop_at_header=False)
+        print(f"  Brute-force: {len(h)} valid holdings")
+        if h:
+            return h
+
+    print("  Could not parse any valid holdings.")
+    return []
+
+# ─── Persistence ───────────────────────────────────────────────────────────────
+
+def load_latest(ticker: str):
+    p = DATA_DIR / ticker / "latest.json"
+    if p.exists():
+        try:
+            return json.loads(p.read_text())
+        except Exception:
+            pass
+    return None
+
+def compute_diff(old: list, new: list) -> dict:
+    old_m = {h["ticker"]: h for h in old}
+    new_m = {h["ticker"]: h for h in new}
+    added   = [h for t, h in new_m.items() if t not in old_m]
+    removed = [h for t, h in old_m.items() if t not in new_m]
+    changed = []
+    for t in set(old_m) & set(new_m):
+        diffs = {
+            k: {"from": old_m[t].get(k), "to": new_m[t].get(k)}
+            for k in ("weight", "market_value", "shares", "sector", "name")
+            if old_m[t].get(k) != new_m[t].get(k)
+        }
+        if diffs:
+            changed.append({"ticker": t, "changes": diffs})
+    return {"added": added, "removed": removed, "changed": changed}
+
+def _append_history(ticker: str, today_str: str, entry: dict) -> None:
+    p = DATA_DIR / ticker / "history.json"
     history = []
-    if os.path.exists(history_path):
-        with open(history_path) as f:
-            history = json.load(f)
-    entry = {"date": today_str, "prior_date": diff["prior_date"]}
-    if entry not in history:
-        history.append(entry)
-        history.sort(key=lambda x: x["date"], reverse=True)
-    with open(history_path, "w") as f:
-        json.dump(history, f, indent=2)
+    if p.exists():
+        try:
+            history = json.loads(p.read_text())
+        except Exception:
+            pass
+    history = [e for e in history if e.get("date") != today_str]
+    history.append(entry)
+    p.write_text(json.dumps(history[-365:], indent=2))
 
+def save_snapshot(ticker: str, today_str: str,
+                  holdings: list, diff: dict) -> None:
+    folder = DATA_DIR / ticker
+    folder.mkdir(parents=True, exist_ok=True)
+    snapshot = {
+        "date":     today_str,
+        "ticker":   ticker,
+        "count":    len(holdings),
+        "holdings": holdings,
+    }
+    for path in [folder / f"{today_str}.json", folder / "latest.json"]:
+        path.write_text(json.dumps(snapshot, indent=2))
+    (folder / "diff.json").write_text(
+        json.dumps({"date": today_str, "ticker": ticker, **diff}, indent=2))
+    _append_history(ticker, today_str, {"date": today_str, "count": len(holdings)})
+    print(f"  → Saved {len(holdings)} holdings to data/{ticker}/")
 
-def process_etf(etf_ticker, info, today_str):
-    print("Fetching {}...".format(etf_ticker), file=sys.stderr)
-    try:
-        csv_text, data_date = find_latest_csv(
-            info["portfolio_id"], info["target_site"], info["user_type"]
-        )
-        if not csv_text:
-            print("  No data found.", file=sys.stderr)
-            return
+# ─── Main ──────────────────────────────────────────────────────────────────────
 
-        records = parse_holdings(csv_text, etf_ticker)
-        if not records:
-            print("  No holdings parsed.", file=sys.stderr)
-            return
+def main() -> None:
+    today     = datetime.utcnow()
+    today_str = today.strftime("%Y-%m-%d")
 
-        print("  {} holdings found (as of {}).".format(len(records), data_date), file=sys.stderr)
-        save_snapshot(records, today_str, etf_ticker)
+    print(f"=== BlackRock Holdings Tracker  ({today_str}) ===\n")
 
-        prior_path = find_prior_snapshot(today_str, etf_ticker)
-        if not prior_path:
-            diff_rows = [{
-                "ticker":              r["ticker"],
-                "name":                r.get("name") or "",
-                "identifier":          r.get("identifier") or "",
-                "sector":              r.get("sector") or "",
-                "status":              "unchanged",
-                "quantity_today":      r["quantity"] or 0,
-                "quantity_prior":      r["quantity"] or 0,
-                "quantity_pct_change": 0,
-                "pct_of_fund_today":   r["pct_of_fund"] or 0,
-                "pct_of_fund_prior":   r["pct_of_fund"] or 0,
-                "pct_of_fund_change":  0,
-                "market_value_today":  r.get("market_value"),
-                "price_today":         r.get("price"),
-            } for r in records]
-            diff = {"date": today_str, "ticker": etf_ticker, "prior_date": None, "diff": diff_rows}
-        else:
-            with open(prior_path) as f:
-                prior_data = json.load(f)
-            if prior_data["date"] == today_str:
-                print("  Already have data -- skipping.", file=sys.stderr)
-                return
-            diff = compute_diff(records, prior_data["holdings"], today_str, prior_data["date"], etf_ticker)
-
-        data_dir = get_etf_data_dir(etf_ticker)
-        with open(os.path.join(data_dir, "diff.json"), "w") as f:
-            json.dump(diff, f, indent=2)
-        append_history(today_str, diff, etf_ticker)
-
-        changed = sum(1 for r in diff["diff"] if r["status"] == "changed")
-        added   = sum(1 for r in diff["diff"] if r["status"] == "added")
-        removed = sum(1 for r in diff["diff"] if r["status"] == "removed")
-        print("  Done -- {} holdings | {} changed | {} added | {} removed".format(
-            len(records), changed, added, removed), file=sys.stderr)
-
-    except Exception as e:
-        import traceback
-        print("  ERROR: {}".format(e), file=sys.stderr)
-        traceback.print_exc(file=sys.stderr)
-
-
-def main():
-    today_str = date.today().isoformat()
-    today     = date.today()
-
-    if not is_nyse_trading_day(today):
-        print("{} is not a NYSE trading day -- skipping.".format(today_str), file=sys.stderr)
+    if not is_trading_day(today_str):
+        print(f"{today_str} is not an NYSE trading day – nothing to do.")
         sys.exit(0)
 
-    print("Running for {}...".format(today_str), file=sys.stderr)
-    for etf_ticker, info in ETFS.items():
-        process_etf(etf_ticker, info, today_str)
-    print("All done.", file=sys.stderr)
+    any_saved = False
+    for ticker, cfg in ETF_CONFIG.items():
+        print(f"── {ticker} ──────────────────────────────────")
+        prior = load_latest(ticker)
+        if prior and prior.get("date") == today_str:
+            print(f"  Already have {today_str}, skipping.\n")
+            continue
 
+        result = fetch_csv(ticker, cfg, today)
+        if result is None:
+            print()
+            continue
+
+        _csv_date, csv_text = result
+        holdings = parse_holdings(csv_text)
+
+        if not holdings:
+            print(f"  No holdings parsed – keeping prior data.\n")
+            continue
+
+        prior_holdings = prior.get("holdings", []) if prior else []
+        diff = compute_diff(prior_holdings, holdings)
+        print(f"  Diff: +{len(diff['added'])} added, "
+              f"-{len(diff['removed'])} removed, "
+              f"{len(diff['changed'])} changed")
+        save_snapshot(ticker, today_str, holdings, diff)
+        any_saved = True
+        print()
+
+    print("Done." if any_saved else "No new data saved today.")
 
 if __name__ == "__main__":
     main()
