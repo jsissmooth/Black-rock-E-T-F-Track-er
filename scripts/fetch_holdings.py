@@ -32,17 +32,34 @@ ETF_CONFIG = {
     "BILT": "345073",
 }
 
-# appSubType=ISHARES + targetSite=us-ishares is required to get the full
-# individual-holdings CSV.  The old appSubType=ONE / targetSite=one now
-# returns only an asset-allocation summary (Bond/Cash/Stock percentages).
-BLACKROCK_URL = (
-    "https://www.blackrock.com/varnish-api/blk-one01-product-data/"
-    "product-data/api/v1/get-fund-document"
-    "?appType=PRODUCT_PAGE&appSubType=ISHARES"
-    "&targetSite=us-ishares&locale=en_US"
-    "&portfolioId={portfolio_id}&userType=individual"
-    "&asOfDate={date}&component=holdings"
-)
+# BlackRock serves the same underlying API with two different parameter
+# combinations.  Some ETFs respond to ISHARES/us-ishares, others to ONE/one.
+# We try both for every date so either one works.
+BLACKROCK_URLS = [
+    (
+        "https://www.blackrock.com/varnish-api/blk-one01-product-data/"
+        "product-data/api/v1/get-fund-document"
+        "?appType=PRODUCT_PAGE&appSubType=ISHARES"
+        "&targetSite=us-ishares&locale=en_US"
+        "&portfolioId={portfolio_id}&userType=individual"
+        "&asOfDate={date}&component=holdings"
+    ),
+    (
+        "https://www.blackrock.com/varnish-api/blk-one01-product-data/"
+        "product-data/api/v1/get-fund-document"
+        "?appType=PRODUCT_PAGE&appSubType=ONE"
+        "&targetSite=one&locale=en_US"
+        "&portfolioId={portfolio_id}&userType=individual"
+        "&asOfDate={date}&component=holdings"
+    ),
+]
+
+# A real holdings CSV has many lines; the asset-allocation placeholder has
+# only ~20.  Reject any response with fewer than this many non-empty lines.
+MIN_HOLDINGS_LINES = 25
+
+# How many calendar days to look back for the most recent published date.
+LOOKBACK_DAYS = 30
 
 REQUEST_HEADERS = {
     "User-Agent": (
@@ -82,37 +99,48 @@ def is_trading_day(date_str: str) -> bool:
 
 def fetch_csv(ticker: str, portfolio_id: str, today: datetime):
     """
-    Try today, then up to 10 prior calendar days, to find the most recent
-    published CSV.  Returns (date_str YYYY-MM-DD, csv_text) or None.
+    Try today then up to LOOKBACK_DAYS prior calendar days, returning the
+    first date+CSV that contains real individual holdings.
+
+    BlackRock returns a short asset-allocation summary (~20 lines) for dates
+    whose full holdings haven't been published yet.  We skip those by requiring
+    at least MIN_HOLDINGS_LINES non-empty lines.  Both URL patterns are tried
+    for every date so the script works regardless of which endpoint a fund uses.
+
+    Returns (date_str YYYY-MM-DD, csv_text) or None.
     """
-    for days_back in range(0, 11):
+    for days_back in range(0, LOOKBACK_DAYS + 1):
         d = today - timedelta(days=days_back)
         date_str = d.strftime("%Y%m%d")
-        url = BLACKROCK_URL.format(
-            portfolio_id=portfolio_id,
-            date=date_str,
-        )
-        try:
-            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
-            if resp.status_code == 200:
-                text = resp.text.strip()
-                if "Ticker" in text and len(text) > 300:
-                    print(f"  Found data for {d.strftime('%Y-%m-%d')} "
-                          f"({len(text):,} chars)")
-                    return d.strftime("%Y-%m-%d"), text
-                else:
-                    print(f"  {date_str}: 200 OK but content looks empty "
-                          f"({len(resp.text)} chars)")
-            elif resp.status_code in (400, 404):
-                pass  # normal – date not yet published
-            else:
-                print(f"  {date_str}: HTTP {resp.status_code}")
-        except requests.exceptions.Timeout:
-            print(f"  {date_str}: request timed out")
-        except Exception as e:
-            print(f"  {date_str}: {type(e).__name__}: {e}")
+        d_label  = d.strftime("%Y-%m-%d")
 
-    print(f"  No CSV found for {ticker} in the past 10 days.")
+        for url_template in BLACKROCK_URLS:
+            url = url_template.format(portfolio_id=portfolio_id, date=date_str)
+            try:
+                resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    text = resp.text.strip()
+                    # Count non-empty lines to distinguish real holdings from
+                    # the placeholder asset-allocation summary (~20 lines).
+                    non_empty = sum(1 for ln in text.splitlines() if ln.strip())
+                    if "Ticker" in text and non_empty >= MIN_HOLDINGS_LINES:
+                        print(f"  Found data for {d_label} "
+                              f"({len(text):,} chars, {non_empty} lines)")
+                        return d_label, text
+                    elif "Ticker" in text:
+                        print(f"  {d_label}: summary-only "
+                              f"({non_empty} lines < {MIN_HOLDINGS_LINES})")
+                        # Both URLs return the same summary for unpublished
+                        # dates – no point trying the second URL.
+                        break
+                elif resp.status_code not in (400, 404):
+                    print(f"  {d_label}: HTTP {resp.status_code}")
+            except requests.exceptions.Timeout:
+                print(f"  {d_label}: request timed out")
+            except Exception as e:
+                print(f"  {d_label}: {type(e).__name__}: {e}")
+
+    print(f"  No CSV found for {ticker} in the past {LOOKBACK_DAYS} days.")
     return None
 
 # ─── CSV parsing ───────────────────────────────────────────────────────────────
@@ -311,22 +339,23 @@ def _append_history(ticker: str, today_str: str, entry: dict) -> None:
     history.append(entry)
     p.write_text(json.dumps(history[-365:], indent=2))
 
-def save_snapshot(ticker: str, today_str: str,
+def save_snapshot(ticker: str, run_date: str, data_date: str,
                   holdings: list, diff: dict) -> None:
     folder = DATA_DIR / ticker
     folder.mkdir(parents=True, exist_ok=True)
     snapshot = {
-        "date":     today_str,
-        "ticker":   ticker,
-        "count":    len(holdings),
-        "holdings": holdings,
+        "date":      data_date,   # BlackRock publication date
+        "run_date":  run_date,    # date this workflow ran
+        "ticker":    ticker,
+        "count":     len(holdings),
+        "holdings":  holdings,
     }
-    for path in [folder / f"{today_str}.json", folder / "latest.json"]:
+    for path in [folder / f"{data_date}.json", folder / "latest.json"]:
         path.write_text(json.dumps(snapshot, indent=2))
     (folder / "diff.json").write_text(
-        json.dumps({"date": today_str, "ticker": ticker, **diff}, indent=2))
-    _append_history(ticker, today_str, {"date": today_str, "count": len(holdings)})
-    print(f"  → Saved {len(holdings)} holdings to data/{ticker}/")
+        json.dumps({"date": data_date, "ticker": ticker, **diff}, indent=2))
+    _append_history(ticker, data_date, {"date": data_date, "count": len(holdings)})
+    print(f"  → Saved {len(holdings)} holdings ({data_date}) to data/{ticker}/")
 
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
@@ -344,8 +373,11 @@ def main() -> None:
     for ticker, portfolio_id in ETF_CONFIG.items():
         print(f"── {ticker} ──────────────────────────────────")
         prior = load_latest(ticker)
-        if prior and prior.get("date") == today_str:
-            print(f"  Already have {today_str}, skipping.\n")
+        # Skip if we already ran successfully today.  Use run_date (new field)
+        # with a fallback to date (old field) for backwards compatibility.
+        prior_run = prior.get("run_date") or prior.get("date") if prior else None
+        if prior_run == today_str:
+            print(f"  Already saved today's run ({today_str}), skipping.\n")
             continue
 
         result = fetch_csv(ticker, portfolio_id, today)
@@ -353,7 +385,7 @@ def main() -> None:
             print()
             continue
 
-        _csv_date, csv_text = result
+        csv_date, csv_text = result
         holdings = parse_holdings(csv_text)
 
         if not holdings:
@@ -365,7 +397,7 @@ def main() -> None:
         print(f"  Diff: +{len(diff['added'])} added, "
               f"-{len(diff['removed'])} removed, "
               f"{len(diff['changed'])} changed")
-        save_snapshot(ticker, today_str, holdings, diff)
+        save_snapshot(ticker, today_str, csv_date, holdings, diff)
         any_saved = True
         print()
 
