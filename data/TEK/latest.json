@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "run_date": "2026-11-24",
+  "date": "2026-11-24",
+  "run_date": "2026-11-25",
   "ticker": "TEK",
   "count": 54,
   "holdings": [
@@ -9,19 +9,9 @@
       "name": "MICROSOFT",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 8.72,
-      "market_value": 3140672.5,
-      "shares": 3140672.5,
-      "location": "United States"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "BROADCOM INC",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 7.21,
-      "market_value": 2596821.1,
-      "shares": 2596821.1,
+      "weight": 8.85,
+      "market_value": 3109246.71,
+      "shares": 3109246.71,
       "location": "United States"
     },
     {
@@ -29,9 +19,19 @@
       "name": "APPLE",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 7.16,
-      "market_value": 2580050.28,
-      "shares": 2580050.28,
+      "weight": 7.45,
+      "market_value": 2616931.37,
+      "shares": 2616931.37,
+      "location": "United States"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "BROADCOM INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 7.0,
+      "market_value": 2458920.36,
+      "shares": 2458920.36,
       "location": "United States"
     },
     {
@@ -39,19 +39,9 @@
       "name": "NVIDIA",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 6.47,
-      "market_value": 2329350.65,
-      "shares": 2329350.65,
-      "location": "United States"
-    },
-    {
-      "ticker": "AMD",
-      "name": "ADVANCED MICRO DEVICES",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 5.54,
-      "market_value": 1994770.54,
-      "shares": 1994770.54,
+      "weight": 6.39,
+      "market_value": 2243842.58,
+      "shares": 2243842.58,
       "location": "United States"
     },
     {
@@ -59,19 +49,29 @@
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 5.33,
-      "market_value": 1920171.6,
-      "shares": 1920171.6,
+      "weight": 5.25,
+      "market_value": 1844125.2,
+      "shares": 1844125.2,
       "location": "Taiwan"
+    },
+    {
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 5.17,
+      "market_value": 1817974.73,
+      "shares": 1817974.73,
+      "location": "United States"
     },
     {
       "ticker": "ANT",
       "name": "ANTHROPIC CLASS A",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 5.21,
-      "market_value": 1876460.04,
-      "shares": 1876460.04,
+      "weight": 4.99,
+      "market_value": 1753667.96,
+      "shares": 1753667.96,
       "location": "United States"
     },
     {
@@ -79,9 +79,9 @@
       "name": "AMAZON.COM INC",
       "sector": "Consumer Discretionary",
       "asset_class": "Equity",
-      "weight": 3.47,
-      "market_value": 1250134.05,
-      "shares": 1250134.05,
+      "weight": 3.51,
+      "market_value": 1234959.55,
+      "shares": 1234959.55,
       "location": "United States"
     },
     {
@@ -89,9 +89,9 @@
       "name": "SPACE EXPLORATION TECHNOLOGIES COR",
       "sector": "Communication",
       "asset_class": "Equity",
-      "weight": 3.41,
-      "market_value": 1227086.7,
-      "shares": 1227086.7,
+      "weight": 3.29,
+      "market_value": 1157703.62,
+      "shares": 1157703.62,
       "location": "United States"
     },
     {
@@ -99,9 +99,9 @@
       "name": "LAM RESEARCH",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 3.03,
-      "market_value": 1090332.48,
-      "shares": 1090332.48,
+      "weight": 2.9,
+      "market_value": 1019639.68,
+      "shares": 1019639.68,
       "location": "United States"
     },
     {
@@ -109,19 +109,9 @@
       "name": "PALO ALTO NETWORKS",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 2.71,
-      "market_value": 977940.81,
-      "shares": 977940.81,
-      "location": "United States"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CROWDSTRIKE HOLDINGS CLASS A",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 2.63,
-      "market_value": 947887.92,
-      "shares": 947887.92,
+      "weight": 2.79,
+      "market_value": 980253.23,
+      "shares": 980253.23,
       "location": "United States"
     },
     {
@@ -129,9 +119,19 @@
       "name": "SNOWFLAKE",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 2.57,
-      "market_value": 924759.43,
-      "shares": 924759.43,
+      "weight": 2.64,
+      "market_value": 927669.98,
+      "shares": 927669.98,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.62,
+      "market_value": 920193.04,
+      "shares": 920193.04,
       "location": "United States"
     },
     {
@@ -139,9 +139,9 @@
       "name": "MICRON TECHNOLOGY",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 2.31,
-      "market_value": 832255.2,
-      "shares": 832255.2,
+      "weight": 2.11,
+      "market_value": 740633.04,
+      "shares": 740633.04,
       "location": "United States"
     },
     {
@@ -149,19 +149,9 @@
       "name": "ARISTA NETWORKS",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 1.79,
-      "market_value": 643342.48,
-      "shares": 643342.48,
-      "location": "United States"
-    },
-    {
-      "ticker": "INTC",
-      "name": "INTEL CORPORATION",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 1.56,
-      "market_value": 562534.14,
-      "shares": 562534.14,
+      "weight": 1.73,
+      "market_value": 608164.48,
+      "shares": 608164.48,
       "location": "United States"
     },
     {
@@ -169,9 +159,19 @@
       "name": "ALPHABET CLASS A",
       "sector": "Communication",
       "asset_class": "Equity",
-      "weight": 1.55,
-      "market_value": 559686.4,
-      "shares": 559686.4,
+      "weight": 1.61,
+      "market_value": 564239.1,
+      "shares": 564239.1,
+      "location": "United States"
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORPORATION",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.47,
+      "market_value": 516709.2,
+      "shares": 516709.2,
       "location": "United States"
     },
     {
@@ -179,19 +179,9 @@
       "name": "TESLA INC",
       "sector": "Consumer Discretionary",
       "asset_class": "Equity",
-      "weight": 1.29,
-      "market_value": 465250.22,
-      "shares": 465250.22,
-      "location": "United States"
-    },
-    {
-      "ticker": "WDC",
-      "name": "WESTERN DIGITAL CORP",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 1.2,
-      "market_value": 431607.0,
-      "shares": 431607.0,
+      "weight": 1.32,
+      "market_value": 464308.76,
+      "shares": 464308.76,
       "location": "United States"
     },
     {
@@ -199,9 +189,19 @@
       "name": "CISCO SYSTEMS INC",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 1.2,
-      "market_value": 431050.4,
-      "shares": 431050.4,
+      "weight": 1.19,
+      "market_value": 418537.47,
+      "shares": 418537.47,
+      "location": "United States"
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.13,
+      "market_value": 397775.4,
+      "shares": 397775.4,
       "location": "United States"
     },
     {
@@ -209,19 +209,19 @@
       "name": "LUMENTUM HOLDINGS",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 1.03,
-      "market_value": 371811.54,
-      "shares": 371811.54,
+      "weight": 0.95,
+      "market_value": 332702.96,
+      "shares": 332702.96,
       "location": "United States"
     },
     {
-      "ticker": "FLEX",
-      "name": "FLEX LTD",
-      "sector": "Information Technology",
+      "ticker": "META",
+      "name": "META PLATFORMS CLASS A",
+      "sector": "Communication",
       "asset_class": "Equity",
       "weight": 0.91,
-      "market_value": 327258.44,
-      "shares": 327258.44,
+      "market_value": 318502.8,
+      "shares": 318502.8,
       "location": "United States"
     },
     {
@@ -230,18 +230,18 @@
       "sector": "Information Technology",
       "asset_class": "Equity",
       "weight": 0.9,
-      "market_value": 325097.28,
-      "shares": 325097.28,
+      "market_value": 315605.16,
+      "shares": 315605.16,
       "location": "United States"
     },
     {
-      "ticker": "META",
-      "name": "META PLATFORMS CLASS A",
-      "sector": "Communication",
+      "ticker": "FLEX",
+      "name": "FLEX LTD",
+      "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.9,
-      "market_value": 322704.0,
-      "shares": 322704.0,
+      "weight": 0.85,
+      "market_value": 297319.0,
+      "shares": 297319.0,
       "location": "United States"
     },
     {
@@ -249,9 +249,9 @@
       "name": "VISA CLASS A",
       "sector": "Financials",
       "asset_class": "Equity",
-      "weight": 0.8,
-      "market_value": 286989.4,
-      "shares": 286989.4,
+      "weight": 0.83,
+      "market_value": 292162.78,
+      "shares": 292162.78,
       "location": "United States"
     },
     {
@@ -259,9 +259,9 @@
       "name": "COHERENT",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.77,
-      "market_value": 275589.37,
-      "shares": 275589.37,
+      "weight": 0.72,
+      "market_value": 253934.56,
+      "shares": 253934.56,
       "location": "United States"
     },
     {
@@ -269,9 +269,9 @@
       "name": "CBOE GLOBAL MARKETS",
       "sector": "Financials",
       "asset_class": "Equity",
-      "weight": 0.68,
-      "market_value": 243658.29,
-      "shares": 243658.29,
+      "weight": 0.71,
+      "market_value": 249051.24,
+      "shares": 249051.24,
       "location": "United States"
     },
     {
@@ -279,7 +279,7 @@
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "sector": "Cash and/or Derivatives",
       "asset_class": "Money Market",
-      "weight": 0.67,
+      "weight": 0.68,
       "market_value": 240000.0,
       "shares": 240000.0,
       "location": "United States"
@@ -289,29 +289,9 @@
       "name": "PALANTIR TECHNOLOGIES CLASS A",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.65,
-      "market_value": 235852.8,
-      "shares": 235852.8,
-      "location": "United States"
-    },
-    {
-      "ticker": "MRVL",
-      "name": "MARVELL TECHNOLOGY",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 0.59,
-      "market_value": 213057.28,
-      "shares": 213057.28,
-      "location": "United States"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "SANDISK",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 0.57,
-      "market_value": 205592.24,
-      "shares": 205592.24,
+      "weight": 0.68,
+      "market_value": 238546.4,
+      "shares": 238546.4,
       "location": "United States"
     },
     {
@@ -319,9 +299,19 @@
       "name": "SALESFORCE",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.57,
-      "market_value": 205304.22,
-      "shares": 205304.22,
+      "weight": 0.61,
+      "market_value": 213938.82,
+      "shares": 213938.82,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.56,
+      "market_value": 196960.29,
+      "shares": 196960.29,
       "location": "United States"
     },
     {
@@ -329,9 +319,19 @@
       "name": "KLA",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.56,
-      "market_value": 200835.45,
-      "shares": 200835.45,
+      "weight": 0.52,
+      "market_value": 184036.05,
+      "shares": 184036.05,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SANDISK",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.52,
+      "market_value": 182714.8,
+      "shares": 182714.8,
       "location": "United States"
     },
     {
@@ -339,9 +339,9 @@
       "name": "TERADYNE",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.55,
-      "market_value": 199417.54,
-      "shares": 199417.54,
+      "weight": 0.52,
+      "market_value": 182089.88,
+      "shares": 182089.88,
       "location": "United States"
     },
     {
@@ -349,19 +349,9 @@
       "name": "IQVIA HOLDINGS INC",
       "sector": "Health Care",
       "asset_class": "Equity",
-      "weight": 0.49,
-      "market_value": 178107.44,
-      "shares": 178107.44,
-      "location": "United States"
-    },
-    {
-      "ticker": "ENTG",
-      "name": "ENTEGRIS INC",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 0.48,
-      "market_value": 172887.02,
-      "shares": 172887.02,
+      "weight": 0.52,
+      "market_value": 181699.21,
+      "shares": 181699.21,
       "location": "United States"
     },
     {
@@ -369,9 +359,9 @@
       "name": "SERVICENOW",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.46,
-      "market_value": 167022.12,
-      "shares": 167022.12,
+      "weight": 0.48,
+      "market_value": 167058.54,
+      "shares": 167058.54,
       "location": "United States"
     },
     {
@@ -379,19 +369,39 @@
       "name": "ELASTIC",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.43,
-      "market_value": 155650.95,
-      "shares": 155650.95,
+      "weight": 0.45,
+      "market_value": 156759.33,
+      "shares": 156759.33,
       "location": "United States"
     },
     {
-      "ticker": "DDOG",
-      "name": "DATADOG INC CLASS A",
+      "ticker": "ENTG",
+      "name": "ENTEGRIS INC",
       "sector": "Information Technology",
       "asset_class": "Equity",
+      "weight": 0.44,
+      "market_value": 155556.94,
+      "shares": 155556.94,
+      "location": "United States"
+    },
+    {
+      "ticker": "NET",
+      "name": "CLOUDFLARE CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 144794.16,
+      "shares": 144794.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "APP",
+      "name": "APPLOVIN CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
       "weight": 0.4,
-      "market_value": 144850.14,
-      "shares": 144850.14,
+      "market_value": 142154.03,
+      "shares": 142154.03,
       "location": "United States"
     },
     {
@@ -400,18 +410,18 @@
       "sector": "Information Technology",
       "asset_class": "Equity",
       "weight": 0.4,
-      "market_value": 143918.88,
-      "shares": 143918.88,
+      "market_value": 142131.0,
+      "shares": 142131.0,
       "location": "United States"
     },
     {
-      "ticker": "APP",
-      "name": "APPLOVIN CLASS A",
-      "sector": "Communication",
+      "ticker": "DDOG",
+      "name": "DATADOG INC CLASS A",
+      "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.39,
-      "market_value": 139472.16,
-      "shares": 139472.16,
+      "weight": 0.4,
+      "market_value": 141730.66,
+      "shares": 141730.66,
       "location": "United States"
     },
     {
@@ -419,49 +429,29 @@
       "name": "ASML HOLDING",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.37,
-      "market_value": 134466.5,
-      "shares": 134466.5,
+      "weight": 0.36,
+      "market_value": 127824.38,
+      "shares": 127824.38,
       "location": "Netherlands"
-    },
-    {
-      "ticker": "DELL",
-      "name": "DELL TECHNOLOGIES INC CLASS C",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 0.37,
-      "market_value": 132959.27,
-      "shares": 132959.27,
-      "location": "United States"
     },
     {
       "ticker": "MPWR",
       "name": "MONOLITHIC POWER SYSTEMS INC",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.36,
-      "market_value": 130720.24,
-      "shares": 130720.24,
-      "location": "United States"
-    },
-    {
-      "ticker": "NET",
-      "name": "CLOUDFLARE CLASS A",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
       "weight": 0.35,
-      "market_value": 125185.9,
-      "shares": 125185.9,
+      "market_value": 122586.48,
+      "shares": 122586.48,
       "location": "United States"
     },
     {
-      "ticker": "LSCC",
-      "name": "LATTICE SEMICONDUCTOR",
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES INC CLASS C",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.3,
-      "market_value": 109109.7,
-      "shares": 109109.7,
+      "weight": 0.34,
+      "market_value": 120474.24,
+      "shares": 120474.24,
       "location": "United States"
     },
     {
@@ -469,9 +459,19 @@
       "name": "DIGITALOCEAN HOLDINGS",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.3,
-      "market_value": 107254.84,
-      "shares": 107254.84,
+      "weight": 0.29,
+      "market_value": 100505.58,
+      "shares": 100505.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "LSCC",
+      "name": "LATTICE SEMICONDUCTOR",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.28,
+      "market_value": 96957.42,
+      "shares": 96957.42,
       "location": "United States"
     },
     {
@@ -480,8 +480,8 @@
       "sector": "Health Care",
       "asset_class": "Equity",
       "weight": 0.25,
-      "market_value": 88925.36,
-      "shares": 88925.36,
+      "market_value": 88934.26,
+      "shares": 88934.26,
       "location": "United States"
     },
     {
@@ -489,9 +489,9 @@
       "name": "CEREBRAS SYSTEMS INC CLASS A",
       "sector": "Information Technology",
       "asset_class": "Equity",
-      "weight": 0.17,
-      "market_value": 62258.32,
-      "shares": 62258.32,
+      "weight": 0.16,
+      "market_value": 56108.96,
+      "shares": 56108.96,
       "location": "United States"
     },
     {
@@ -500,8 +500,8 @@
       "sector": "Cash and/or Derivatives",
       "asset_class": "Cash",
       "weight": 0.09,
-      "market_value": 32006.27,
-      "shares": 32006.27,
+      "market_value": 32099.26,
+      "shares": 32099.26,
       "location": "Korea (South)"
     },
     {
@@ -510,8 +510,8 @@
       "sector": "Cash and/or Derivatives",
       "asset_class": "Cash",
       "weight": 0.0,
-      "market_value": 505.9,
-      "shares": 505.9,
+      "market_value": 509.63,
+      "shares": 509.63,
       "location": "United Kingdom"
     },
     {
@@ -520,8 +520,8 @@
       "sector": "Cash and/or Derivatives",
       "asset_class": "Cash",
       "weight": 0.0,
-      "market_value": 96.27,
-      "shares": 96.27,
+      "market_value": 96.65,
+      "shares": 96.65,
       "location": "Canada"
     },
     {
@@ -530,8 +530,8 @@
       "sector": "Cash and/or Derivatives",
       "asset_class": "Cash",
       "weight": 0.0,
-      "market_value": 21.0,
-      "shares": 21.0,
+      "market_value": 21.01,
+      "shares": 21.01,
       "location": "Hong Kong"
     },
     {
@@ -539,9 +539,9 @@
       "name": "USD CASH",
       "sector": "Cash and/or Derivatives",
       "asset_class": "Cash",
-      "weight": -0.01,
-      "market_value": -4068.53,
-      "shares": -4068.53,
+      "weight": -0.02,
+      "market_value": -6392.05,
+      "shares": -6392.05,
       "location": "United States"
     }
   ]

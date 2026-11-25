@@ -1,735 +1,34 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "ticker": "BAI",
   "added": [
     {
-      "ticker": "ANT",
-      "name": "ANTHROPIC CLASS A",
-      "sector": "Information Technology",
-      "asset_class": "Equity",
-      "weight": 4.76,
-      "market_value": 532832707.96,
-      "shares": 532832707.96,
-      "location": "United States"
-    }
-  ],
-  "removed": [
-    {
-      "ticker": "ANTHC",
-      "name": "ANTHROPIC SERIES G PREF EQ Prvt",
-      "identifier": "ANTHC",
-      "sector": "Information Technology",
-      "pct_of_fund": 1.1,
-      "quantity": 185076.0,
-      "market_value": 123741813.6,
-      "price": 668.6
-    },
-    {
       "ticker": "JPY",
-      "name": "JPY/USD",
-      "identifier": "JPY",
+      "name": "JPY CASH",
       "sector": "Cash and/or Derivatives",
-      "pct_of_fund": 0.0,
-      "quantity": 26405280.0,
-      "market_value": 125.72,
-      "price": 1.0
+      "asset_class": "Cash",
+      "weight": 0.03,
+      "market_value": 3525927.4,
+      "shares": 3525927.4,
+      "location": "Japan"
     }
   ],
+  "removed": [],
   "changed": [
-    {
-      "ticker": "ONTO",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.94
-        },
-        "market_value": {
-          "from": 102551537.22,
-          "to": 105544511.82
-        },
-        "shares": {
-          "from": null,
-          "to": 105544511.82
-        }
-      }
-    },
-    {
-      "ticker": "MU",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 5.37
-        },
-        "market_value": {
-          "from": 611413477.11,
-          "to": 601003609.5
-        },
-        "shares": {
-          "from": null,
-          "to": 601003609.5
-        }
-      }
-    },
-    {
-      "ticker": "TWLO",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.54
-        },
-        "market_value": {
-          "from": 88561697.14,
-          "to": 60089507.16
-        },
-        "shares": {
-          "from": null,
-          "to": 60089507.16
-        }
-      }
-    },
-    {
-      "ticker": "MRVL",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 2.25
-        },
-        "market_value": {
-          "from": 246737452.16,
-          "to": 251591265.46
-        },
-        "shares": {
-          "from": null,
-          "to": 251591265.46
-        }
-      }
-    },
-    {
-      "ticker": "TWST",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.52
-        },
-        "market_value": {
-          "from": 60743992.77,
-          "to": 57847549.85
-        },
-        "shares": {
-          "from": null,
-          "to": 57847549.85
-        }
-      }
-    },
-    {
-      "ticker": "USD",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": -0.45
-        },
-        "market_value": {
-          "from": -16077060.35,
-          "to": -50802927.84
-        },
-        "shares": {
-          "from": null,
-          "to": -50802927.84
-        }
-      }
-    },
-    {
-      "ticker": "OKTA",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.64
-        },
-        "market_value": {
-          "from": 145886886.6,
-          "to": 183430158.12
-        },
-        "shares": {
-          "from": null,
-          "to": 183430158.12
-        }
-      }
-    },
-    {
-      "ticker": "SPCX",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 4.24
-        },
-        "market_value": {
-          "from": 475906322.07,
-          "to": 474177264.75
-        },
-        "shares": {
-          "from": null,
-          "to": 474177264.75
-        }
-      }
-    },
-    {
-      "ticker": "IQV",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.65
-        },
-        "market_value": {
-          "from": 34768229.15,
-          "to": 72663049.04
-        },
-        "shares": {
-          "from": null,
-          "to": 72663049.04
-        }
-      }
-    },
-    {
-      "ticker": "WDC",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 2.25
-        },
-        "market_value": {
-          "from": 230295454.8,
-          "to": 251897081.25
-        },
-        "shares": {
-          "from": null,
-          "to": 251897081.25
-        }
-      }
-    },
-    {
-      "ticker": "AVGO",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 6.07
-        },
-        "market_value": {
-          "from": 596650723.02,
-          "to": 679570711.2
-        },
-        "shares": {
-          "from": null,
-          "to": 679570711.2
-        }
-      }
-    },
-    {
-      "ticker": "AUD",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.0
-        },
-        "market_value": {
-          "from": 27.01,
-          "to": 26.08
-        },
-        "shares": {
-          "from": null,
-          "to": 26.08
-        }
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 3.0
-        },
-        "market_value": {
-          "from": 495155755.36,
-          "to": 336305880.0
-        },
-        "shares": {
-          "from": null,
-          "to": 336305880.0
-        }
-      }
-    },
-    {
-      "ticker": "FLEX",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.26
-        },
-        "market_value": {
-          "from": 132833128.33,
-          "to": 140917735.66
-        },
-        "shares": {
-          "from": null,
-          "to": 140917735.66
-        }
-      }
-    },
-    {
-      "ticker": "SMCI",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.97
-        },
-        "market_value": {
-          "from": 115209058.58,
-          "to": 108247701.1
-        },
-        "shares": {
-          "from": null,
-          "to": 108247701.1
-        }
-      }
-    },
-    {
-      "ticker": "INTC",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.18
-        },
-        "market_value": {
-          "from": 121300161.65,
-          "to": 132522817.66
-        },
-        "shares": {
-          "from": null,
-          "to": 132522817.66
-        }
-      }
-    },
-    {
-      "ticker": "KRW",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.03
-        },
-        "market_value": {
-          "from": 144.6,
-          "to": 3371674.78
-        },
-        "shares": {
-          "from": null,
-          "to": 3371674.78
-        }
-      }
-    },
-    {
-      "ticker": "AMZN",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 3.05
-        },
-        "market_value": {
-          "from": 336678408.24,
-          "to": 341156346.75
-        },
-        "shares": {
-          "from": null,
-          "to": 341156346.75
-        }
-      }
-    },
-    {
-      "ticker": "LRCX",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 2.79
-        },
-        "market_value": {
-          "from": 345586053.96,
-          "to": 312758033.28
-        },
-        "shares": {
-          "from": null,
-          "to": 312758033.28
-        }
-      }
-    },
-    {
-      "ticker": "WDAY",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.56
-        },
-        "market_value": {
-          "from": 52458341.91,
-          "to": 62265409.6
-        },
-        "shares": {
-          "from": null,
-          "to": 62265409.6
-        }
-      }
-    },
-    {
-      "ticker": "AKAM",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.08
-        },
-        "market_value": {
-          "from": 107042906.85,
-          "to": 121447423.86
-        },
-        "shares": {
-          "from": null,
-          "to": 121447423.86
-        }
-      }
-    },
-    {
-      "ticker": "TSLA",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.52
-        },
-        "market_value": {
-          "from": 152335074.92,
-          "to": 170475852.36
-        },
-        "shares": {
-          "from": null,
-          "to": 170475852.36
-        }
-      }
-    },
-    {
-      "ticker": "AMD",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 6.11
-        },
-        "market_value": {
-          "from": 719602565.57,
-          "to": 684365913.14
-        },
-        "shares": {
-          "from": null,
-          "to": 684365913.14
-        }
-      }
-    },
-    {
-      "ticker": "TSEM",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.12
-        },
-        "market_value": {
-          "from": 127336438.8,
-          "to": 125642610.13
-        },
-        "shares": {
-          "from": null,
-          "to": 125642610.13
-        }
-      }
-    },
-    {
-      "ticker": "LITE",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.62
-        },
-        "market_value": {
-          "from": 212194172.04,
-          "to": 181358019.48
-        },
-        "shares": {
-          "from": null,
-          "to": 181358019.48
-        }
-      }
-    },
-    {
-      "ticker": "CRWV",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.38
-        },
-        "market_value": {
-          "from": 124676825.79,
-          "to": 154162405.71
-        },
-        "shares": {
-          "from": null,
-          "to": 154162405.71
-        }
-      }
-    },
-    {
-      "ticker": "CRWD",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 2.48
-        },
-        "market_value": {
-          "from": 279153820.32,
-          "to": 278092678.66
-        },
-        "shares": {
-          "from": null,
-          "to": 278092678.66
-        }
-      }
-    },
-    {
-      "ticker": "SNOW",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 3.28
-        },
-        "market_value": {
-          "from": 376738792.24,
-          "to": 367779999.17
-        },
-        "shares": {
-          "from": null,
-          "to": 367779999.17
-        }
-      }
-    },
     {
       "ticker": "ENTG",
       "changes": {
         "weight": {
-          "from": null,
-          "to": 1.11
+          "from": 1.11,
+          "to": 1.04
         },
         "market_value": {
-          "from": 98194166.25,
-          "to": 124492292.16
+          "from": 124492292.16,
+          "to": 111597213.42
         },
         "shares": {
-          "from": null,
-          "to": 124492292.16
-        }
-      }
-    },
-    {
-      "ticker": "SNDK",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.56
-        },
-        "market_value": {
-          "from": 147306827.11,
-          "to": 63164531.92
-        },
-        "shares": {
-          "from": null,
-          "to": 63164531.92
-        }
-      }
-    },
-    {
-      "ticker": "MTSI",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.58
-        },
-        "market_value": {
-          "from": 160689824.8,
-          "to": 176948432.1
-        },
-        "shares": {
-          "from": null,
-          "to": 176948432.1
-        }
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 3.21
-        },
-        "market_value": {
-          "from": 366197747.04,
-          "to": 359951505.0
-        },
-        "shares": {
-          "from": null,
-          "to": 359951505.0
-        }
-      }
-    },
-    {
-      "ticker": "TEM",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.29
-        },
-        "market_value": {
-          "from": 39155729.1,
-          "to": 32230052.72
-        },
-        "shares": {
-          "from": null,
-          "to": 32230052.72
-        }
-      }
-    },
-    {
-      "ticker": "CLS",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.06
-        },
-        "market_value": {
-          "from": 111610508.34,
-          "to": 118294686.77
-        },
-        "shares": {
-          "from": null,
-          "to": 118294686.77
-        }
-      }
-    },
-    {
-      "ticker": "ESTC",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.02
-        },
-        "market_value": {
-          "from": 114903800.25,
-          "to": 114189397.65
-        },
-        "shares": {
-          "from": null,
-          "to": 114189397.65
-        }
-      }
-    },
-    {
-      "ticker": "ANET",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 2.78
-        },
-        "market_value": {
-          "from": 303183023.0,
-          "to": 311044677.24
-        },
-        "shares": {
-          "from": null,
-          "to": 311044677.24
-        }
-      }
-    },
-    {
-      "ticker": "MPWR",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.63
-        },
-        "market_value": {
-          "from": 60235354.4,
-          "to": 70802350.4
-        },
-        "shares": {
-          "from": null,
-          "to": 70802350.4
-        }
-      }
-    },
-    {
-      "ticker": "NET",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.76
-        },
-        "market_value": {
-          "from": 60099791.4,
-          "to": 85128741.04
-        },
-        "shares": {
-          "from": null,
-          "to": 85128741.04
-        }
-      }
-    },
-    {
-      "ticker": "TSM",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 5.57
-        },
-        "market_value": {
-          "from": 610309990.08,
-          "to": 623335842.0
-        },
-        "shares": {
-          "from": null,
-          "to": 623335842.0
-        }
-      }
-    },
-    {
-      "ticker": "TWD",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.24
-        },
-        "market_value": {
-          "from": 51313918.79,
-          "to": 26703762.71
-        },
-        "shares": {
-          "from": null,
-          "to": 26703762.71
-        }
-      }
-    },
-    {
-      "ticker": "CRDO",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.37
-        },
-        "market_value": {
-          "from": 152800430.2,
-          "to": 153454503.54
-        },
-        "shares": {
-          "from": null,
-          "to": 153454503.54
+          "from": 124492292.16,
+          "to": 111597213.42
         }
       }
     },
@@ -737,46 +36,16 @@
       "ticker": "BE",
       "changes": {
         "weight": {
-          "from": null,
-          "to": 1.17
+          "from": 1.17,
+          "to": 1.13
         },
         "market_value": {
-          "from": 135949944.0,
-          "to": 131200382.7
+          "from": 131200382.7,
+          "to": 121589223.75
         },
         "shares": {
-          "from": null,
-          "to": 131200382.7
-        }
-      }
-    },
-    {
-      "ticker": "XTSLA",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 1.39
-        },
-        "market_value": {
-          "from": 456190000.0,
-          "to": 155490000.0
-        },
-        "shares": {
-          "from": null,
-          "to": 155490000.0
-        }
-      }
-    },
-    {
-      "ticker": "OPNAI",
-      "changes": {
-        "weight": {
-          "from": null,
-          "to": 0.61
-        },
-        "shares": {
-          "from": null,
-          "to": 67802497.89
+          "from": 131200382.7,
+          "to": 121589223.75
         }
       }
     },
@@ -784,16 +53,719 @@
       "ticker": "PANW",
       "changes": {
         "weight": {
-          "from": null,
-          "to": 2.19
+          "from": 2.19,
+          "to": 2.27
         },
         "market_value": {
-          "from": 209594266.48,
-          "to": 245383974.99
+          "from": 245383974.99,
+          "to": 244170242.8
         },
         "shares": {
-          "from": null,
-          "to": 245383974.99
+          "from": 245383974.99,
+          "to": 244170242.8
+        }
+      }
+    },
+    {
+      "ticker": "ANT",
+      "changes": {
+        "weight": {
+          "from": 4.76,
+          "to": 4.62
+        },
+        "market_value": {
+          "from": 532832707.96,
+          "to": 496119225.06
+        },
+        "shares": {
+          "from": 532832707.96,
+          "to": 496119225.06
+        }
+      }
+    },
+    {
+      "ticker": "WDC",
+      "changes": {
+        "weight": {
+          "from": 2.25,
+          "to": 2.15
+        },
+        "market_value": {
+          "from": 251897081.25,
+          "to": 231294341.3
+        },
+        "shares": {
+          "from": 251897081.25,
+          "to": 231294341.3
+        }
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "changes": {
+        "weight": {
+          "from": 6.07,
+          "to": 6.05
+        },
+        "market_value": {
+          "from": 679570711.2,
+          "to": 650126560.2
+        },
+        "shares": {
+          "from": 679570711.2,
+          "to": 650126560.2
+        }
+      }
+    },
+    {
+      "ticker": "CLS",
+      "changes": {
+        "weight": {
+          "from": 1.06,
+          "to": 1.01
+        },
+        "market_value": {
+          "from": 118294686.77,
+          "to": 108647729.44
+        },
+        "shares": {
+          "from": 118294686.77,
+          "to": 108647729.44
+        }
+      }
+    },
+    {
+      "ticker": "ESTC",
+      "changes": {
+        "weight": {
+          "from": 1.02,
+          "to": 1.07
+        },
+        "market_value": {
+          "from": 114189397.65,
+          "to": 114575320.47
+        },
+        "shares": {
+          "from": 114189397.65,
+          "to": 114575320.47
+        }
+      }
+    },
+    {
+      "ticker": "IQV",
+      "changes": {
+        "weight": {
+          "from": 0.65,
+          "to": 0.68
+        },
+        "market_value": {
+          "from": 72663049.04,
+          "to": 73543574.28
+        },
+        "shares": {
+          "from": 72663049.04,
+          "to": 73543574.28
+        }
+      }
+    },
+    {
+      "ticker": "WDAY",
+      "changes": {
+        "weight": {
+          "from": 0.56,
+          "to": 0.59
+        },
+        "market_value": {
+          "from": 62265409.6,
+          "to": 63145955.14
+        },
+        "shares": {
+          "from": 62265409.6,
+          "to": 63145955.14
+        }
+      }
+    },
+    {
+      "ticker": "AUD",
+      "changes": {
+        "market_value": {
+          "from": 26.08,
+          "to": 26.14
+        },
+        "shares": {
+          "from": 26.08,
+          "to": 26.14
+        }
+      }
+    },
+    {
+      "ticker": "TSEM",
+      "changes": {
+        "weight": {
+          "from": 1.12,
+          "to": 1.05
+        },
+        "market_value": {
+          "from": 125642610.13,
+          "to": 112970481.61
+        },
+        "shares": {
+          "from": 125642610.13,
+          "to": 112970481.61
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "changes": {
+        "weight": {
+          "from": 1.52,
+          "to": 1.58
+        },
+        "market_value": {
+          "from": 170475852.36,
+          "to": 169498855.64
+        },
+        "shares": {
+          "from": 170475852.36,
+          "to": 169498855.64
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "changes": {
+        "weight": {
+          "from": 3.21,
+          "to": 3.36
+        },
+        "market_value": {
+          "from": 359951505.0,
+          "to": 361266485.97
+        },
+        "shares": {
+          "from": 359951505.0,
+          "to": 361266485.97
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "changes": {
+        "weight": {
+          "from": 3.05,
+          "to": 3.13
+        },
+        "market_value": {
+          "from": 341156346.75,
+          "to": 336870222.5
+        },
+        "shares": {
+          "from": 341156346.75,
+          "to": 336870222.5
+        }
+      }
+    },
+    {
+      "ticker": "USD",
+      "changes": {
+        "weight": {
+          "from": -0.45,
+          "to": -0.73
+        },
+        "market_value": {
+          "from": -50802927.84,
+          "to": -78482332.38
+        },
+        "shares": {
+          "from": -50802927.84,
+          "to": -78482332.38
+        }
+      }
+    },
+    {
+      "ticker": "XTSLA",
+      "changes": {
+        "weight": {
+          "from": 1.39,
+          "to": 1.45
+        }
+      }
+    },
+    {
+      "ticker": "NET",
+      "changes": {
+        "weight": {
+          "from": 0.76,
+          "to": 0.8
+        },
+        "market_value": {
+          "from": 85128741.04,
+          "to": 85904306.64
+        },
+        "shares": {
+          "from": 85128741.04,
+          "to": 85904306.64
+        }
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "changes": {
+        "weight": {
+          "from": 2.25,
+          "to": 2.12
+        },
+        "market_value": {
+          "from": 251591265.46,
+          "to": 227850426.17
+        },
+        "shares": {
+          "from": 251591265.46,
+          "to": 227850426.17
+        }
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "changes": {
+        "weight": {
+          "from": 2.48,
+          "to": 2.52
+        },
+        "market_value": {
+          "from": 278092678.66,
+          "to": 270528741.08
+        },
+        "shares": {
+          "from": 278092678.66,
+          "to": 270528741.08
+        }
+      }
+    },
+    {
+      "ticker": "TSM",
+      "changes": {
+        "weight": {
+          "from": 5.57,
+          "to": 5.55
+        },
+        "market_value": {
+          "from": 623335842.0,
+          "to": 596430108.0
+        },
+        "shares": {
+          "from": 623335842.0,
+          "to": 596430108.0
+        }
+      }
+    },
+    {
+      "ticker": "SPCX",
+      "changes": {
+        "weight": {
+          "from": 4.24,
+          "to": 4.16
+        },
+        "market_value": {
+          "from": 474177264.75,
+          "to": 446764897.48
+        },
+        "shares": {
+          "from": 474177264.75,
+          "to": 446764897.48
+        }
+      }
+    },
+    {
+      "ticker": "TEM",
+      "changes": {
+        "weight": {
+          "from": 0.29,
+          "to": 0.3
+        },
+        "market_value": {
+          "from": 32230052.72,
+          "to": 31942203.44
+        },
+        "shares": {
+          "from": 32230052.72,
+          "to": 31942203.44
+        }
+      }
+    },
+    {
+      "ticker": "SMCI",
+      "changes": {
+        "weight": {
+          "from": 0.97,
+          "to": 0.93
+        },
+        "market_value": {
+          "from": 108247701.1,
+          "to": 99448875.24
+        },
+        "shares": {
+          "from": 108247701.1,
+          "to": 99448875.24
+        }
+      }
+    },
+    {
+      "ticker": "TWLO",
+      "changes": {
+        "weight": {
+          "from": 0.54,
+          "to": 0.55
+        },
+        "market_value": {
+          "from": 60089507.16,
+          "to": 58626547.83
+        },
+        "shares": {
+          "from": 60089507.16,
+          "to": 58626547.83
+        }
+      }
+    },
+    {
+      "ticker": "SNDK",
+      "changes": {
+        "weight": {
+          "from": 0.56,
+          "to": 0.52
+        },
+        "market_value": {
+          "from": 63164531.92,
+          "to": 55928033.7
+        },
+        "shares": {
+          "from": 63164531.92,
+          "to": 55928033.7
+        }
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "changes": {
+        "weight": {
+          "from": 0.63,
+          "to": 0.59
+        },
+        "market_value": {
+          "from": 70802350.4,
+          "to": 62952323.04
+        },
+        "shares": {
+          "from": 70802350.4,
+          "to": 62952323.04
+        }
+      }
+    },
+    {
+      "ticker": "OPNAI",
+      "changes": {
+        "weight": {
+          "from": 0.61,
+          "to": 0.63
+        }
+      }
+    },
+    {
+      "ticker": "SNOW",
+      "changes": {
+        "weight": {
+          "from": 3.28,
+          "to": 3.41
+        },
+        "market_value": {
+          "from": 367779999.17,
+          "to": 366174546.41
+        },
+        "shares": {
+          "from": 367779999.17,
+          "to": 366174546.41
+        }
+      }
+    },
+    {
+      "ticker": "KRW",
+      "changes": {
+        "market_value": {
+          "from": 3371674.78,
+          "to": 3381470.31
+        },
+        "shares": {
+          "from": 3371674.78,
+          "to": 3381470.31
+        }
+      }
+    },
+    {
+      "ticker": "INTC",
+      "changes": {
+        "weight": {
+          "from": 1.18,
+          "to": 1.13
+        },
+        "market_value": {
+          "from": 132522817.66,
+          "to": 121275414.0
+        },
+        "shares": {
+          "from": 132522817.66,
+          "to": 121275414.0
+        }
+      }
+    },
+    {
+      "ticker": "ANET",
+      "changes": {
+        "weight": {
+          "from": 2.78,
+          "to": 2.73
+        },
+        "market_value": {
+          "from": 311044677.24,
+          "to": 292944638.0
+        },
+        "shares": {
+          "from": 311044677.24,
+          "to": 292944638.0
+        }
+      }
+    },
+    {
+      "ticker": "FLEX",
+      "changes": {
+        "weight": {
+          "from": 1.26,
+          "to": 1.17
+        },
+        "market_value": {
+          "from": 140917735.66,
+          "to": 126154345.24
+        },
+        "shares": {
+          "from": 140917735.66,
+          "to": 126154345.24
+        }
+      }
+    },
+    {
+      "ticker": "MTSI",
+      "changes": {
+        "weight": {
+          "from": 1.58,
+          "to": 1.42
+        },
+        "market_value": {
+          "from": 176948432.1,
+          "to": 152591639.2
+        },
+        "shares": {
+          "from": 176948432.1,
+          "to": 152591639.2
+        }
+      }
+    },
+    {
+      "ticker": "CRDO",
+      "changes": {
+        "weight": {
+          "from": 1.37,
+          "to": 1.24
+        },
+        "market_value": {
+          "from": 153454503.54,
+          "to": 132909880.54
+        },
+        "shares": {
+          "from": 153454503.54,
+          "to": 132909880.54
+        }
+      }
+    },
+    {
+      "ticker": "TWD",
+      "changes": {
+        "weight": {
+          "from": 0.24,
+          "to": 0.25
+        },
+        "market_value": {
+          "from": 26703762.71,
+          "to": 26641435.04
+        },
+        "shares": {
+          "from": 26703762.71,
+          "to": 26641435.04
+        }
+      }
+    },
+    {
+      "ticker": "TWST",
+      "changes": {
+        "market_value": {
+          "from": 57847549.85,
+          "to": 56355090.32
+        },
+        "shares": {
+          "from": 57847549.85,
+          "to": 56355090.32
+        }
+      }
+    },
+    {
+      "ticker": "AKAM",
+      "changes": {
+        "weight": {
+          "from": 1.08,
+          "to": 1.13
+        },
+        "market_value": {
+          "from": 121447423.86,
+          "to": 121132211.2
+        },
+        "shares": {
+          "from": 121447423.86,
+          "to": 121132211.2
+        }
+      }
+    },
+    {
+      "ticker": "OKTA",
+      "changes": {
+        "weight": {
+          "from": 1.64,
+          "to": 1.65
+        },
+        "market_value": {
+          "from": 183430158.12,
+          "to": 177674214.12
+        },
+        "shares": {
+          "from": 183430158.12,
+          "to": 177674214.12
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "changes": {
+        "weight": {
+          "from": 3.0,
+          "to": 3.11
+        },
+        "market_value": {
+          "from": 336305880.0,
+          "to": 334403242.32
+        },
+        "shares": {
+          "from": 336305880.0,
+          "to": 334403242.32
+        }
+      }
+    },
+    {
+      "ticker": "MU",
+      "changes": {
+        "weight": {
+          "from": 5.37,
+          "to": 4.96
+        },
+        "market_value": {
+          "from": 601003609.5,
+          "to": 532848314.67
+        },
+        "shares": {
+          "from": 601003609.5,
+          "to": 532848314.67
+        }
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "changes": {
+        "weight": {
+          "from": 2.79,
+          "to": 2.71
+        },
+        "market_value": {
+          "from": 312758033.28,
+          "to": 291397641.6
+        },
+        "shares": {
+          "from": 312758033.28,
+          "to": 291397641.6
+        }
+      }
+    },
+    {
+      "ticker": "LITE",
+      "changes": {
+        "weight": {
+          "from": 1.62,
+          "to": 1.5
+        },
+        "market_value": {
+          "from": 181358019.48,
+          "to": 161678050.72
+        },
+        "shares": {
+          "from": 181358019.48,
+          "to": 161678050.72
+        }
+      }
+    },
+    {
+      "ticker": "CRWV",
+      "changes": {
+        "weight": {
+          "from": 1.38,
+          "to": 1.27
+        },
+        "market_value": {
+          "from": 154162405.71,
+          "to": 136384867.94
+        },
+        "shares": {
+          "from": 154162405.71,
+          "to": 136384867.94
+        }
+      }
+    },
+    {
+      "ticker": "AMD",
+      "changes": {
+        "weight": {
+          "from": 6.11,
+          "to": 5.78
+        },
+        "market_value": {
+          "from": 684365913.14,
+          "to": 621404756.83
+        },
+        "shares": {
+          "from": 684365913.14,
+          "to": 621404756.83
+        }
+      }
+    },
+    {
+      "ticker": "ONTO",
+      "changes": {
+        "weight": {
+          "from": 0.94,
+          "to": 0.89
+        },
+        "market_value": {
+          "from": 105544511.82,
+          "to": 95513230.56
+        },
+        "shares": {
+          "from": 105544511.82,
+          "to": 95513230.56
         }
       }
     }

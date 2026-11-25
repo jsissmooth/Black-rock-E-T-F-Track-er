@@ -1,0 +1,548 @@
+{
+  "date": "2026-11-24",
+  "run_date": "2026-11-25",
+  "ticker": "TEK",
+  "count": 54,
+  "holdings": [
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 8.85,
+      "market_value": 3109246.71,
+      "shares": 3109246.71,
+      "location": "United States"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "APPLE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 7.45,
+      "market_value": 2616931.37,
+      "shares": 2616931.37,
+      "location": "United States"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "BROADCOM INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 7.0,
+      "market_value": 2458920.36,
+      "shares": 2458920.36,
+      "location": "United States"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 6.39,
+      "market_value": 2243842.58,
+      "shares": 2243842.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 5.25,
+      "market_value": 1844125.2,
+      "shares": 1844125.2,
+      "location": "Taiwan"
+    },
+    {
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 5.17,
+      "market_value": 1817974.73,
+      "shares": 1817974.73,
+      "location": "United States"
+    },
+    {
+      "ticker": "ANT",
+      "name": "ANTHROPIC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 4.99,
+      "market_value": 1753667.96,
+      "shares": 1753667.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON.COM INC",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 3.51,
+      "market_value": 1234959.55,
+      "shares": 1234959.55,
+      "location": "United States"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 3.29,
+      "market_value": 1157703.62,
+      "shares": 1157703.62,
+      "location": "United States"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "LAM RESEARCH",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.9,
+      "market_value": 1019639.68,
+      "shares": 1019639.68,
+      "location": "United States"
+    },
+    {
+      "ticker": "PANW",
+      "name": "PALO ALTO NETWORKS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.79,
+      "market_value": 980253.23,
+      "shares": 980253.23,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "SNOWFLAKE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.64,
+      "market_value": 927669.98,
+      "shares": 927669.98,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.62,
+      "market_value": 920193.04,
+      "shares": 920193.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 2.11,
+      "market_value": 740633.04,
+      "shares": 740633.04,
+      "location": "United States"
+    },
+    {
+      "ticker": "ANET",
+      "name": "ARISTA NETWORKS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.73,
+      "market_value": 608164.48,
+      "shares": 608164.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "ALPHABET CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 1.61,
+      "market_value": 564239.1,
+      "shares": 564239.1,
+      "location": "United States"
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORPORATION",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.47,
+      "market_value": 516709.2,
+      "shares": 516709.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TESLA INC",
+      "sector": "Consumer Discretionary",
+      "asset_class": "Equity",
+      "weight": 1.32,
+      "market_value": 464308.76,
+      "shares": 464308.76,
+      "location": "United States"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "CISCO SYSTEMS INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.19,
+      "market_value": 418537.47,
+      "shares": 418537.47,
+      "location": "United States"
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 1.13,
+      "market_value": 397775.4,
+      "shares": 397775.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "LITE",
+      "name": "LUMENTUM HOLDINGS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.95,
+      "market_value": 332702.96,
+      "shares": 332702.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "META",
+      "name": "META PLATFORMS CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.91,
+      "market_value": 318502.8,
+      "shares": 318502.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "OKTA CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.9,
+      "market_value": 315605.16,
+      "shares": 315605.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "FLEX",
+      "name": "FLEX LTD",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.85,
+      "market_value": 297319.0,
+      "shares": 297319.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "V",
+      "name": "VISA CLASS A",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.83,
+      "market_value": 292162.78,
+      "shares": 292162.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "COHR",
+      "name": "COHERENT",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.72,
+      "market_value": 253934.56,
+      "shares": 253934.56,
+      "location": "United States"
+    },
+    {
+      "ticker": "CBOE",
+      "name": "CBOE GLOBAL MARKETS",
+      "sector": "Financials",
+      "asset_class": "Equity",
+      "weight": 0.71,
+      "market_value": 249051.24,
+      "shares": 249051.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Money Market",
+      "weight": 0.68,
+      "market_value": 240000.0,
+      "shares": 240000.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "PALANTIR TECHNOLOGIES CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.68,
+      "market_value": 238546.4,
+      "shares": 238546.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "CRM",
+      "name": "SALESFORCE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.61,
+      "market_value": 213938.82,
+      "shares": 213938.82,
+      "location": "United States"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.56,
+      "market_value": 196960.29,
+      "shares": 196960.29,
+      "location": "United States"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.52,
+      "market_value": 184036.05,
+      "shares": 184036.05,
+      "location": "United States"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SANDISK",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.52,
+      "market_value": 182714.8,
+      "shares": 182714.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "TER",
+      "name": "TERADYNE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.52,
+      "market_value": 182089.88,
+      "shares": 182089.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.52,
+      "market_value": 181699.21,
+      "shares": 181699.21,
+      "location": "United States"
+    },
+    {
+      "ticker": "NOW",
+      "name": "SERVICENOW",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.48,
+      "market_value": 167058.54,
+      "shares": 167058.54,
+      "location": "United States"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "ELASTIC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.45,
+      "market_value": 156759.33,
+      "shares": 156759.33,
+      "location": "United States"
+    },
+    {
+      "ticker": "ENTG",
+      "name": "ENTEGRIS INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.44,
+      "market_value": 155556.94,
+      "shares": 155556.94,
+      "location": "United States"
+    },
+    {
+      "ticker": "NET",
+      "name": "CLOUDFLARE CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 144794.16,
+      "shares": 144794.16,
+      "location": "United States"
+    },
+    {
+      "ticker": "APP",
+      "name": "APPLOVIN CLASS A",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.4,
+      "market_value": 142154.03,
+      "shares": 142154.03,
+      "location": "United States"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.4,
+      "market_value": 142131.0,
+      "shares": 142131.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "DATADOG INC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.4,
+      "market_value": 141730.66,
+      "shares": 141730.66,
+      "location": "United States"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML HOLDING",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.36,
+      "market_value": 127824.38,
+      "shares": 127824.38,
+      "location": "Netherlands"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.35,
+      "market_value": 122586.48,
+      "shares": 122586.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES INC CLASS C",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.34,
+      "market_value": 120474.24,
+      "shares": 120474.24,
+      "location": "United States"
+    },
+    {
+      "ticker": "DOCN",
+      "name": "DIGITALOCEAN HOLDINGS",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.29,
+      "market_value": 100505.58,
+      "shares": 100505.58,
+      "location": "United States"
+    },
+    {
+      "ticker": "LSCC",
+      "name": "LATTICE SEMICONDUCTOR",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.28,
+      "market_value": 96957.42,
+      "shares": 96957.42,
+      "location": "United States"
+    },
+    {
+      "ticker": "TEM",
+      "name": "TEMPUS AI CLASS A",
+      "sector": "Health Care",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 88934.26,
+      "shares": 88934.26,
+      "location": "United States"
+    },
+    {
+      "ticker": "CBRS",
+      "name": "CEREBRAS SYSTEMS INC CLASS A",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.16,
+      "market_value": 56108.96,
+      "shares": 56108.96,
+      "location": "United States"
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.09,
+      "market_value": 32099.26,
+      "shares": 32099.26,
+      "location": "Korea (South)"
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 509.63,
+      "shares": 509.63,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 96.65,
+      "shares": 96.65,
+      "location": "Canada"
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 21.01,
+      "shares": 21.01,
+      "location": "Hong Kong"
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": -0.02,
+      "market_value": -6392.05,
+      "shares": -6392.05,
+      "location": "United States"
+    }
+  ]
+}

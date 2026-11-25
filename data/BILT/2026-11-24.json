@@ -1,0 +1,628 @@
+{
+  "date": "2026-11-24",
+  "run_date": "2026-11-25",
+  "ticker": "BILT",
+  "count": 62,
+  "holdings": [
+    {
+      "ticker": "UNP",
+      "name": "UNION PACIFIC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 5.62,
+      "market_value": 6696360.75,
+      "shares": 6696360.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "AENA",
+      "name": "AENA SME SA",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 5.6,
+      "market_value": 6674712.44,
+      "shares": 6674712.44,
+      "location": "Spain"
+    },
+    {
+      "ticker": "AEP",
+      "name": "AMERICAN ELECTRIC POWER INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 4.35,
+      "market_value": 5183146.8,
+      "shares": 5183146.8,
+      "location": "United States"
+    },
+    {
+      "ticker": "TRP",
+      "name": "TC ENERGY",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 4.27,
+      "market_value": 5081886.58,
+      "shares": 5081886.58,
+      "location": "Canada"
+    },
+    {
+      "ticker": "XEL",
+      "name": "XCEL ENERGY INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 4.26,
+      "market_value": 5079141.93,
+      "shares": 5079141.93,
+      "location": "United States"
+    },
+    {
+      "ticker": "ETR",
+      "name": "ENTERGY CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 4.17,
+      "market_value": 4966512.2,
+      "shares": 4966512.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "WMB",
+      "name": "WILLIAMS",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 3.46,
+      "market_value": 4125132.0,
+      "shares": 4125132.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "CP",
+      "name": "CANADIAN PACIFIC KANSAS CITY",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 3.33,
+      "market_value": 3964148.93,
+      "shares": 3964148.93,
+      "location": "Canada"
+    },
+    {
+      "ticker": "NEE",
+      "name": "NEXTERA ENERGY",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 3.21,
+      "market_value": 3820055.7,
+      "shares": 3820055.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "TCL",
+      "name": "TRANSURBAN GROUP STAPLED UNITS",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 2.94,
+      "market_value": 3500531.65,
+      "shares": 3500531.65,
+      "location": "Australia"
+    },
+    {
+      "ticker": "D",
+      "name": "DOMINION ENERGY",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.87,
+      "market_value": 3413823.57,
+      "shares": 3413823.57,
+      "location": "United States"
+    },
+    {
+      "ticker": "PPL",
+      "name": "PPL CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.83,
+      "market_value": 3374938.08,
+      "shares": 3374938.08,
+      "location": "United States"
+    },
+    {
+      "ticker": "EVRG",
+      "name": "EVERGY",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.78,
+      "market_value": 3311712.54,
+      "shares": 3311712.54,
+      "location": "United States"
+    },
+    {
+      "ticker": "LNT",
+      "name": "ALLIANT ENERGY CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.59,
+      "market_value": 3083416.14,
+      "shares": 3083416.14,
+      "location": "United States"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "TARGA RESOURCES",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 2.57,
+      "market_value": 3061917.21,
+      "shares": 3061917.21,
+      "location": "United States"
+    },
+    {
+      "ticker": "CCI",
+      "name": "CROWN CASTLE",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 2.3,
+      "market_value": 2738776.23,
+      "shares": 2738776.23,
+      "location": "United States"
+    },
+    {
+      "ticker": "NI",
+      "name": "NISOURCE",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.3,
+      "market_value": 2735148.78,
+      "shares": 2735148.78,
+      "location": "United States"
+    },
+    {
+      "ticker": "OGE",
+      "name": "OGE ENERGY",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.17,
+      "market_value": 2582825.7,
+      "shares": 2582825.7,
+      "location": "United States"
+    },
+    {
+      "ticker": "SRE",
+      "name": "SEMPRA",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 2.11,
+      "market_value": 2517878.44,
+      "shares": 2517878.44,
+      "location": "United States"
+    },
+    {
+      "ticker": "ADP",
+      "name": "AEROPORTS DE PARIS SA",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.98,
+      "market_value": 2354951.37,
+      "shares": 2354951.37,
+      "location": "France"
+    },
+    {
+      "ticker": "NG.",
+      "name": "NATIONAL GRID PLC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.9,
+      "market_value": 2256857.24,
+      "shares": 2256857.24,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "AIA",
+      "name": "AUCKLAND INTERNATIONAL AIRPORT",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.78,
+      "market_value": 2117994.24,
+      "shares": 2117994.24,
+      "location": "New Zealand"
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.74,
+      "market_value": 2068242.12,
+      "shares": 2068242.12,
+      "location": "United States"
+    },
+    {
+      "ticker": "HZN",
+      "name": "BRIGHT HORIZON ENERGY CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.59,
+      "market_value": 1889757.48,
+      "shares": 1889757.48,
+      "location": "United States"
+    },
+    {
+      "ticker": "DTM",
+      "name": "DT MIDSTREAM",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 1.52,
+      "market_value": 1811230.88,
+      "shares": 1811230.88,
+      "location": "United States"
+    },
+    {
+      "ticker": "SSE",
+      "name": "SSE PLC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.5,
+      "market_value": 1786212.0,
+      "shares": 1786212.0,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "SEI",
+      "name": "SOLARIS ENERGY INFRASTRUCTURE INC",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 1.25,
+      "market_value": 1492505.06,
+      "shares": 1492505.06,
+      "location": "United States"
+    },
+    {
+      "ticker": "FRA",
+      "name": "FRAPORT AG",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.17,
+      "market_value": 1394537.68,
+      "shares": 1394537.68,
+      "location": "Germany"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 1.12,
+      "market_value": 1330375.2,
+      "shares": 1330375.2,
+      "location": "United States"
+    },
+    {
+      "ticker": "LNG",
+      "name": "CHENIERE ENERGY",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 1.11,
+      "market_value": 1317540.51,
+      "shares": 1317540.51,
+      "location": "United States"
+    },
+    {
+      "ticker": "RENE",
+      "name": "REN REDES ENERGETICAS NACIONAIS SA",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 1.05,
+      "market_value": 1248629.95,
+      "shares": 1248629.95,
+      "location": "Portugal"
+    },
+    {
+      "ticker": "AQN",
+      "name": "ALGONQUIN POWER UTILITIES",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.93,
+      "market_value": 1106422.19,
+      "shares": 1106422.19,
+      "location": "Canada"
+    },
+    {
+      "ticker": "DBI",
+      "name": "DALRYMPLE BAY INFRASTRUCTURE STAPL",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.91,
+      "market_value": 1081723.94,
+      "shares": 1081723.94,
+      "location": "Australia"
+    },
+    {
+      "ticker": "NSC",
+      "name": "NORFOLK SOUTHERN CORP",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.89,
+      "market_value": 1057511.52,
+      "shares": 1057511.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA COMMUNICATIONS REIT CORP CLASS",
+      "sector": "Real Estate",
+      "asset_class": "Equity",
+      "weight": 0.89,
+      "market_value": 1056991.25,
+      "shares": 1056991.25,
+      "location": "United States"
+    },
+    {
+      "ticker": "ALX",
+      "name": "ATLAS ARTERIA STAPLED UNITS",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.84,
+      "market_value": 1002755.34,
+      "shares": 1002755.34,
+      "location": "Australia"
+    },
+    {
+      "ticker": "KEY",
+      "name": "KEYERA",
+      "sector": "Energy",
+      "asset_class": "Equity",
+      "weight": 0.76,
+      "market_value": 909449.53,
+      "shares": 909449.53,
+      "location": "Canada"
+    },
+    {
+      "ticker": "ENAV",
+      "name": "ENAV SPA",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.76,
+      "market_value": 908962.14,
+      "shares": 908962.14,
+      "location": "Italy"
+    },
+    {
+      "ticker": "EOAN",
+      "name": "E.ON N",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.76,
+      "market_value": 908132.01,
+      "shares": 908132.01,
+      "location": "Germany"
+    },
+    {
+      "ticker": "PPC",
+      "name": "PUBLIC POWER CORPORATION SA",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.7,
+      "market_value": 835049.01,
+      "shares": 835049.01,
+      "location": "Greece"
+    },
+    {
+      "ticker": "SR",
+      "name": "SPIRE INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.66,
+      "market_value": 786162.52,
+      "shares": 786162.52,
+      "location": "United States"
+    },
+    {
+      "ticker": "DUK",
+      "name": "DUKE ENERGY CORP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.65,
+      "market_value": 768473.28,
+      "shares": 768473.28,
+      "location": "United States"
+    },
+    {
+      "ticker": "XTSLA",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Money Market",
+      "weight": 0.64,
+      "market_value": 760000.0,
+      "shares": 760000.0,
+      "location": "United States"
+    },
+    {
+      "ticker": "HTWS",
+      "name": "HELIOS TOWERS PLC",
+      "sector": "Communication",
+      "asset_class": "Equity",
+      "weight": 0.58,
+      "market_value": 689947.87,
+      "shares": 689947.87,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG ENERGY INC",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.49,
+      "market_value": 581487.3,
+      "shares": 581487.3,
+      "location": "United States"
+    },
+    {
+      "ticker": "RWE",
+      "name": "RWE AG",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.47,
+      "market_value": 560892.3,
+      "shares": 560892.3,
+      "location": "Germany"
+    },
+    {
+      "ticker": "FGP",
+      "name": "FIRSTGROUP PLC",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.42,
+      "market_value": 496411.02,
+      "shares": 496411.02,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "VSAT",
+      "name": "VIASAT INC",
+      "sector": "Information Technology",
+      "asset_class": "Equity",
+      "weight": 0.41,
+      "market_value": 486098.4,
+      "shares": 486098.4,
+      "location": "United States"
+    },
+    {
+      "ticker": "ENGI",
+      "name": "ENGIE SA",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 297346.32,
+      "shares": 297346.32,
+      "location": "France"
+    },
+    {
+      "ticker": "KEP",
+      "name": "KOREA ELECTRIC POWER ADR REP",
+      "sector": "Utilities",
+      "asset_class": "Equity",
+      "weight": 0.25,
+      "market_value": 296600.64,
+      "shares": 296600.64,
+      "location": "Korea (South)"
+    },
+    {
+      "ticker": "SCYR",
+      "name": "SACYR",
+      "sector": "Industrials",
+      "asset_class": "Equity",
+      "weight": 0.24,
+      "market_value": 280627.93,
+      "shares": 280627.93,
+      "location": "Spain"
+    },
+    {
+      "ticker": "CAD",
+      "name": "CAD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.23,
+      "market_value": 271008.62,
+      "shares": 271008.62,
+      "location": "Canada"
+    },
+    {
+      "ticker": "EUR",
+      "name": "EUR CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.05,
+      "market_value": 58576.85,
+      "shares": 58576.85,
+      "location": "European Union"
+    },
+    {
+      "ticker": "JPY",
+      "name": "JPY CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.04,
+      "market_value": 44222.24,
+      "shares": 44222.24,
+      "location": "Japan"
+    },
+    {
+      "ticker": "GBP",
+      "name": "GBP CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.03,
+      "market_value": 33644.99,
+      "shares": 33644.99,
+      "location": "United Kingdom"
+    },
+    {
+      "ticker": "NZD",
+      "name": "NZD/USD",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Forwards",
+      "weight": 0.01,
+      "market_value": 14268.83,
+      "shares": 14268.83,
+      "location": "United States"
+    },
+    {
+      "ticker": "SGD",
+      "name": "SGD/USD",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Forwards",
+      "weight": 0.01,
+      "market_value": 10023.45,
+      "shares": 10023.45,
+      "location": "United States"
+    },
+    {
+      "ticker": "AUD",
+      "name": "AUD/USD",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Forwards",
+      "weight": 0.01,
+      "market_value": 9451.75,
+      "shares": 9451.75,
+      "location": "United States"
+    },
+    {
+      "ticker": "CHF",
+      "name": "CHF CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 1169.09,
+      "shares": 1169.09,
+      "location": "Switzerland"
+    },
+    {
+      "ticker": "HKD",
+      "name": "HKD/USD",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Forwards",
+      "weight": 0.0,
+      "market_value": 225.13,
+      "shares": 225.13,
+      "location": "United States"
+    },
+    {
+      "ticker": "KRW",
+      "name": "KRW CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": 0.0,
+      "market_value": 0.02,
+      "shares": 0.02,
+      "location": "Korea (South)"
+    },
+    {
+      "ticker": "USD",
+      "name": "USD CASH",
+      "sector": "Cash and/or Derivatives",
+      "asset_class": "Cash",
+      "weight": -0.26,
+      "market_value": -309473.51,
+      "shares": -309473.51,
+      "location": "United States"
+    }
+  ]
+}
