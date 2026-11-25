@@ -54,9 +54,10 @@ BLACKROCK_URLS = [
     ),
 ]
 
-# A real holdings CSV has many lines; the asset-allocation placeholder has
-# only ~20.  Reject any response with fewer than this many non-empty lines.
-MIN_HOLDINGS_LINES = 25
+# Minimum data lines after the first Ticker header to accept a response as
+# real holdings (not the placeholder asset-allocation summary).
+# Placeholder: ≤ 11 data lines.  Smallest real fund: ≥ 20 holdings.
+MIN_HOLDINGS_LINES = 20
 
 # How many calendar days to look back for the most recent published date.
 LOOKBACK_DAYS = 30
@@ -97,6 +98,29 @@ def is_trading_day(date_str: str) -> bool:
 
 # ─── HTTP fetching ─────────────────────────────────────────────────────────────
 
+def _count_data_lines_after_header(text: str) -> int:
+    """
+    Count the number of data lines that follow the first Ticker header row.
+    The placeholder CSV has ≤ 11 data lines; real holdings always have ≥ 20.
+    Stops counting when it hits a second Ticker header (another section start).
+    """
+    in_data = False
+    count   = 0
+    for raw in text.replace("\r\n", "\n").replace("\r", "\n").splitlines():
+        line = raw.lstrip("﻿").replace('"', '').strip()
+        is_header = (line.lower().startswith("ticker,")
+                     and "name" in line.lower()
+                     and "sector" in line.lower())
+        if is_header:
+            if not in_data:
+                in_data = True   # found the first Ticker header; start counting
+            else:
+                break            # second header = new section; stop
+        elif in_data and line:
+            count += 1
+    return count
+
+
 def fetch_csv(ticker: str, portfolio_id: str, today: datetime):
     """
     Try today then up to LOOKBACK_DAYS prior calendar days, returning the
@@ -120,16 +144,19 @@ def fetch_csv(ticker: str, portfolio_id: str, today: datetime):
                 resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
                 if resp.status_code == 200:
                     text = resp.text.strip()
-                    # Count non-empty lines to distinguish real holdings from
-                    # the placeholder asset-allocation summary (~20 lines).
-                    non_empty = sum(1 for ln in text.splitlines() if ln.strip())
-                    if "Ticker" in text and non_empty >= MIN_HOLDINGS_LINES:
+                    if "Ticker" not in text:
+                        continue
+                    # Count data lines after the FIRST Ticker header.
+                    # The placeholder has ≤ 11 data lines per section;
+                    # real holdings always have ≥ 20 (even the smallest fund).
+                    data_lines = _count_data_lines_after_header(text)
+                    if data_lines >= MIN_HOLDINGS_LINES:
                         print(f"  Found data for {d_label} "
-                              f"({len(text):,} chars, {non_empty} lines)")
+                              f"({len(text):,} chars, {data_lines} data lines)")
                         return d_label, text
-                    elif "Ticker" in text:
+                    else:
                         print(f"  {d_label}: summary-only "
-                              f"({non_empty} lines < {MIN_HOLDINGS_LINES})")
+                              f"({data_lines} data lines < {MIN_HOLDINGS_LINES})")
                         # Both URLs return the same summary for unpublished
                         # dates – no point trying the second URL.
                         break
